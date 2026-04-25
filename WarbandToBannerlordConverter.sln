@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarbandToBannerlordConverter", "WarbandToBannerlordConverter.csproj", "{FE7C2A45-1E1C-4C39-926D-5E3809BB2C47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE7C2A45-1E1C-4C39-926D-5E3809BB2C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7C2A45-1E1C-4C39-926D-5E3809BB2C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7C2A45-1E1C-4C39-926D-5E3809BB2C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7C2A45-1E1C-4C39-926D-5E3809BB2C47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBD9F3C9-3211-4222-97FC-660A66A32F9B}
+	EndGlobalSection
+EndGlobal
