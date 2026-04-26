@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
@@ -29,6 +30,7 @@ public partial class MainForm : Form
 
     private Button btnProcessTerrain;
     private MappingManager mapper;
+    private AppSettings _settings;
     private bool _isLoadingMapping = false;
 
     private System.Windows.Forms.Timer _autoSaveTimer;
@@ -36,13 +38,12 @@ public partial class MainForm : Form
     public MainForm(string jPath, string xPath)
     {
         InitializeManualComponents();
-        txtJsonPath.Text = jPath;
-        txtXmlPath.Text = xPath;
 
         string mPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "asset_mappings.xml");
         mapper = new MappingManager(mPath);
+        _settings = AppSettings.Load();
 
-        if (!string.IsNullOrEmpty(jPath)) LoadProps();
+        RestoreSavedPaths(jPath, xPath);
     }
 
     private void InitializeManualComponents()
@@ -156,7 +157,8 @@ public partial class MainForm : Form
 
         btnBrowseTerrain.Click += (s, e) => {
             using var fbd = new FolderBrowserDialog();
-            if (fbd.ShowDialog() == DialogResult.OK) txtTerrainFolder.Text = fbd.SelectedPath;
+            if (Directory.Exists(txtTerrainFolder.Text)) fbd.SelectedPath = txtTerrainFolder.Text;
+            if (fbd.ShowDialog() == DialogResult.OK) SetTerrainFolder(fbd.SelectedPath, true);
         };
 
         btnProcessTerrain.Click += (s, e) =>
@@ -188,8 +190,8 @@ public partial class MainForm : Form
             if (navResult != null)
             {
                 SetStatus(
-                    $"Done — terrain converted, navmesh: {navResult.VertexCount}v " +
-                    $"{navResult.EdgeCount}e {navResult.FaceCount}f → {Path.GetFileName(navResult.OutputPath)}",
+                    $"Done - terrain converted, navmesh: {navResult.VertexCount}v " +
+                    $"{navResult.EdgeCount}e {navResult.FaceCount}f -> {Path.GetFileName(navResult.OutputPath)}",
                     Color.DarkGreen);
             }
             else
@@ -201,8 +203,8 @@ public partial class MainForm : Form
         };
 
         Panel pnlFiles = new Panel { Dock = DockStyle.Top, Height = 80, Padding = new Padding(5), BackColor = Color.FromArgb(230, 230, 235) };
-        txtJsonPath = AddFileSelector(pnlFiles, "Mission JSON:", 10, "JSON Files|*.json");
-        txtXmlPath  = AddFileSelector(pnlFiles, "Scene XSCENE:", 40, "XSCENE Files|*.xscene");
+        txtJsonPath = AddFileSelector(pnlFiles, "Mission JSON:", 10, "JSON Files|*.json", SetMissionJsonPath);
+        txtXmlPath  = AddFileSelector(pnlFiles, "Scene XSCENE:", 40, "XSCENE Files|*.xscene", SetSceneXscenePath);
 
         lbProps = new ListBox { Dock = DockStyle.Left, Width = 250, Font = new Font("Segoe UI", 9) };
         lbProps.SelectedIndexChanged += (s, e) => SelectedPropChanged();
@@ -214,15 +216,15 @@ public partial class MainForm : Form
 
         AddHeader(pnlEdit, "Global Position Offset (X, Y, Z):", 70);
         numPos = AddXYZRow(pnlEdit, 95, -1000, 1000);
-        foreach (var n in numPos) n.ValueChanged += (s, e) => ScheduleAutoSave();
+        foreach (var n in numPos) WireNumericAutoSave(n);
 
         AddHeader(pnlEdit, "Global Rotation Offset (Degrees):", 150);
         numRot = AddXYZRow(pnlEdit, 175, -360, 360);
-        foreach (var n in numRot) n.ValueChanged += (s, e) => ScheduleAutoSave();
+        foreach (var n in numRot) WireNumericAutoSave(n);
 
         AddHeader(pnlEdit, "Global Scale Multiplier:", 230);
         numScale = AddXYZRow(pnlEdit, 255, -100, 100, 1.0m);
-        foreach (var n in numScale) n.ValueChanged += (s, e) => ScheduleAutoSave();
+        foreach (var n in numScale) WireNumericAutoSave(n);
 
         AddHeader(pnlEdit, "Origin Point (Parent Empty Entity):", 315);
 
@@ -246,7 +248,7 @@ public partial class MainForm : Form
         foreach (var n in numOrigin)
         {
             n.Enabled = false;
-            n.ValueChanged += (s, e) => ScheduleAutoSave();
+            WireNumericAutoSave(n);
         }
 
         pnlEdit.Controls.Add(new Label
@@ -272,6 +274,84 @@ public partial class MainForm : Form
         _autoSaveTimer.Stop();
         _autoSaveTimer.Start();
         SetStatus($"Unsaved changes for \"{lbProps.SelectedItem}\"...", Color.DarkOrange);
+    }
+
+    private void RestoreSavedPaths(string jsonArg, string xsceneArg)
+    {
+        if (Directory.Exists(_settings.LastTerrainFolder))
+        {
+            txtTerrainFolder.Text = _settings.LastTerrainFolder;
+        }
+
+        string jsonPath = !string.IsNullOrWhiteSpace(jsonArg)
+            ? jsonArg
+            : _settings.LastMissionJsonPath;
+
+        string xscenePath = !string.IsNullOrWhiteSpace(xsceneArg)
+            ? xsceneArg
+            : _settings.LastSceneXscenePath;
+
+        if (File.Exists(jsonPath))
+        {
+            txtJsonPath.Text = jsonPath;
+            _settings.LastMissionJsonPath = jsonPath;
+        }
+
+        if (File.Exists(xscenePath))
+        {
+            txtXmlPath.Text = xscenePath;
+            _settings.LastSceneXscenePath = xscenePath;
+        }
+
+        _settings.Save();
+
+        if (File.Exists(txtJsonPath.Text)) LoadProps();
+    }
+
+    private void SetTerrainFolder(string folderPath, bool autoDetectMissionJson)
+    {
+        txtTerrainFolder.Text = folderPath;
+        _settings.LastTerrainFolder = folderPath;
+        _settings.Save();
+
+        if (!autoDetectMissionJson) return;
+
+        string missionJsonPath = Path.Combine(folderPath, "mission_objects.json");
+        if (File.Exists(missionJsonPath))
+        {
+            SetMissionJsonPath(missionJsonPath);
+            SetStatus("Found mission_objects.json in the unpacked folder.", Color.DarkGreen);
+        }
+    }
+
+    private void SetMissionJsonPath(string path)
+    {
+        txtJsonPath.Text = path;
+        _settings.LastMissionJsonPath = path;
+        _settings.Save();
+        LoadProps();
+    }
+
+    private void SetSceneXscenePath(string path)
+    {
+        txtXmlPath.Text = path;
+        _settings.LastSceneXscenePath = path;
+        _settings.Save();
+    }
+
+    private string GetInitialDirectory(string path)
+    {
+        if (File.Exists(path))
+        {
+            return Path.GetDirectoryName(path) ?? "";
+        }
+
+        if (Directory.Exists(path))
+        {
+            return path;
+        }
+
+        return "";
     }
 
     private void SetStatus(string msg, Color color)
@@ -322,6 +402,8 @@ public partial class MainForm : Form
     private void ApplyCurrentFormToMapping()
     {
         if (lbProps.SelectedItem == null) return;
+        CommitNumericEditors();
+
         var m = mapper.Mappings[lbProps.SelectedItem.ToString()];
 
         m.BL = txtBLPrefab.Text;
@@ -351,7 +433,7 @@ public partial class MainForm : Form
         catch (Exception ex) { MessageBox.Show("Injection Error: " + ex.Message); }
     }
 
-    private TextBox AddFileSelector(Panel p, string label, int y, string filter)
+    private TextBox AddFileSelector(Panel p, string label, int y, string filter, Action<string> selectFile)
     {
         p.Controls.Add(new Label { Text = label, Top = y, Left = 10, Width = 100 });
         TextBox tb = new TextBox { Top = y, Left = 110, Width = 550, ReadOnly = true };
@@ -360,10 +442,12 @@ public partial class MainForm : Form
         {
             using (OpenFileDialog ofd = new OpenFileDialog { Filter = filter })
             {
+                string initialDirectory = GetInitialDirectory(tb.Text);
+                if (!string.IsNullOrEmpty(initialDirectory)) ofd.InitialDirectory = initialDirectory;
+
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    tb.Text = ofd.FileName;
-                    if (filter.Contains("json")) LoadProps();
+                    selectFile(ofd.FileName);
                 }
             }
         };
@@ -413,5 +497,34 @@ public partial class MainForm : Form
             decimal newVal = num.Value + delta;
             num.Value = Math.Max(num.Minimum, Math.Min(num.Maximum, newVal));
         };
+    }
+
+    private void WireNumericAutoSave(NumericUpDown num)
+    {
+        num.ValueChanged += (s, e) => ScheduleAutoSave();
+        num.TextChanged += (s, e) => ScheduleAutoSave();
+        num.Validated += (s, e) => CommitNumericEditor(num);
+    }
+
+    private void CommitNumericEditors()
+    {
+        foreach (var num in numPos.Concat(numRot).Concat(numScale).Concat(numOrigin))
+        {
+            CommitNumericEditor(num);
+        }
+    }
+
+    private void CommitNumericEditor(NumericUpDown num)
+    {
+        if (string.IsNullOrWhiteSpace(num.Text)) return;
+
+        if (!decimal.TryParse(num.Text, NumberStyles.Number, CultureInfo.CurrentCulture, out decimal value) &&
+            !decimal.TryParse(num.Text, NumberStyles.Number, CultureInfo.InvariantCulture, out value))
+        {
+            return;
+        }
+
+        value = Math.Max(num.Minimum, Math.Min(num.Maximum, value));
+        if (num.Value != value) num.Value = value;
     }
 }
