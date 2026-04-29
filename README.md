@@ -197,10 +197,6 @@ and replaced during injection.
 
 - Test whether generated `_cropped.png` files are still needed. They may have been a workaround for
   one corrupted test map.
-- Add a folder for shared prefabs used by mappings.
-- Fix pasted GUI values not autosaving until another field is selected.
-- Auto-populate the mission objects JSON path from the selected unpacked folder.
-- Remember the last-used folders and files between GUI sessions.
 - Consider Bannerlord-to-Warband conversion support in the future.
 
 ## Not Planned
