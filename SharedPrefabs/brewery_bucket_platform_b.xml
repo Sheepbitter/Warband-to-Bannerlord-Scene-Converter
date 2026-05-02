@@ -1,0 +1,127 @@
+<prefabs>
+	<game_entity name="brewery_bucket_platform_b" old_prefab_name="">
+		<transform position="48.910, 167.060, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="wooden_platform_2_a" old_prefab_name="">
+				<transform position="-2.225, 0.032, 0.933" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 0.900, 1.000"/>
+				<physics shape="bo_wooden_platform_2_a"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_b" old_prefab_name="">
+				<transform position="2.394, 0.030, 0.933" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 0.900, 1.000"/>
+				<physics shape="bo_wooden_platform_2_a"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.999, -1.964, 0.669" rotation_euler="0.000, 1.571, 0.000" scale="0.476, 0.772, 1.615"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-4.240, 1.843, 0.454" rotation_euler="1.571, -3.142, -3.142" scale="0.700, 0.530, 0.740"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-4.231, -1.962, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="4.245, 1.843, 0.454" rotation_euler="1.571, -3.142, -3.142" scale="0.700, 0.530, 0.740"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.999, 1.958, 0.669" rotation_euler="0.000, 1.571, 0.000" scale="0.476, 0.772, 1.615"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-2.252, -1.962, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="0.003, -1.962, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.253, -1.962, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="4.240, -1.962, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.253, 1.956, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="0.003, 1.956, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-2.252, 1.956, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="4.240, 1.956, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-4.231, 1.956, 0.047" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.876, 0.240"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="0.014, 1.843, 0.454" rotation_euler="1.571, -3.142, -3.142" scale="0.700, 0.530, 0.740"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

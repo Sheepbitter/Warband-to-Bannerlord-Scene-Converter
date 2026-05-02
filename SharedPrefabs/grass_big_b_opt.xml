@@ -1,0 +1,9 @@
+<prefabs>
+	<game_entity name="grass_big_b_opt" old_prefab_name="">
+		<transform position="93.871, 79.742, 5.370" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="flora_grass_b_big_optimized"/>
+		</components>
+	</game_entity>
+</prefabs>
+

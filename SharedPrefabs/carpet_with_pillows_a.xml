@@ -1,0 +1,26 @@
+<prefabs>
+	<game_entity name="carpet_with_pillows_a" old_prefab_name="">
+		<transform position="61.300, 172.750, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.600, 1.000"/>
+		<physics override_material="fabric"/>
+		<components>
+			<meta_mesh_component name="arabian_carpet_c"/>
+		</components>
+		<children>
+			<game_entity name="bd_pillow_e" old_prefab_name="">
+				<transform position="-1.462, 0.558, 0.000" non_orthogonal_rotation_mat="0.853365, 0.521314, 0.000000, -0.324976, 0.945722, 0.000000, 0.000000, 0.000000, 1.000000" scale="1.648, 1.983, 1.666"/>
+				<physics shape="bo_bd_pillow_a" override_material="straw"/>
+				<components>
+					<meta_mesh_component name="bd_pillow_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_pillow_d" old_prefab_name="">
+				<transform position="1.371, 0.604, 0.000" non_orthogonal_rotation_mat="0.748013, -0.663684, 0.000000, 0.446559, 0.894754, 0.000000, 0.000000, 0.000000, 1.000000" scale="1.809, 2.016, 1.750"/>
+				<physics shape="bo_bd_pillow_a" override_material="straw"/>
+				<components>
+					<meta_mesh_component name="bd_pillow_d"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

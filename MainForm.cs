@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
@@ -9,24 +9,24 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 
 namespace WarbandToBannerlordConverter;
-// The main GUI for the Converter Tool to streamline use of all the programs needed to convert Warband Scenes to Bannerlord. Was manually typing values in a console window before this and that was a pain in the ass.
 
+// The main GUI for the Converter Tool to streamline use of all the programs needed to convert Warband Scenes to Bannerlord. Was manually typing values in a console window before this and that was a pain in the ass.
 public partial class MainForm : Form
 {
+    private TextBox txtTerrainCode;
     private TextBox txtTerrainFolder;
     private TextBox txtBLPrefab;
     private TextBox txtJsonPath, txtXmlPath;
     private TextBox txtZScale, txtZOffset;
+    private TextBox txtMapDimensions;
     private ListBox lbProps;
     private CheckBox chkUseOrigin;
-
     private NumericUpDown[] numPos = new NumericUpDown[3];
     private NumericUpDown[] numRot = new NumericUpDown[3];
     private NumericUpDown[] numScale = new NumericUpDown[3];
     private NumericUpDown[] numOrigin = new NumericUpDown[3];
 
     private Label lblStatus;
-    private Label lblZResults;
 
     private Button btnProcessTerrain;
     private MappingManager mapper;
@@ -48,9 +48,9 @@ public partial class MainForm : Form
 
     private void InitializeManualComponents()
     {
-        this.Text = "WB to BL Live Converter v11";
-        this.Size = new Size(850, 760);
-        this.MinimumSize = new Size(700, 650);
+        this.Text = "WB to BL Live Converter v12";
+        this.Size = new Size(850, 780);
+        this.MinimumSize = new Size(700, 680);
 
         // --- Auto-save timer (fires 0.5s after last change) ---
         _autoSaveTimer = new System.Windows.Forms.Timer { Interval = 500 };
@@ -77,6 +77,7 @@ public partial class MainForm : Form
         };
         this.Controls.Add(lblStatus);
 
+        // ── Footer ────────────────────────────────────────────────────────────
         Panel pnlFooter = new Panel { Dock = DockStyle.Bottom, Height = 50, Padding = new Padding(5) };
 
         Button btnSaveMapping = new Button
@@ -107,105 +108,171 @@ public partial class MainForm : Form
         pnlFooter.Controls.Add(btnInject);
         pnlFooter.Controls.Add(btnSaveMapping);
 
-        Panel pnlTerrain = new Panel { Dock = DockStyle.Top, Height = 100, Padding = new Padding(8), BackColor = Color.FromArgb(240, 240, 245) };
+        // ── Terrain / unpacked-files panel ────────────────────────────────────
+        Panel pnlTerrain = new Panel
+        {
+            Dock = DockStyle.Top,
+            Height = 185,
+            Padding = new Padding(8),
+            BackColor = Color.FromArgb(240, 240, 245)
+        };
 
-        GroupBox grpTerrain = new GroupBox { Text = "Unpacked Files Processor", Top = 5, Left = 5, Width = 820, Height = 85 };
+        GroupBox grpTerrain = new GroupBox
+        {
+            Text = "",
+            Top = 5,
+            Left = 5,
+            Width = 820,
+            Height = 170
+        };
         grpTerrain.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
 
-        txtTerrainFolder = new TextBox { Top = 25, Left = 10, Width = 350 };
-        Button btnBrowseTerrain = new Button { Text = "Browse", Top = 23, Left = 370, Width = 80 };
-        btnProcessTerrain = new Button { Text = "Convert files", Top = 23, Left = 460, Width = 100, BackColor = Color.LightGreen };
+        var lblFieldFont = new Font("Segoe UI", 9f, FontStyle.Bold);
 
-        Label lblTerrainHint = new Label
+        // ── Row 1: Terrain Code ───────────────────────────────────────────────
+        grpTerrain.Controls.Add(new Label
         {
-            Text = "Select the folder containing your PFM, PGM, and ai_mesh.obj files from Mab Tools.",
-            Top = 52,
+            Text = "Terrain Code",
+            Top = 17,
             Left = 10,
-            Width = 540,
-            ForeColor = Color.Gray,
-            Font = new Font("Segoe UI", 8f)
-        };
+            Width = 200,
+            Font = lblFieldFont
+        });
 
-        grpTerrain.Controls.Add(new Label { Text = "Z Scale:", Top = 20, Left = 575, Width = 60, Font = new Font("Segoe UI", 9f, FontStyle.Bold) });
-        txtZScale = new TextBox
+        txtTerrainCode = new TextBox
         {
-            Top = 18,
-            Left = 640,
-            Width = 120,
-            ReadOnly = true,
-            BorderStyle = BorderStyle.None,
-            BackColor = grpTerrain.BackColor,
-            Text = "0.000000"
+            Top = 40,
+            Left = 10,
+            Width = 530,
+            PlaceholderText = "Paste 0x… terrain code here"
         };
+        txtTerrainCode.TextChanged += OnTerrainCodeChanged;
+        grpTerrain.Controls.Add(txtTerrainCode);
 
-        grpTerrain.Controls.Add(new Label { Text = "Z Offset:", Top = 45, Left = 575, Width = 60, Font = new Font("Segoe UI", 9f, FontStyle.Bold) });
-        txtZOffset = new TextBox
+        grpTerrain.Controls.Add(new Label
+        {
+            Text = "Found with the map download in  or in scenes.txt of the module.",
+            Top = 65,
+            Left = 10,
+            Width = 440,
+            ForeColor = Color.Gray,
+            Font = new Font("Segoe UI", 7.5f)
+        });
+
+        // ── Section Header ────────────────────────────────────────────────────
+        grpTerrain.Controls.Add(new Label
+        {
+            Text = "Unpacked Files Processor",
+            Top = 87,
+            Left = 10,
+            Width = 250,
+            Font = lblFieldFont
+        });
+
+        // ── Row 2: Folder selector ────────────────────────────────────────────
+        txtTerrainFolder = new TextBox { Top = 110, Left = 10, Width = 330 };
+        Button btnBrowseTerrain = new Button { Text = "Browse", Top = 108, Left = 348, Width = 80 };
+        btnProcessTerrain = new Button { Text = "Convert files", Top = 108, Left = 436, Width = 100, BackColor = Color.LightGreen };
+
+        grpTerrain.Controls.Add(new Label
+        {
+            Text = "Folder containing files unpacked by mab tools (PFM, PGM, and JSON)",
+            Top = 135,
+            Left = 10,
+            Width = 440,
+            ForeColor = Color.Gray,
+            Font = new Font("Segoe UI", 7.5f)
+        });
+
+        // ── Right side: Map Dimensions / Z Scale / Z Offset ──────────────────
+        grpTerrain.Controls.Add(new Label
+        {
+            Text = "Map Size:",
+            Top = 43,
+            Left = 560,
+            Width = 60,
+            Font = lblFieldFont
+        });
+        txtMapDimensions = new TextBox
         {
             Top = 43,
-            Left = 640,
-            Width = 120,
+            Left = 622,
+            Width = 155,
+            ReadOnly = true,
+            BorderStyle = BorderStyle.None,
+            BackColor = grpTerrain.BackColor,
+            Text = "—"
+        };
+        grpTerrain.Controls.Add(txtMapDimensions);
+
+        grpTerrain.Controls.Add(new Label
+        {
+            Text = "Z Scale:",
+            Top = 93,
+            Left = 560,
+            Width = 60,
+            Font = lblFieldFont
+        });
+        txtZScale = new TextBox
+        {
+            Top = 93,
+            Left = 622,
+            Width = 155,
             ReadOnly = true,
             BorderStyle = BorderStyle.None,
             BackColor = grpTerrain.BackColor,
             Text = "0.000000"
         };
 
-        grpTerrain.Controls.AddRange(new Control[] { txtTerrainFolder, btnBrowseTerrain, btnProcessTerrain, lblTerrainHint });
-        pnlTerrain.Controls.Add(grpTerrain);
-        grpTerrain.Controls.Add(txtZScale);
-        grpTerrain.Controls.Add(txtZOffset);
+        grpTerrain.Controls.Add(new Label
+        {
+            Text = "Z Offset:",
+            Top = 113,
+            Left = 560,
+            Width = 60,
+            Font = lblFieldFont
+        });
+        txtZOffset = new TextBox
+        {
+            Top = 113,
+            Left = 622,
+            Width = 155,
+            ReadOnly = true,
+            BorderStyle = BorderStyle.None,
+            BackColor = grpTerrain.BackColor,
+            Text = "0.000000"
+        };
 
-        btnBrowseTerrain.Click += (s, e) => {
+        grpTerrain.Controls.AddRange(new Control[]
+        {
+            txtTerrainFolder, btnBrowseTerrain, btnProcessTerrain,
+            txtZScale, txtZOffset
+        });
+        pnlTerrain.Controls.Add(grpTerrain);
+
+        // ── Browse handler ────────────────────────────────────────────────────
+        btnBrowseTerrain.Click += (s, e) =>
+        {
             using var fbd = new FolderBrowserDialog();
             if (Directory.Exists(txtTerrainFolder.Text)) fbd.SelectedPath = txtTerrainFolder.Text;
             if (fbd.ShowDialog() == DialogResult.OK) SetTerrainFolder(fbd.SelectedPath, true);
         };
 
-        btnProcessTerrain.Click += (s, e) =>
+        // ── Convert files handler ─────────────────────────────────────────────
+        btnProcessTerrain.Click += (s, e) => DoConvertFiles();
+
+        // ── File selectors panel ──────────────────────────────────────────────
+        Panel pnlFiles = new Panel
         {
-            if (!Directory.Exists(txtTerrainFolder.Text)) return;
-
-            btnProcessTerrain.Enabled = false;
-            txtZScale.Text  = "Calculating...";
-            txtZOffset.Text = "Calculating...";
-
-            var terrainResults = TerrainProcessor.ProcessFolder(txtTerrainFolder.Text, (msg) =>
-            {
-                lblStatus.Text = msg;
-                Application.DoEvents();
-            });
-
-            if (terrainResults != null)
-            {
-                txtZScale.Text  = terrainResults.ZScale.ToString("F6");
-                txtZOffset.Text = terrainResults.ZOffset.ToString("F6");
-            }
-
-            var navResult = NavMeshProcessor.ProcessFolder(txtTerrainFolder.Text, (msg) =>
-            {
-                lblStatus.Text = msg;
-                Application.DoEvents();
-            });
-
-            if (navResult != null)
-            {
-                SetStatus(
-                    $"Done - terrain converted, navmesh: {navResult.VertexCount}v " +
-                    $"{navResult.EdgeCount}e {navResult.FaceCount}f -> {Path.GetFileName(navResult.OutputPath)}",
-                    Color.DarkGreen);
-            }
-            else
-            {
-                SetStatus("Terrain conversion complete! (no ai_mesh.obj found for navmesh)", Color.DarkGreen);
-            }
-
-            btnProcessTerrain.Enabled = true;
+            Dock = DockStyle.Top,
+            Height = 80,
+            Padding = new Padding(5),
+            BackColor = Color.FromArgb(230, 230, 235)
         };
-
-        Panel pnlFiles = new Panel { Dock = DockStyle.Top, Height = 80, Padding = new Padding(5), BackColor = Color.FromArgb(230, 230, 235) };
         txtJsonPath = AddFileSelector(pnlFiles, "Mission JSON:", 10, "JSON Files|*.json", SetMissionJsonPath);
-        txtXmlPath  = AddFileSelector(pnlFiles, "Scene XSCENE:", 40, "XSCENE Files|*.xscene", SetSceneXscenePath);
+        txtXmlPath = AddFileSelector(pnlFiles, "Scene XSCENE:", 40, "XSCENE Files|*.xscene", SetSceneXscenePath);
 
+        // ── Prop list + mapping editor ────────────────────────────────────────
         lbProps = new ListBox { Dock = DockStyle.Left, Width = 250, Font = new Font("Segoe UI", 9) };
         lbProps.SelectedIndexChanged += (s, e) => SelectedPropChanged();
 
@@ -268,6 +335,140 @@ public partial class MainForm : Form
         this.Controls.Add(pnlFooter);
     }
 
+    // ── Terrain code change handler ───────────────────────────────────────────
+    private void OnTerrainCodeChanged(object sender, EventArgs e)
+    {
+        string code = txtTerrainCode.Text.Trim();
+        if (string.IsNullOrWhiteSpace(code))
+        {
+            txtMapDimensions.Text = "—";
+            return;
+        }
+        try
+        {
+            TerrainParams p = WarbandTerrainGen.ParseCode(code);
+            txtMapDimensions.Text = $"{p.SizeX} x {p.SizeY} m";
+        }
+        catch
+        {
+            txtMapDimensions.Text = "Invalid code";
+        }
+    }
+
+    // ── Convert files ─────────────────────────────────────────────────────────
+    private void DoConvertFiles()
+    {
+        if (!Directory.Exists(txtTerrainFolder.Text)) return;
+
+        string code = txtTerrainCode.Text.Trim();
+        bool hasCode = !string.IsNullOrWhiteSpace(code);
+        TerrainParams terrainParams = null;
+
+        if (!hasCode)
+        {
+            var answer = MessageBox.Show(
+                "No terrain code has been entered.\n\n" +
+                "The heightmap will not be generated without it.\n\n" +
+                "Proceed anyway? Only material maps and the navmesh will be converted.",
+                "Terrain Code Missing",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (answer == DialogResult.No) return;
+        }
+        else
+        {
+            try { terrainParams = WarbandTerrainGen.ParseCode(code); }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Invalid terrain code:\n{ex.Message}", "Parse Error",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+        }
+
+        btnProcessTerrain.Enabled = false;
+        txtZScale.Text = "Working...";
+        txtZOffset.Text = "Working...";
+
+        void Log(string msg) { lblStatus.Text = msg; Application.DoEvents(); }
+
+        // ── Step 1: TerrainProcessor — locate layer_ground_elevation.pfm, convert PGMs ──
+        string layerPfmPath = TerrainProcessor.ProcessFolder(txtTerrainFolder.Text, Log);
+
+        // ── Step 2: WarbandTerrainGen — generate base terrain, write base_terrain.pfm ──
+        // ── Step 3: PfmCombiner — add both PFMs, write heightmap.pfm + heightmap.png ───
+        if (terrainParams != null)
+        {
+            if (layerPfmPath == null)
+            {
+                MessageBox.Show(
+                    "layer_ground_elevation.pfm was not found in the selected folder.\n\n" +
+                    "The heightmap cannot be generated without it.",
+                    "Missing PFM", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtZScale.Text = "N/A";
+                txtZOffset.Text = "N/A";
+            }
+            else
+            {
+                try
+                {
+                    Log("Generating base terrain from terrain code...");
+                    var gen = new TerrainGenerator(terrainParams);
+                    gen.Generate();
+                    var (zGrid, gridW, gridH) = gen.GetHeightmap();
+
+                    string basePfmPath = Path.Combine(txtTerrainFolder.Text, "base_terrain.pfm");
+                    Log("Writing base_terrain.pfm...");
+                    WarbandTerrainGen.WritePfm(zGrid, gridW, gridH, basePfmPath);
+
+                    string heightmapPfm = Path.Combine(txtTerrainFolder.Text, "heightmap.pfm");
+                    string heightmapPng = Path.Combine(txtTerrainFolder.Text, "heightmap.png");
+
+                    PfmResults hmResult = PfmCombiner.CombineToHeightmap(
+                        basePfmPath, layerPfmPath, heightmapPfm, heightmapPng, Log);
+
+                    txtZScale.Text = hmResult.ZScale.ToString("F6");
+                    txtZOffset.Text = hmResult.ZOffset.ToString("F6");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Heightmap generation failed:\n{ex.Message}",
+                                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtZScale.Text = "Error";
+                    txtZOffset.Text = "Error";
+                }
+            }
+        }
+        else
+        {
+            txtZScale.Text = "N/A";
+            txtZOffset.Text = "N/A";
+        }
+
+        // ── Step 3: NavMesh ───────────────────────────────────────────────────
+        var navResult = NavMeshProcessor.ProcessFolder(txtTerrainFolder.Text, Log);
+
+        if (navResult != null)
+        {
+            SetStatus(
+                $"Done — heightmap generated, navmesh: {navResult.VertexCount}v " +
+                $"{navResult.EdgeCount}e {navResult.FaceCount}f → {Path.GetFileName(navResult.OutputPath)}",
+                Color.DarkGreen);
+        }
+        else
+        {
+            SetStatus(
+                terrainParams != null
+                    ? "Done — heightmap generated. (no ai_mesh.obj found for navmesh)"
+                    : "Done — material maps converted. (no terrain code, no navmesh obj)",
+                Color.DarkGreen);
+        }
+
+        btnProcessTerrain.Enabled = true;
+    }
+
+    // ── Autosave plumbing ─────────────────────────────────────────────────────
     private void ScheduleAutoSave()
     {
         if (_isLoadingMapping) return;
@@ -276,20 +477,14 @@ public partial class MainForm : Form
         SetStatus($"Unsaved changes for \"{lbProps.SelectedItem}\"...", Color.DarkOrange);
     }
 
+    // ── Path helpers ──────────────────────────────────────────────────────────
     private void RestoreSavedPaths(string jsonArg, string xsceneArg)
     {
         if (Directory.Exists(_settings.LastTerrainFolder))
-        {
             txtTerrainFolder.Text = _settings.LastTerrainFolder;
-        }
 
-        string jsonPath = !string.IsNullOrWhiteSpace(jsonArg)
-            ? jsonArg
-            : _settings.LastMissionJsonPath;
-
-        string xscenePath = !string.IsNullOrWhiteSpace(xsceneArg)
-            ? xsceneArg
-            : _settings.LastSceneXscenePath;
+        string jsonPath = !string.IsNullOrWhiteSpace(jsonArg) ? jsonArg : _settings.LastMissionJsonPath;
+        string xscenePath = !string.IsNullOrWhiteSpace(xsceneArg) ? xsceneArg : _settings.LastSceneXscenePath;
 
         if (File.Exists(jsonPath))
         {
@@ -341,16 +536,8 @@ public partial class MainForm : Form
 
     private string GetInitialDirectory(string path)
     {
-        if (File.Exists(path))
-        {
-            return Path.GetDirectoryName(path) ?? "";
-        }
-
-        if (Directory.Exists(path))
-        {
-            return path;
-        }
-
+        if (File.Exists(path)) return Path.GetDirectoryName(path) ?? "";
+        if (Directory.Exists(path)) return path;
         return "";
     }
 
@@ -360,6 +547,7 @@ public partial class MainForm : Form
         lblStatus.ForeColor = color;
     }
 
+    // ── Prop list ─────────────────────────────────────────────────────────────
     private void LoadProps()
     {
         if (!File.Exists(txtJsonPath.Text)) return;
@@ -414,6 +602,7 @@ public partial class MainForm : Form
         m.OriginX = (double)numOrigin[0].Value; m.OriginY = (double)numOrigin[1].Value; m.OriginZ = (double)numOrigin[2].Value;
     }
 
+    // ── Injection ─────────────────────────────────────────────────────────────
     private void DoInjection()
     {
         if (string.IsNullOrEmpty(txtJsonPath.Text) || string.IsNullOrEmpty(txtXmlPath.Text)) return;
@@ -433,6 +622,7 @@ public partial class MainForm : Form
         catch (Exception ex) { MessageBox.Show("Injection Error: " + ex.Message); }
     }
 
+    // ── UI builder helpers ────────────────────────────────────────────────────
     private TextBox AddFileSelector(Panel p, string label, int y, string filter, Action<string> selectFile)
     {
         p.Controls.Add(new Label { Text = label, Top = y, Left = 10, Width = 100 });
@@ -440,16 +630,10 @@ public partial class MainForm : Form
         Button btn = new Button { Text = "Browse...", Top = y - 2, Left = 670, Width = 80 };
         btn.Click += (s, e) =>
         {
-            using (OpenFileDialog ofd = new OpenFileDialog { Filter = filter })
-            {
-                string initialDirectory = GetInitialDirectory(tb.Text);
-                if (!string.IsNullOrEmpty(initialDirectory)) ofd.InitialDirectory = initialDirectory;
-
-                if (ofd.ShowDialog() == DialogResult.OK)
-                {
-                    selectFile(ofd.FileName);
-                }
-            }
+            using var ofd = new OpenFileDialog { Filter = filter };
+            string init = GetInitialDirectory(tb.Text);
+            if (!string.IsNullOrEmpty(init)) ofd.InitialDirectory = init;
+            if (ofd.ShowDialog() == DialogResult.OK) selectFile(ofd.FileName);
         };
         p.Controls.Add(tb); p.Controls.Add(btn); return tb;
     }
@@ -471,7 +655,16 @@ public partial class MainForm : Form
         for (int i = 0; i < 3; i++)
         {
             p.Controls.Add(new Label { Text = labels[i] + ":", Top = y, Left = 10 + (i * 90), Width = 20 });
-            var num = new NumericUpDown { Top = y, Left = 30 + (i * 90), Width = 60, Minimum = min, Maximum = max, DecimalPlaces = 3, Value = def };
+            var num = new NumericUpDown
+            {
+                Top = y,
+                Left = 30 + (i * 90),
+                Width = 60,
+                Minimum = min,
+                Maximum = max,
+                DecimalPlaces = 3,
+                Value = def
+            };
             AttachScrollWheel(num);
             nums[i] = num;
             p.Controls.Add(num);
@@ -486,12 +679,9 @@ public partial class MainForm : Form
             ((HandledMouseEventArgs)e).Handled = true;
 
             decimal step;
-            if ((ModifierKeys & Keys.Control) != 0)
-                step = 0.01m;
-            else if ((ModifierKeys & Keys.Shift) != 0)
-                step = 1.00m;
-            else
-                step = 0.1m;
+            if ((ModifierKeys & Keys.Control) != 0) step = 0.01m;
+            else if ((ModifierKeys & Keys.Shift) != 0) step = 1.00m;
+            else step = 0.1m;
 
             decimal delta = e.Delta > 0 ? step : -step;
             decimal newVal = num.Value + delta;
@@ -509,9 +699,7 @@ public partial class MainForm : Form
     private void CommitNumericEditors()
     {
         foreach (var num in numPos.Concat(numRot).Concat(numScale).Concat(numOrigin))
-        {
             CommitNumericEditor(num);
-        }
     }
 
     private void CommitNumericEditor(NumericUpDown num)
@@ -520,9 +708,7 @@ public partial class MainForm : Form
 
         if (!decimal.TryParse(num.Text, NumberStyles.Number, CultureInfo.CurrentCulture, out decimal value) &&
             !decimal.TryParse(num.Text, NumberStyles.Number, CultureInfo.InvariantCulture, out value))
-        {
             return;
-        }
 
         value = Math.Max(num.Minimum, Math.Min(num.Maximum, value));
         if (num.Value != value) num.Value = value;

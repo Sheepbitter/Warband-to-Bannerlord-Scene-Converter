@@ -1,0 +1,9 @@
+<prefabs>
+	<game_entity name="fern_b" old_prefab_name="">
+		<transform position="95.932, 71.500, 4.752" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="flora_fern_b"/>
+		</components>
+	</game_entity>
+</prefabs>
+

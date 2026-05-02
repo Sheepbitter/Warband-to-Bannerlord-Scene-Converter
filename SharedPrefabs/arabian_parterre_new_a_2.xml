@@ -1,0 +1,61 @@
+<prefabs>
+	<game_entity name="arabian_parterre_new_a_2" old_prefab_name="">
+		<transform position="91.658, 89.742, 6.783" rotation_euler="0.000, 0.000, 0.000" scale="0.850, 1.380, 1.060"/>
+		<physics shape="bo_empire_garden_sidewalk_a2" override_material="default"/>
+		<components>
+			<meta_mesh_component name="empire_garden_sidewalk_a2"/>
+		</components>
+		<children>
+			<game_entity name="empire_garden_sidewalk_c_short1" old_prefab_name="">
+				<transform position="-1.718, 0.163, 0.108" non_orthogonal_rotation_mat="0.996438, 0.071869, -0.044114, -0.194985, 0.845766, -0.496650, 0.002772, 0.327585, 0.944818" scale="1.166, 0.871, 0.788"/>
+				<physics shape="bo_empire_garden_sidewalk_c_short1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_sidewalk_c_short1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_sidewalk_c_short1" old_prefab_name="">
+				<transform position="1.791, 0.189, 0.083" non_orthogonal_rotation_mat="0.999642, 0.026357, -0.004650, -0.060309, 0.806574, -0.588048, -0.020775, 0.394563, 0.918634" scale="1.312, 0.932, 0.957"/>
+				<physics shape="bo_empire_garden_sidewalk_c_short1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_sidewalk_c_short1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_sidewalk_c_short1" old_prefab_name="">
+				<transform position="2.444, -0.351, 0.064" non_orthogonal_rotation_mat="-0.002443, -0.998254, 0.059024, 0.936823, -0.021766, -0.349126, 0.606102, 0.046223, 0.794042" scale="1.000, 1.345, 1.109"/>
+				<physics shape="bo_empire_garden_sidewalk_c_short1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_sidewalk_c_short1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_sidewalk_c_short1" old_prefab_name="">
+				<transform position="1.544, -0.831, 0.073" non_orthogonal_rotation_mat="-0.998777, -0.049451, 0.000000, 0.084828, -0.839512, -0.536678, 0.054152, -0.535924, 0.842528" scale="1.427, 1.002, 1.001"/>
+				<physics shape="bo_empire_garden_sidewalk_c_short1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_sidewalk_c_short1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_sidewalk_c_short1" old_prefab_name="">
+				<transform position="0.121, -0.832, 0.061" non_orthogonal_rotation_mat="-0.999678, 0.021113, -0.014103, -0.035148, -0.842623, -0.537356, -0.040254, -0.352206, 0.935057" scale="1.429, 1.000, 1.051"/>
+				<physics shape="bo_empire_garden_sidewalk_c_short1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_sidewalk_c_short1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_sidewalk_c_short1" old_prefab_name="">
+				<transform position="-1.430, -0.807, 0.067" non_orthogonal_rotation_mat="-0.999408, 0.013602, 0.031610, -0.056726, -0.843153, -0.534673, 0.033584, -0.351862, 0.935449" scale="1.429, 0.977, 1.080"/>
+				<physics shape="bo_empire_garden_sidewalk_c_short1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_sidewalk_c_short1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_sidewalk_c_short1" old_prefab_name="">
+				<transform position="-2.440, -0.342, 0.073" non_orthogonal_rotation_mat="-0.076764, 0.997049, -0.000000, -0.922440, -0.026944, -0.385200, -0.543714, -0.015882, 0.839120" scale="1.000, 1.333, 1.103"/>
+				<physics shape="bo_empire_garden_sidewalk_c_short1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_sidewalk_c_short1"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

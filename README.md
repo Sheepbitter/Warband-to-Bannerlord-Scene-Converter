@@ -9,6 +9,9 @@ GUI for mapping Warband scene props to Bannerlord prefabs with position, rotatio
 offset adjustments. Entity mappings are saved to `asset_mappings.xml`, so each converted scene can
 make future conversions faster.
 
+It also integrates most of [cmpxchg8b's TerrainGen Code](https://github.com/Swyter/warband-terraingen/),
+preserved by Swyter, in order to generate the correct heightmap for use in Bannerlord.
+
 ## Quick Start
 
 1. Unpack the original Warband `.sco` scene file with `mab_sco_unpack.py` from
@@ -31,6 +34,7 @@ https://github.com/Swyter/mab-tools
 
 The converter expects the unpacked folder produced by this tool.
 
+
 ### 2. Process the Unpacked Files
 
 Run `WarbandToBannerlordConverter.exe`, select the unpacked folder in **Unpacked Files Processor**,
@@ -45,47 +49,40 @@ The converter writes generated files into that same folder:
 After conversion, note the displayed **Z Scale** and **Z Offset**. These values are needed when
 importing the heightmap into Bannerlord.
 
-### 3. Create the Bannerlord Scene
 
-Create a fresh Bannerlord scene in the editor.
+### 3. Process the Terrain Gen Code
+Get the terrain code directly from the module you are converting from in your
+..\steamapps\common\MountBlade Warband\Modules\ folder. It will be in Scenes.txt
 
-Set the terrain dimensions to match the original Warband scene. For native scenes and most mods, the
-dimensions can be found in `scenes.txt`. For example:
+Or, if converting a downloaded map, it can be found in your
+...\Documents\Mount&Blade Warband\SceneObj folder
 
-```text
+Example terrain code:
+```
+text
 scn_random_scene_steppe random_scene_steppe 1792 none none 0.000000 0.000000 240.000000 240.000000 -0.500000 0x0000000229602800000691a400003efe00004b34000059be
   0
   0
  outer_terrain_steppe
 ```
 
-In this example, the scene is `240 x 240` meters.
+This is what the tool needs: 0x0000000229602800000691a400003efe00004b34000059be
 
-If you do not have the terrain code, you can infer the dimensions from the generated PNG size.
-Warband commonly used polygon sizes of `2`, `3`, `4`, and `5`. Multiply the PNG dimensions by each
-of those values to find the likely scene size.
+It will use the terrain code, combined with the ground elevation from mab tools to generate a heightmap for Bannerlord.
+And provide the scene dimensions.
 
-For example, a `67 x 167` PNG could represent:
-
-- `134 x 334`
-- `201 x 501`
-- `268 x 668`
-- `335 x 835`
-
-In that case, the original scene was likely intended to be around `200 x 500` meters. Some precision
-is lost during conversion, so the inferred size may not be exact.
 
 ### 4. Import Terrain Data
 
 In the Bannerlord editor:
-
-1. Generate terrain using the original scene dimensions.
-2. Import `layer_ground_elevation.png` as the heightmap.
-3. Use the **Z Scale** and **Z Offset** values from the converter.
-4. Create and select a new terrain paint layer.
-5. Import each generated terrain layer PNG as a material map.
-6. Assign the matching material name and texture for each layer.
-7. Set **Water Level** to `0`.
+1. Create a new scene.
+2. Generate terrain using the original scene dimensions.
+3. Import `layer_ground_elevation.png` as the heightmap.
+4. Use the **Z Scale** and **Z Offset** values from the converter.
+5. Create and select a new terrain paint layer.
+6. Import each generated terrain layer PNG as a material map.
+7. Assign the matching material name and texture for each layer.
+8. Set **Water Level** to `0`.
 
 You may need to reference the original Warband scene to determine the correct material layer order.
 
@@ -195,8 +192,7 @@ and replaced during injection.
 
 ## TODO
 
-- Test whether generated `_cropped.png` files are still needed. They may have been a workaround for
-  one corrupted test map.
+- Test whether generated `_cropped.png` files are still needed. - Seems like they are. The terrain gets screwed up if the terrain code gets overwritted. Likely need to make it adjustable.
 - Consider Bannerlord-to-Warband conversion support in the future.
 
 ## Not Planned
@@ -204,8 +200,8 @@ and replaced during injection.
 ### Automated Entity Mapping
 
 Automated entity mapping may be technically possible, but it is outside the current scope of this
-tool.
+project.
 
-A possible approach would be to compare names semantically, generate shortlists of likely mappings,
-then compare exported meshes from OpenBRF and TPAC tooling. That would be a much larger project than
-this converter and would extend beyond Warband-to-Bannerlord scene conversion.
+A possible approach would be to compare names semantically, generate shortlists of likely mappings based on that,
+then mathematically compare exported meshes from OpenBRF and TPAC tooling. That would be a much larger project than
+this converter and would extend far beyond Warband-to-Bannerlord scene conversion.
