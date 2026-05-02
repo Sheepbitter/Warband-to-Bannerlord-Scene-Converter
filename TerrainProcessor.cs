@@ -7,10 +7,7 @@ using System.Text;
 
 // The terrain processor takes the pfm and pgm files and converts them into a greyscale png so that people don't have to do so manually with another program like gimp or photoshop. These become our heightmap and materialmaps.
 
-
 namespace WarbandToBannerlordConverter;
-
-
 public class PfmResults
 {
     public float ZScale { get; set; }
@@ -21,11 +18,6 @@ public static class TerrainProcessor
 {
     private const string LayerGroundElevation = "layer_ground_elevation";
 
-    // ── Main entry point ─────────────────────────────────────────────────────
-
-    // Converts all PGMs in the folder to PNG.
-    // Returns the full path to layer_ground_elevation.pfm if found, or null.
-    // MainForm passes that path directly to PfmCombiner — no data is loaded here.
     public static string ProcessFolder(string folderPath, Action<string> log)
     {
         string layerPfmPath = null;
@@ -49,7 +41,6 @@ public static class TerrainProcessor
         return layerPfmPath;
     }
 
-    // ── PGM → PNG ─────────────────────────────────────────────────────────────
 
     private static void ConvertPgm(string path)
     {
@@ -84,7 +75,6 @@ public static class TerrainProcessor
         bmp.Save(fullPngPath, ImageFormat.Png);
     }
 
-    // ── Helpers ───────────────────────────────────────────────────────────────
 
     private static string ReadToSpace(BinaryReader br)
     {

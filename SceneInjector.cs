@@ -61,12 +61,10 @@ public class SceneInjector
 
     private XElement BuildEntity(int index, MissionObject obj, AssetMapping m)
     {
-        // Position
         double nX = obj.pos[0] + m.OffX;
         double nY = obj.pos[1] + m.OffY;
         double nZ = obj.pos[2] + m.OffZ;
 
-        //Rotation
         double rX = 0, rY = 0, rZ = 0;
         if (obj.rotation_matrix != null && obj.rotation_matrix.Count == 3)
         {
@@ -77,15 +75,12 @@ public class SceneInjector
             rZ = Math.Atan2(-mat[1][0], mat[1][1]);
         }
 
-        // Apply rotation GUI offsets (degrees -> radians)
         rX += m.RotX * Math.PI / 180.0;
         rY += m.RotY * Math.PI / 180.0;
         rZ += m.RotZ * Math.PI / 180.0;
 
-        // Scale applied to the child entity
         string scaleStr = $"{obj.scale[0] * m.ScX:F3}, {obj.scale[1] * m.ScY:F3}, {obj.scale[2] * m.ScZ:F3}";
 
-        // [index]_WB_[WB entity name]_BL_[BL entity name] - index tracks what in the scene maps to the warband scene
         string entryName = $"{index}_WB_{m.WB}_BL_{m.BL}";
 
         if (m.UseOrigin)

@@ -77,7 +77,6 @@ public partial class MainForm : Form
         };
         this.Controls.Add(lblStatus);
 
-        // ── Footer ────────────────────────────────────────────────────────────
         Panel pnlFooter = new Panel { Dock = DockStyle.Bottom, Height = 50, Padding = new Padding(5) };
 
         Button btnSaveMapping = new Button
@@ -108,7 +107,6 @@ public partial class MainForm : Form
         pnlFooter.Controls.Add(btnInject);
         pnlFooter.Controls.Add(btnSaveMapping);
 
-        // ── Terrain / unpacked-files panel ────────────────────────────────────
         Panel pnlTerrain = new Panel
         {
             Dock = DockStyle.Top,
@@ -129,7 +127,6 @@ public partial class MainForm : Form
 
         var lblFieldFont = new Font("Segoe UI", 9f, FontStyle.Bold);
 
-        // ── Row 1: Terrain Code ───────────────────────────────────────────────
         grpTerrain.Controls.Add(new Label
         {
             Text = "Terrain Code",
@@ -159,7 +156,6 @@ public partial class MainForm : Form
             Font = new Font("Segoe UI", 7.5f)
         });
 
-        // ── Section Header ────────────────────────────────────────────────────
         grpTerrain.Controls.Add(new Label
         {
             Text = "Unpacked Files Processor",
@@ -169,7 +165,6 @@ public partial class MainForm : Form
             Font = lblFieldFont
         });
 
-        // ── Row 2: Folder selector ────────────────────────────────────────────
         txtTerrainFolder = new TextBox { Top = 110, Left = 10, Width = 330 };
         Button btnBrowseTerrain = new Button { Text = "Browse", Top = 108, Left = 348, Width = 80 };
         btnProcessTerrain = new Button { Text = "Convert files", Top = 108, Left = 436, Width = 100, BackColor = Color.LightGreen };
@@ -184,7 +179,6 @@ public partial class MainForm : Form
             Font = new Font("Segoe UI", 7.5f)
         });
 
-        // ── Right side: Map Dimensions / Z Scale / Z Offset ──────────────────
         grpTerrain.Controls.Add(new Label
         {
             Text = "Map Size:",
@@ -250,7 +244,6 @@ public partial class MainForm : Form
         });
         pnlTerrain.Controls.Add(grpTerrain);
 
-        // ── Browse handler ────────────────────────────────────────────────────
         btnBrowseTerrain.Click += (s, e) =>
         {
             using var fbd = new FolderBrowserDialog();
@@ -258,10 +251,8 @@ public partial class MainForm : Form
             if (fbd.ShowDialog() == DialogResult.OK) SetTerrainFolder(fbd.SelectedPath, true);
         };
 
-        // ── Convert files handler ─────────────────────────────────────────────
         btnProcessTerrain.Click += (s, e) => DoConvertFiles();
 
-        // ── File selectors panel ──────────────────────────────────────────────
         Panel pnlFiles = new Panel
         {
             Dock = DockStyle.Top,
@@ -272,7 +263,6 @@ public partial class MainForm : Form
         txtJsonPath = AddFileSelector(pnlFiles, "Mission JSON:", 10, "JSON Files|*.json", SetMissionJsonPath);
         txtXmlPath = AddFileSelector(pnlFiles, "Scene XSCENE:", 40, "XSCENE Files|*.xscene", SetSceneXscenePath);
 
-        // ── Prop list + mapping editor ────────────────────────────────────────
         lbProps = new ListBox { Dock = DockStyle.Left, Width = 250, Font = new Font("Segoe UI", 9) };
         lbProps.SelectedIndexChanged += (s, e) => SelectedPropChanged();
 
@@ -335,7 +325,6 @@ public partial class MainForm : Form
         this.Controls.Add(pnlFooter);
     }
 
-    // ── Terrain code change handler ───────────────────────────────────────────
     private void OnTerrainCodeChanged(object sender, EventArgs e)
     {
         string code = txtTerrainCode.Text.Trim();
@@ -355,7 +344,6 @@ public partial class MainForm : Form
         }
     }
 
-    // ── Convert files ─────────────────────────────────────────────────────────
     private void DoConvertFiles()
     {
         if (!Directory.Exists(txtTerrainFolder.Text)) return;
@@ -393,11 +381,8 @@ public partial class MainForm : Form
 
         void Log(string msg) { lblStatus.Text = msg; Application.DoEvents(); }
 
-        // ── Step 1: TerrainProcessor — locate layer_ground_elevation.pfm, convert PGMs ──
         string layerPfmPath = TerrainProcessor.ProcessFolder(txtTerrainFolder.Text, Log);
 
-        // ── Step 2: WarbandTerrainGen — generate base terrain, write base_terrain.pfm ──
-        // ── Step 3: PfmCombiner — add both PFMs, write heightmap.pfm + heightmap.png ───
         if (terrainParams != null)
         {
             if (layerPfmPath == null)
@@ -446,7 +431,6 @@ public partial class MainForm : Form
             txtZOffset.Text = "N/A";
         }
 
-        // ── Step 3: NavMesh ───────────────────────────────────────────────────
         var navResult = NavMeshProcessor.ProcessFolder(txtTerrainFolder.Text, Log);
 
         if (navResult != null)
@@ -468,7 +452,6 @@ public partial class MainForm : Form
         btnProcessTerrain.Enabled = true;
     }
 
-    // ── Autosave plumbing ─────────────────────────────────────────────────────
     private void ScheduleAutoSave()
     {
         if (_isLoadingMapping) return;
@@ -477,7 +460,6 @@ public partial class MainForm : Form
         SetStatus($"Unsaved changes for \"{lbProps.SelectedItem}\"...", Color.DarkOrange);
     }
 
-    // ── Path helpers ──────────────────────────────────────────────────────────
     private void RestoreSavedPaths(string jsonArg, string xsceneArg)
     {
         if (Directory.Exists(_settings.LastTerrainFolder))
@@ -547,7 +529,6 @@ public partial class MainForm : Form
         lblStatus.ForeColor = color;
     }
 
-    // ── Prop list ─────────────────────────────────────────────────────────────
     private void LoadProps()
     {
         if (!File.Exists(txtJsonPath.Text)) return;
@@ -602,7 +583,6 @@ public partial class MainForm : Form
         m.OriginX = (double)numOrigin[0].Value; m.OriginY = (double)numOrigin[1].Value; m.OriginZ = (double)numOrigin[2].Value;
     }
 
-    // ── Injection ─────────────────────────────────────────────────────────────
     private void DoInjection()
     {
         if (string.IsNullOrEmpty(txtJsonPath.Text) || string.IsNullOrEmpty(txtXmlPath.Text)) return;
@@ -622,7 +602,6 @@ public partial class MainForm : Form
         catch (Exception ex) { MessageBox.Show("Injection Error: " + ex.Message); }
     }
 
-    // ── UI builder helpers ────────────────────────────────────────────────────
     private TextBox AddFileSelector(Panel p, string label, int y, string filter, Action<string> selectFile)
     {
         p.Controls.Add(new Label { Text = label, Top = y, Left = 10, Width = 100 });

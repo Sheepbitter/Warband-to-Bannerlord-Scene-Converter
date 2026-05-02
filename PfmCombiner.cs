@@ -8,21 +8,9 @@ using System.Text;
 
 // Adds the pfms for the terrain generated from code with the elevation layer of the SCO, resulting in the final heightmap that can be used in warband.
 
-
 namespace WarbandToBannerlordConverter;
-
-// C# port of pfm_combiner.py, extended with PNG output.
-// PfmCombiner is the sole owner of heightmap output:
-//   - Reads base_terrain.pfm (written by WarbandTerrainGen)
-//   - Reads layer_ground_elevation.pfm (located by TerrainProcessor)
-//   - Adds them element-wise
-//   - Writes heightmap.pfm
-//   - Writes heightmap.png  (16-bit greyscale, same format as original TerrainProcessor PNGs)
-//   - Returns ZScale and ZOffset computed from the combined heightmap.pfm
 public static class PfmCombiner
 {
-    // ── Main entry point ─────────────────────────────────────────────────────
-
     public static PfmResults CombineToHeightmap(
         string basePfmPath,
         string layerPfmPath,
@@ -117,7 +105,6 @@ public static class PfmCombiner
     {
         float min = float.MaxValue, max = float.MinValue;
 
-        // Global min/max scan (replaces the old 3/5ths playable area scan)
         for (int i = 0; i < pixels.Length; i++)
         {
             float v = pixels[i];
