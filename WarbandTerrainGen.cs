@@ -44,6 +44,9 @@ public sealed class TerrainParams
     public int    RegionDetail  { get; set; }
     public int    DisableGrass  { get; set; }
     public int    PolygonSize   { get; set; }  
+
+    public int InGameSizeX { get; set; }
+    public int InGameSizeY { get; set;}
 }
 
 
@@ -88,8 +91,19 @@ public static class WarbandTerrainGen
             RegionDetail  = (int)((k[5] >>  0) & 0x3),
             DisableGrass  = (int)((k[5] >>  2) & 0x3),
         };
+
+        const int MIN_FACES = 40;
+        const int MAX_FACES = 250;
+
         p.PolygonSize = p.RegionDetail + 2;
         p.RegionName  = RegionName(p.RegionType);
+
+        int facesX = Math.Clamp(p.SizeX / p.PolygonSize, MIN_FACES, MAX_FACES);
+        int facesY = Math.Clamp(p.SizeY / p.PolygonSize, MIN_FACES, MAX_FACES);
+
+        p.InGameSizeX = facesX * p.PolygonSize;
+        p.InGameSizeY = facesY * p.PolygonSize;
+
         return p;
     }
 

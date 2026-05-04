@@ -336,7 +336,7 @@ public partial class MainForm : Form
         try
         {
             TerrainParams p = WarbandTerrainGen.ParseCode(code);
-            txtMapDimensions.Text = $"{p.SizeX} x {p.SizeY} m";
+            txtMapDimensions.Text = $"{p.InGameSizeX} x {p.InGameSizeY} m";
         }
         catch
         {
