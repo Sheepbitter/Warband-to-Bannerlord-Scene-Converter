@@ -189,11 +189,11 @@ and replaced during injection.
   when updating old scenes that previously worked around Warband asset limitations.
 - More precise mappings reduce cleanup work after injection, but converted Warband scenes will still
   benefit from manual polish in the Bannerlord editor.
+- As of 12.4, there is a settings menu to toggle for , or . decimal systems (e.g 3.000 can be three or three thousand depending on your culture)
 
-## TODO
+## TO-DO
 
-- Test whether generated `_cropped.png` files are still needed. - Seems like they are. The terrain gets screwed up if the terrain code gets overwritted. Likely need to make it adjustable.
-- Consider Bannerlord-to-Warband conversion support in the future.
+- None as of 12.4
 
 ## Not Planned
 
