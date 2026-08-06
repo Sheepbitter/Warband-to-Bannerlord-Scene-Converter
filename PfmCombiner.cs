@@ -24,32 +24,99 @@ public static class PfmCombiner
         log($"Reading layer PFM: {Path.GetFileName(layerPfmPath)}...");
         (float[] layerData, int lw, int lh, float _) = ReadPfm(layerPfmPath);
 
-        if (bw != lw || bh != lh)
-            throw new InvalidOperationException(
-                $"Dimension mismatch: base terrain is {bw}x{bh} but layer_ground_elevation is {lw}x{lh}.\n" +
-                "Make sure the terrain code matches this scene.");
+        bool mismatch = bw != lw || bh != lh;
+        float[] combined;
 
-        float[] combined = new float[baseData.Length];
-        for (int i = 0; i < combined.Length; i++)
-            combined[i] = baseData[i] + layerData[i];
-
-        log("Writing heightmap.pfm...");
-        WritePfm(outputPfmPath, combined, bw, bh, baseScale);
-
-        log("Writing heightmap.png...");
-        WritePng(outputPngPath, combined, bw, bh);
-
-        float min = float.MaxValue, max = float.MinValue;
-        foreach (float v in combined)
+        if (mismatch)
         {
-            if (float.IsNaN(v) || float.IsInfinity(v)) continue;
-            if (v < min) min = v;
-            if (v > max) max = v;
+            int outW = Math.Max(bw, lw);
+            int outH = Math.Max(bh, lh);
+            log($"WARNING: Dimension mismatch — base terrain is {bw}x{bh} but layer_ground_elevation is {lw}x{lh}.");
+            log($"Overlaying at {outW}x{outH} (smaller shifted to bottom-left).");
+
+            combined = new float[outW * outH];
+
+            int baseOffX = outW - bw;
+            int baseOffY = outH - bh;
+            int layerOffX = outW - lw;
+            int layerOffY = outH - lh;
+
+            for (int y = 0; y < bh; y++)
+                Buffer.BlockCopy(baseData, y * bw * 4, combined, (baseOffY + y) * outW * 4 + baseOffX * 4, bw * 4);
+
+            for (int y = 0; y < lh; y++)
+                for (int x = 0; x < lw; x++)
+                    combined[(layerOffY + y) * outW + (layerOffX + x)] += layerData[y * lw + x];
+
+            int overlapW = Math.Min(bw, lw);
+            int overlapH = Math.Min(bh, lh);
+            int overlapOffX = Math.Max(baseOffX, layerOffX);
+            int overlapOffY = Math.Max(baseOffY, layerOffY);
+            float min = float.MaxValue, max = float.MinValue;
+            for (int y = 0; y < overlapH; y++)
+            {
+                int row = (overlapOffY + y) * outW + overlapOffX;
+                for (int x = 0; x < overlapW; x++)
+                {
+                    float v = combined[row + x];
+                    if (float.IsNaN(v) || float.IsInfinity(v)) continue;
+                    if (v < min) min = v;
+                    if (v > max) max = v;
+                }
+            }
+
+            log("Writing heightmap.pfm...");
+            WritePfm(outputPfmPath, combined, outW, outH, baseScale);
+
+            log("Writing heightmap.png...");
+            WritePng(outputPngPath, combined, outW, outH);
+
+            var result = new PfmResults
+            {
+                ZScale = max - min,
+                ZOffset = min,
+                DimensionMismatch = true,
+                BaseWidth = bw,
+                BaseHeight = bh,
+                LayerWidth = lw,
+                LayerHeight = lh
+            };
+            log($"Heightmap complete! Z range: {result.ZOffset:F3} – {result.ZOffset + result.ZScale:F3} m");
+            return result;
         }
 
-        var result = new PfmResults { ZScale = max - min, ZOffset = min };
-        log($"Heightmap complete! Z range: {result.ZOffset:F3} – {result.ZOffset + result.ZScale:F3} m");
-        return result;
+        {
+            combined = new float[baseData.Length];
+            for (int i = 0; i < combined.Length; i++)
+                combined[i] = baseData[i] + layerData[i];
+
+            log("Writing heightmap.pfm...");
+            WritePfm(outputPfmPath, combined, bw, bh, baseScale);
+
+            log("Writing heightmap.png...");
+            WritePng(outputPngPath, combined, bw, bh);
+
+            float mn = float.MaxValue, mx = float.MinValue;
+            foreach (float v in combined)
+            {
+                if (float.IsNaN(v) || float.IsInfinity(v)) continue;
+                if (v < mn) mn = v;
+                if (v > mx) mx = v;
+            }
+
+            var res = new PfmResults
+            {
+                ZScale = mx - mn,
+                ZOffset = mn,
+                DimensionMismatch = false,
+                BaseWidth = bw,
+                BaseHeight = bh,
+                LayerWidth = lw,
+                LayerHeight = lh
+            };
+            log($"Heightmap complete! Z range: {res.ZOffset:F3} – {res.ZOffset + res.ZScale:F3} m");
+            return res;
+        }
     }
 
 

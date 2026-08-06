@@ -2043,8 +2043,8 @@
   <map wb="spr_tavern_barrel" bl="bd_barrel_a">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="true" x="0" y="0" z="0.55" />
+    <scale x="1" y="1" z="0.9" />
+    <origin enabled="true" x="0" y="0" z="-0.5" />
   </map>
   <map wb="spr_timber_frame_house_b" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2222,7 +2222,7 @@
   </map>
   <map wb="spr_chair_trunk_a" bl="log_bench_beech_c_unsittable">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
+    <rot x="0" y="0" z="90" />
     <scale x="0.6" y="0.97" z="1.2" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
@@ -2292,7 +2292,7 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_viking_house_c" bl="editor_cube">
+  <map wb="spr_viking_house_c" bl="viking_house_c">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
@@ -2347,6 +2347,228 @@
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
   <map wb="spr_viking_house_d" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="aspen" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="beech" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="bushes02_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="bushes03_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="itm_mule" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="itm_swedish_adelsfanan_horse" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_arabian_ground_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_f_carriage01_t1" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_grave_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_harbour_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_siege_ladder_move_6m" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_small_wall_c" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_stairs_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_fence" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_finnishhouse01" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_finnishhouse04_b" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_finnishhouse05" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_framehouse01" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_framehouse02" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_framehouse03" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_framehouse04" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_framehouse05" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_framehouse06" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_house06_t1" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_manor2_main" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_manor2_tower" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_t_townchurch" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_wheelbarrow" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_winery_wine_cart_small_empty" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="tree_16" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="tree_3" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="tree_4" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="tree_5" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="tree_6" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="tree_7" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="tree_9" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="wheat" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />

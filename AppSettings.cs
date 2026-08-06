@@ -12,6 +12,7 @@ public class AppSettings
     public string LastTerrainFolder { get; set; } = "";
     public string LastMissionJsonPath { get; set; } = "";
     public string LastSceneXscenePath { get; set; } = "";
+    public bool UseCommaDecimal { get; set; } = false;
 
     public static string SettingsPath
     {

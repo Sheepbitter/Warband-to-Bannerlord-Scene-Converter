@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,11 +33,33 @@ public class MappingManager
 {
     public Dictionary<string, AssetMapping> Mappings = new Dictionary<string, AssetMapping>();
     private string _path;
+    private bool _useComma;
 
-    public MappingManager(string path)
+    public MappingManager(string path, bool useComma = false)
     {
         _path = path;
+        _useComma = useComma;
         if (File.Exists(_path)) Load();
+    }
+
+    public void EnsureDecimalSeparator(bool useComma)
+    {
+        _useComma = useComma;
+        if (File.Exists(_path) && UsesCommaInXml() != useComma) Save();
+    }
+
+    private bool UsesCommaInXml()
+    {
+        try
+        {
+            XDocument doc = XDocument.Load(_path);
+            return doc.Root.Elements("map").Any(m =>
+                new[] { "pos", "rot", "scale", "origin" }
+                    .Select(sub => m.Element(sub)?.Attributes() ?? Enumerable.Empty<XAttribute>())
+                    .SelectMany(a => a)
+                    .Any(a => a.Value.Contains(',')));
+        }
+        catch { return false; }
     }
 
     public void Load()
@@ -68,22 +91,42 @@ public class MappingManager
         catch { }
     }
 
-    private double GetVal(XElement el, string sub, string attr, double def = 0) =>
-        (double?)el.Element(sub)?.Attribute(attr) ?? def;
+    private double GetVal(XElement el, string sub, string attr, double def = 0)
+    {
+        string raw = el.Element(sub)?.Attribute(attr)?.Value;
+        if (raw == null) return def;
+        if (double.TryParse(raw, NumberStyles.Float, CultureInfo.InvariantCulture, out double dot) &&
+            !raw.Contains(','))
+            return dot;
+        return double.TryParse(raw, NumberStyles.Float, CommaCulture, out double comma) ? comma : def;
+    }
+
+    private static readonly CultureInfo CommaCulture = BuildCommaCulture();
+
+    private static CultureInfo BuildCommaCulture()
+    {
+        var culture = (CultureInfo)CultureInfo.InvariantCulture.Clone();
+        culture.NumberFormat.NumberDecimalSeparator = ",";
+        culture.NumberFormat.NumberGroupSeparator = ".";
+        return culture;
+    }
+
+    private string FormatVal(double v) =>
+        v.ToString("R", _useComma ? CommaCulture : CultureInfo.InvariantCulture);
 
     public void Save()
     {
         var root = new XElement("mappings",
             Mappings.Values.Select(m => new XElement("map",
                 new XAttribute("wb", m.WB), new XAttribute("bl", m.BL),
-                new XElement("pos", new XAttribute("x", m.OffX), new XAttribute("y", m.OffY), new XAttribute("z", m.OffZ)),
-                new XElement("rot", new XAttribute("x", m.RotX), new XAttribute("y", m.RotY), new XAttribute("z", m.RotZ)),
-                new XElement("scale", new XAttribute("x", m.ScX), new XAttribute("y", m.ScY), new XAttribute("z", m.ScZ)),
+                new XElement("pos", new XAttribute("x", FormatVal(m.OffX)), new XAttribute("y", FormatVal(m.OffY)), new XAttribute("z", FormatVal(m.OffZ))),
+                new XElement("rot", new XAttribute("x", FormatVal(m.RotX)), new XAttribute("y", FormatVal(m.RotY)), new XAttribute("z", FormatVal(m.RotZ))),
+                new XElement("scale", new XAttribute("x", FormatVal(m.ScX)), new XAttribute("y", FormatVal(m.ScY)), new XAttribute("z", FormatVal(m.ScZ))),
                 new XElement("origin",
                     new XAttribute("enabled", m.UseOrigin),
-                    new XAttribute("x", m.OriginX),
-                    new XAttribute("y", m.OriginY),
-                    new XAttribute("z", m.OriginZ))
+                    new XAttribute("x", FormatVal(m.OriginX)),
+                    new XAttribute("y", FormatVal(m.OriginY)),
+                    new XAttribute("z", FormatVal(m.OriginZ)))
             ))
         );
         new XDocument(root).Save(_path);

@@ -12,6 +12,11 @@ public class PfmResults
 {
     public float ZScale { get; set; }
     public float ZOffset { get; set; }
+    public bool DimensionMismatch { get; set; }
+    public int BaseWidth { get; set; }
+    public int BaseHeight { get; set; }
+    public int LayerWidth { get; set; }
+    public int LayerHeight { get; set; }
 }
 
 public static class TerrainProcessor

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
@@ -19,10 +20,21 @@ public class InjectionResult
 public class SceneInjector
 {
     private readonly MappingManager _mapper;
+    private readonly CultureInfo _outputCulture;
 
-    public SceneInjector(MappingManager mapper)
+    private static readonly CultureInfo _commaCulture = BuildCommaCulture();
+
+    private static CultureInfo BuildCommaCulture()
+    {
+        var culture = (CultureInfo)CultureInfo.InvariantCulture.Clone();
+        culture.NumberFormat.NumberDecimalSeparator = ",";
+        return culture;
+    }
+
+    public SceneInjector(MappingManager mapper, bool useComma)
     {
         _mapper = mapper;
+        _outputCulture = useComma ? _commaCulture : CultureInfo.InvariantCulture;
     }
 
     public InjectionResult Inject(string jsonPath, string xscenePath)
@@ -79,7 +91,7 @@ public class SceneInjector
         rY += m.RotY * Math.PI / 180.0;
         rZ += m.RotZ * Math.PI / 180.0;
 
-        string scaleStr = $"{obj.scale[0] * m.ScX:F3}, {obj.scale[1] * m.ScY:F3}, {obj.scale[2] * m.ScZ:F3}";
+        string scaleStr = $"{F3(obj.scale[0] * m.ScX)}, {F3(obj.scale[1] * m.ScY)}, {F3(obj.scale[2] * m.ScZ)}";
 
         string entryName = $"{index}_WB_{m.WB}_BL_{m.BL}";
 
@@ -89,7 +101,7 @@ public class SceneInjector
                 new XAttribute("prefab", m.BL),
                 new XAttribute("_index_", index.ToString()),
                 new XElement("transform",
-                    new XAttribute("position", $"{m.OriginX:F3}, {m.OriginY:F3}, {m.OriginZ:F3}"),
+                    new XAttribute("position", $"{F3(m.OriginX)}, {F3(m.OriginY)}, {F3(m.OriginZ)}"),
                     new XAttribute("rotation_euler", "0.000, 0.000, 0.000"),
                     new XAttribute("scale", scaleStr)
                 )
@@ -99,8 +111,8 @@ public class SceneInjector
                 new XAttribute("name", entryName),
                 new XAttribute("old_prefab_name", ""),
                 new XElement("transform",
-                    new XAttribute("position", $"{nX:F3}, {nY:F3}, {nZ:F3}"),
-                    new XAttribute("rotation_euler", $"{rX:F3}, {rY:F3}, {rZ:F3}")
+                    new XAttribute("position", $"{F3(nX)}, {F3(nY)}, {F3(nZ)}"),
+                    new XAttribute("rotation_euler", $"{F3(rX)}, {F3(rY)}, {F3(rZ)}")
                 ),
                 new XElement("children", childEntity)
             );
@@ -111,11 +123,13 @@ public class SceneInjector
                 new XAttribute("prefab", m.BL),
                 new XAttribute("name", entryName),
                 new XElement("transform",
-                    new XAttribute("position", $"{nX:F3}, {nY:F3}, {nZ:F3}"),
-                    new XAttribute("rotation_euler", $"{rX:F3}, {rY:F3}, {rZ:F3}"),
+                    new XAttribute("position", $"{F3(nX)}, {F3(nY)}, {F3(nZ)}"),
+                    new XAttribute("rotation_euler", $"{F3(rX)}, {F3(rY)}, {F3(rZ)}"),
                     new XAttribute("scale", scaleStr)
                 )
             );
         }
     }
+
+    private string F3(double v) => v.ToString("F3", _outputCulture);
 }
