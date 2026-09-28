@@ -1,0 +1,41 @@
+<prefabs>
+	<game_entity name="stairs_example2" old_prefab_name="">
+		<transform position="107.609, 134.517, 16.251" rotation_euler="0.000, 0.000, 0.000" scale="0.310, 0.310, 0.350"/>
+		<physics shape="bo_wooden_platform_2_a"/>
+		<components>
+			<meta_mesh_component name="wooden_platform_2_a"/>
+		</components>
+		<children>
+			<game_entity name="wooden_platform_2_stairs_a" old_prefab_name="">
+				<transform position="-11.624, -0.051, 5.042" rotation_euler="0.000, 0.000, 1.571" scale="2.222, 2.222, 2.222"/>
+				<physics shape="bo_wooden_platform_2_stairs_a">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_stairs_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_a" old_prefab_name="">
+				<transform position="-16.596, -0.113, 9.764"/>
+				<physics shape="bo_wooden_platform_2_a"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_stairs_a" old_prefab_name="">
+				<transform position="-5.852, -0.056, 0.181" rotation_euler="0.000, 0.000, 1.571" scale="2.222, 2.222, 2.222"/>
+				<physics shape="bo_wooden_platform_2_stairs_a">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_stairs_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

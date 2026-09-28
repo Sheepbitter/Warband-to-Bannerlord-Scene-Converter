@@ -90,17 +90,17 @@
     <scale x="0.58" y="0.85" z="0.7" />
     <origin enabled="true" x="-0.1" y="-0.45" z="0.7" />
   </map>
-  <map wb="spr_b_roof0_t1" bl="editor_cube">
+  <map wb="spr_b_roof0_t1" bl="roman_roof_0">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <origin enabled="false" x="-0" y="-0" z="0" />
   </map>
-  <map wb="spr_b_wall0_t1" bl="editor_cube">
+  <map wb="spr_b_wall0_t1" bl="empire_hippodrome_enterance_wall_b2">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0" y="-0" z="0" />
+    <scale x="1.54" y="0.74" z="0.72" />
+    <origin enabled="true" x="0" y="0" z="1.36" />
   </map>
   <map wb="spr_barrel" bl="bd_barrel_a">
     <pos x="0" y="0" z="0" />
@@ -140,9 +140,9 @@
   </map>
   <map wb="spr_barrier_box" bl="barrier_cube">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-1.325" y="177.889" z="-0.321" />
+    <scale x="0.986" y="1.011" z="1.012" />
+    <origin enabled="false" x="0.017" y="-0.008" z="-0.495" />
   </map>
   <map wb="spr_barrier_capsule" bl="barrier_cylinder">
     <pos x="0" y="0" z="0" />
@@ -150,11 +150,11 @@
     <scale x="0.5" y="0.5" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_barrier_cone" bl="editor_cube">
+  <map wb="spr_barrier_cone" bl="barrier_cone">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <origin enabled="false" x="-0" y="-0" z="0" />
   </map>
   <map wb="spr_basket_a" bl="bd_basket_aserai_e">
     <pos x="0" y="0" z="0" />
@@ -168,10 +168,10 @@
     <scale x="0.85" y="0.85" z="0.85" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_brewery_bucket_platform_a" bl="module_european_floor_d">
+  <map wb="spr_brewery_bucket_platform_a" bl="brewery_bucket_platform_a">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
-    <scale x="1" y="1.875" z="8.5" />
+    <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
   <map wb="spr_broom" bl="bd_broom_a">
@@ -408,17 +408,17 @@
     <scale x="1" y="0.6" z="1" />
     <origin enabled="true" x="0" y="0" z="0.36" />
   </map>
-  <map wb="spr_invasion_door_left" bl="editor_cube">
+  <map wb="spr_invasion_door_left" bl="vlandia_keep_door_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.0724704" y="0.880148" z="179.62" />
+    <scale x="1.03849" y="1.34001" z="0.991123" />
+    <origin enabled="false" x="1.43299" y="-0.092057" z="0.00670171" />
   </map>
-  <map wb="spr_invasion_door_right" bl="editor_cube">
+  <map wb="spr_invasion_door_right" bl="vlandia_keep_door_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.0724704" y="0.880148" z="179.62" />
+    <scale x="1.03849" y="1.34001" z="0.991123" />
+    <origin enabled="false" x="1.43299" y="-0.092057" z="0.00670171" />
   </map>
   <map wb="spr_invasion_healing_trough" bl="bd_trough_a">
     <pos x="0" y="0" z="0" />
@@ -444,7 +444,7 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_isen_crane" bl="editor_cube">
+  <map wb="spr_isen_crane" bl="isen_crane">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
@@ -492,17 +492,17 @@
     <scale x="0.7" y="0.7" z="0.7" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_osgiliath_broken_bridge_beams" bl="editor_cube">
+  <map wb="spr_osgiliath_broken_bridge_beams" bl="osgiliath_broken_bridge_beams">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <origin enabled="false" x="-0" y="-0" z="0" />
   </map>
-  <map wb="spr_portcullis" bl="editor_cube">
+  <map wb="spr_portcullis" bl="european_castle_gatehouse_portcullis_a">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <scale x="0.66" y="0.68" z="0.53" />
+    <origin enabled="true" x="-0" y="-0" z="-2.41" />
   </map>
   <map wb="spr_prop_gondor_corner" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -558,17 +558,17 @@
     <scale x="0.6" y="0.6" z="0.6" />
     <origin enabled="true" x="0" y="0" z="-0.3" />
   </map>
-  <map wb="spr_ship_b" bl="editor_cube">
+  <map wb="spr_ship_b" bl="ship_a">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <scale x="1.3" y="2.1" z="1.5" />
+    <origin enabled="false" x="-0" y="-0" z="0" />
   </map>
-  <map wb="spr_ship_c_sail_off" bl="editor_cube">
+  <map wb="spr_ship_c_sail_off" bl="ship_c_sail_off">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
+    <rot x="-0" y="-0" z="0" />
     <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <origin enabled="false" x="-0.04" y="-0.114" z="-0.072" />
   </map>
   <map wb="spr_siege_large_shield_a" bl="siege_barricade_a">
     <pos x="0" y="0" z="0" />
@@ -678,10 +678,10 @@
     <scale x="1" y="1" z="1.8" />
     <origin enabled="true" x="0" y="0" z="-1.35" />
   </map>
-  <map wb="spr_winch_b" bl="editor_cube">
+  <map wb="spr_winch_b" bl="porticullis_winch">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
+    <scale x="0.45" y="0.8" z="0.8" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
   <map wb="spr_winery_barrel_shelf" bl="bd_barrel_c">
@@ -726,11 +726,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="itm_apples" bl="editor_cube">
+  <map wb="itm_apples" bl="foods_basket_apple">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="10.9468" y="5.32118" z="109.163" />
+    <scale x="1.50758" y="1.47733" z="2.71653" />
+    <origin enabled="false" x="0.0440885" y="0.0547617" z="-0.036291" />
   </map>
   <map wb="itm_bolt_empire_simple" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -762,11 +762,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="itm_dried_meat" bl="editor_cube">
+  <map wb="itm_dried_meat" bl="merchandise_meat">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="4.08602" y="2.88764" z="-90.8843" />
+    <scale x="0.80027" y="1.04578" z="0.869133" />
+    <origin enabled="false" x="-0.0137203" y="-0.0106612" z="-0.104841" />
   </map>
   <map wb="itm_harad_short_spear" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -780,11 +780,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="itm_linen" bl="editor_cube">
+  <map wb="itm_linen" bl="carry_linen">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="2.18482" y="86.1362" z="-179.683" />
+    <scale x="2.71526" y="1.98894" z="7.33404" />
+    <origin enabled="false" x="0.020979" y="-0.021712" z="-0.320286" />
   </map>
   <map wb="itm_lui_cimeterre" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -834,17 +834,17 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="itm_spear" bl="editor_cube">
+  <map wb="itm_spear" bl="spear_handle_27">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-89.9329" y="99.0705" z="-139.926" />
+    <scale x="0.908243" y="1.02519" z="0.743082" />
+    <origin enabled="false" x="0.00127236" y="-0.00203699" z="-0.424468" />
   </map>
-  <map wb="itm_velvet" bl="editor_cube">
+  <map wb="itm_velvet" bl="merchandise_velvet">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0376351" y="177.728" z="179.618" />
+    <scale x="1.24283" y="1.58272" z="1.45875" />
+    <origin enabled="false" x="0.00670868" y="-0.0110876" z="-0.0712088" />
   </map>
   <map wb="itm_wicker2" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -852,17 +852,17 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_ai_limiter_16m" bl="editor_cube">
+  <map wb="spr_ai_limiter_16m" bl="_barrier_16x04m">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.308635" y="-1.05562" z="178.343" />
+    <scale x="1.02174" y="0.05" z="1.43615" />
+    <origin enabled="false" x="0.197373" y="-0.00169109" z="-1.82882" />
   </map>
-  <map wb="spr_ai_limiter_2m" bl="editor_cube">
+  <map wb="spr_ai_limiter_2m" bl="_barrier_02x04m">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="3.60229" y="7.34357" z="24.1064" />
+    <scale x="1.01553" y="0.05" z="0.644432" />
+    <origin enabled="false" x="-0.0122764" y="-0.00165256" z="-1.88822" />
   </map>
   <map wb="spr_ai_limiter_4m" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -870,23 +870,23 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_ai_limiter_8m" bl="editor_cube">
+  <map wb="spr_ai_limiter_8m" bl="_barrier_08x04m">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-12.1585" y="0.264849" z="-175.245" />
+    <scale x="0.976938" y="0.05" z="0.95534" />
+    <origin enabled="false" x="0.190499" y="-0.00163601" z="-1.71585" />
   </map>
-  <map wb="spr_apple_a" bl="editor_cube">
+  <map wb="spr_apple_a" bl="foods_apple_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-4.22551" y="-1.2113" z="-160.49" />
+    <scale x="0.6975" y="0.708294" z="0.705997" />
+    <origin enabled="false" x="0.00144513" y="-0.00358614" z="-0.0609745" />
   </map>
-  <map wb="spr_archery_target_with_hit_a" bl="editor_cube">
+  <map wb="spr_archery_target_with_hit_a" bl="archery_target">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="2.56534" y="3.61655" z="-0.458564" />
+    <scale x="1.05882" y="0.774272" z="0.875578" />
+    <origin enabled="false" x="-26.6509" y="-28.1869" z="-1.35221" />
   </map>
   <map wb="spr_arena_barrier_a" bl="castle_plank_wall_c">
     <pos x="0" y="0" z="0" />
@@ -900,11 +900,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_arena_palisade_a" bl="editor_cube">
+  <map wb="spr_arena_palisade_a" bl="bd_aserai_screen_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0269405" y="-91.0417" z="89.9254" />
+    <scale x="17.0574" y="13.5826" z="12.3555" />
+    <origin enabled="false" x="0.0341724" y="-0.488523" z="-1.5357" />
   </map>
   <map wb="spr_arena_sign" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -912,17 +912,17 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_arena_spectator_a" bl="editor_cube">
+  <map wb="spr_arena_spectator_a" bl="adam2">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0988159" y="-0.0334223" z="1.27323" />
+    <scale x="1.02189" y="1.02237" z="0.988607" />
+    <origin enabled="false" x="-0.00591639" y="0.0104446" z="-1.21142" />
   </map>
-  <map wb="spr_arena_spectator_b" bl="editor_cube">
+  <map wb="spr_arena_spectator_b" bl="adam2">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.651325" y="-0.146009" z="3.6594" />
+    <scale x="0.921063" y="1.25682" z="0.990761" />
+    <origin enabled="false" x="-0.00928279" y="0.0231774" z="-1.1723" />
   </map>
   <map wb="spr_arena_spectator_c" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -942,11 +942,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_awning_c" bl="editor_cube">
+  <map wb="spr_awning_c" bl="european_city_awning_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="7.81592" y="-1.1273" z="1.92113" />
+    <scale x="0.70353" y="0.890326" z="0.868254" />
+    <origin enabled="false" x="0.0315428" y="-0.135892" z="-0.858558" />
   </map>
   <map wb="spr_band_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -966,53 +966,53 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_bench_tavern" bl="editor_cube">
+  <map wb="spr_bench_tavern" bl="bd_chair_d_tavern_unsittable">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-3.10917" y="0.210565" z="-135.853" />
+    <scale x="0.848386" y="0.889512" z="1.36807" />
+    <origin enabled="false" x="-0.0686153" y="-0.102543" z="-0.30185" />
   </map>
-  <map wb="spr_bowl" bl="editor_cube">
+  <map wb="spr_bowl" bl="empire_lord_pot_j">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.271495" y="-0.602041" z="-93.5705" />
+    <scale x="0.923383" y="0.951682" z="0.996611" />
+    <origin enabled="false" x="0.0038311" y="0.000654304" z="-0.0187291" />
   </map>
-  <map wb="spr_bowl_wood" bl="editor_cube">
+  <map wb="spr_bowl_wood" bl="bowl_wood">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-1.21846" y="0.621965" z="125.505" />
+    <scale x="1.00613" y="0.978189" z="1.01307" />
+    <origin enabled="false" x="-0.0187936" y="-0.0293946" z="0.000204301" />
   </map>
-  <map wb="spr_box_a_dynamic" bl="editor_cube">
+  <map wb="spr_box_a_dynamic" bl="box_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="3.47114" y="-0.0341339" z="0.647428" />
+    <scale x="0.991797" y="1.02321" z="1.01079" />
+    <origin enabled="false" x="0.00527169" y="-0.0173654" z="-0.0138372" />
   </map>
-  <map wb="spr_bread_a" bl="editor_cube">
+  <map wb="spr_bread_a" bl="kitchen_food_bread_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.701579" y="-0.00111675" z="-121.694" />
+    <scale x="0.582848" y="0.586508" z="0.52227" />
+    <origin enabled="false" x="-0.00506649" y="0.0125486" z="-0.0160567" />
   </map>
-  <map wb="spr_bread_b" bl="editor_cube">
+  <map wb="spr_bread_b" bl="merchandise_bread">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0850893" y="2.22466" z="139.72" />
+    <scale x="0.577839" y="0.583292" z="0.529236" />
+    <origin enabled="false" x="-0.00046044" y="-5.82611E-06" z="-0.0186461" />
   </map>
-  <map wb="spr_bread_slice_a" bl="editor_cube">
+  <map wb="spr_bread_slice_a" bl="empire_l2_debris_0">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="22.7414" y="-179.184" z="-74.3897" />
+    <scale x="0.230923" y="0.241022" z="0.287273" />
+    <origin enabled="false" x="-0.271077" y="-0.175638" z="-0.336497" />
   </map>
-  <map wb="spr_brewery_big_bucket" bl="editor_cube">
+  <map wb="spr_brewery_big_bucket" bl="brewery_big_bucket">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-1.01545" y="-0.177186" z="-46.3095" />
+    <scale x="0.985879" y="0.987868" z="0.99036" />
+    <origin enabled="false" x="0.0314518" y="0.0314899" z="-0.0136664" />
   </map>
   <map wb="spr_brewery_bucket_platform_b" bl="brewery_bucket_platform_b">
     <pos x="0" y="0" z="0" />
@@ -1020,29 +1020,29 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_bucket_b" bl="editor_cube">
+  <map wb="spr_bucket_b" bl="bucket_empty">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.920833" y="-2.53367" z="-86.6025" />
+    <scale x="1.2331" y="1.28442" z="0.82838" />
+    <origin enabled="false" x="0.00719991" y="0.123903" z="0.374109" />
   </map>
-  <map wb="spr_cabbage" bl="editor_cube">
+  <map wb="spr_cabbage" bl="foods_cabbage_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.19987" y="176.519" z="-116.2" />
+    <scale x="0.809567" y="0.883953" z="0.720177" />
+    <origin enabled="false" x="0.0013729" y="0.00122706" z="-0.15283" />
   </map>
-  <map wb="spr_cabbage_b" bl="editor_cube">
+  <map wb="spr_cabbage_b" bl="plant_cabbage">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-2.20856" y="-2.71083" z="-12.6572" />
+    <scale x="0.669645" y="0.684998" z="1.02126" />
+    <origin enabled="false" x="-0.00245517" y="-0.00605172" z="0.00251212" />
   </map>
-  <map wb="spr_candle_b" bl="editor_cube">
+  <map wb="spr_candle_b" bl="torch_candle_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.60404" y="-108.481" z="-76.6605" />
+    <scale x="1.50108" y="1.74937" z="0.900478" />
+    <origin enabled="false" x="-0.00756948" y="0.0452641" z="-0.123616" />
   </map>
   <map wb="spr_carpet_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1050,35 +1050,35 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_carpet_b" bl="editor_cube">
+  <map wb="spr_carpet_b" bl="wall_carpet_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-2.10313" y="-90.9844" z="4.73901" />
+    <scale x="1.09752" y="2.42382" z="1.03443" />
+    <origin enabled="false" x="0.71487" y="0.0414875" z="1.26217" />
   </map>
-  <map wb="spr_carpet_c" bl="editor_cube">
+  <map wb="spr_carpet_c" bl="wall_carpet_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-1.01826" y="88.2153" z="-4.92112" />
+    <scale x="1.07478" y="2.52144" z="0.998158" />
+    <origin enabled="false" x="-0.712361" y="0.0456204" z="1.30023" />
   </map>
-  <map wb="spr_carpet_d" bl="editor_cube">
+  <map wb="spr_carpet_d" bl="mat_carpet_d">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.197373" y="-179.841" z="0.223519" />
+    <scale x="1.43642" y="1.59353" z="0.294116" />
+    <origin enabled="false" x="-0.166946" y="-0.0201067" z="-0.0919646" />
   </map>
-  <map wb="spr_carpet_e" bl="editor_cube">
+  <map wb="spr_carpet_e" bl="carpet_empire_e">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0271997" y="-0.0075427" z="89.8429" />
+    <scale x="1.54032" y="1.525" z="0.619986" />
+    <origin enabled="false" x="0.00912033" y="0.026091" z="0.0283791" />
   </map>
-  <map wb="spr_carpet_f" bl="editor_cube">
+  <map wb="spr_carpet_f" bl="mat_carpet_f">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0156847" y="0.0193062" z="-177.283" />
+    <scale x="1.58029" y="1.32931" z="0.432024" />
+    <origin enabled="false" x="-0.0646675" y="0.0383228" z="0.0307536" />
   </map>
   <map wb="spr_carpet_with_pillows_a" bl="carpet_with_pillows_a">
     <pos x="0" y="0" z="0" />
@@ -1104,23 +1104,23 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_chain_10m" bl="editor_cube">
+  <map wb="spr_chain_10m" bl="spear_new_f_1-9m">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0673792" y="-179.982" z="-166.121" />
+    <scale x="2.83334" y="2.75298" z="5.95106" />
+    <origin enabled="false" x="0.00277072" y="-1.25677E-05" z="-0.132359" />
   </map>
-  <map wb="spr_chain_1m" bl="editor_cube">
+  <map wb="spr_chain_1m" bl="bd_chains_sturgia">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-1.11859" y="178.734" z="-162.251" />
+    <scale x="1.05171" y="0.99444" z="1.08609" />
+    <origin enabled="false" x="0.00758671" y="0.0027879" z="0.517758" />
   </map>
-  <map wb="spr_chain_5m" bl="editor_cube">
+  <map wb="spr_chain_5m" bl="bd_cloth_stick_5m">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="32.4894" y="90.0579" z="-0.0993913" />
+    <scale x="1.01383" y="1.52917" z="1.60106" />
+    <origin enabled="false" x="0.245093" y="-0.00212616" z="-0.0038793" />
   </map>
   <map wb="spr_chair_trestle" bl="vlandia_bench_a_unsittable">
     <pos x="0" y="0" z="0" />
@@ -1134,23 +1134,23 @@
     <scale x="1" y="1" z="1.18" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_cheese_a" bl="editor_cube">
+  <map wb="spr_cheese_a" bl="merchandise_cheese_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.155722" y="0.136173" z="-127.165" />
+    <scale x="0.979004" y="0.953671" z="1.13995" />
+    <origin enabled="false" x="-0.00107402" y="0.00194241" z="-0.00181645" />
   </map>
-  <map wb="spr_cheese_b" bl="editor_cube">
+  <map wb="spr_cheese_b" bl="merchandise_cheese_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-2.82274" y="0.620991" z="8.55975" />
+    <scale x="0.966333" y="1.0632" z="1.18992" />
+    <origin enabled="false" x="-0.00467037" y="-0.0207244" z="0.00352959" />
   </map>
-  <map wb="spr_cheese_slice_a" bl="editor_cube">
+  <map wb="spr_cheese_slice_a" bl="merchandise_cheese_b_slice">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0464883" y="-90.2722" z="43.7397" />
+    <scale x="0.971012" y="0.829005" z="0.941532" />
+    <origin enabled="false" x="0.00381318" y="-0.133005" z="-0.0394132" />
   </map>
   <map wb="spr_dale_esgaroth_stilts" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1212,11 +1212,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_earth_stairs_b" bl="editor_cube">
+  <map wb="spr_earth_stairs_b" bl="european_castle_stairs_a_l1">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.0062" y="14.8404" z="179.23" />
+    <scale x="1.55602" y="1.55219" z="1.38564" />
+    <origin enabled="false" x="-10.8876" y="-0.13826" z="-1.11082" />
   </map>
   <map wb="spr_earth_wall_a" bl="european_castle_wall_a_l1">
     <pos x="0" y="0" z="0" />
@@ -1230,17 +1230,17 @@
     <scale x="1.11" y="1.2" z="1.07" />
     <origin enabled="true" x="-0.67" y="1.79" z="0" />
   </map>
-  <map wb="spr_farm_house_b" bl="editor_cube">
+  <map wb="spr_farm_house_b" bl="sturgia_village_house_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.253762" y="-1.99966" z="92.7627" />
+    <scale x="0.853138" y="0.773847" z="0.924613" />
+    <origin enabled="false" x="0.211423" y="0.0601881" z="0.143056" />
   </map>
-  <map wb="spr_garlic" bl="editor_cube">
+  <map wb="spr_garlic" bl="kitchen_garlic_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.872561" y="157.774" z="179.045" />
+    <scale x="4.1127" y="1.17951" z="1.12419" />
+    <origin enabled="false" x="0.029055" y="0.0282935" z="0.590585" />
   </map>
   <map wb="spr_grapes_plane" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1248,35 +1248,35 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_hook_a" bl="editor_cube">
+  <map wb="spr_hook_a" bl="kitchen_hook">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.107874" y="-0.337227" z="-89.2703" />
+    <scale x="0.929416" y="0.501304" z="0.527405" />
+    <origin enabled="false" x="-0.00700223" y="0.0227869" z="0.356172" />
   </map>
-  <map wb="spr_invasion_bed_c" bl="editor_cube">
+  <map wb="spr_invasion_bed_c" bl="bed_tavern_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.275805" y="-0.806362" z="-178.262" />
+    <scale x="0.600928" y="0.560269" z="0.993364" />
+    <origin enabled="false" x="-0.195813" y="-0.00593678" z="0.0341936" />
   </map>
-  <map wb="spr_invasion_bed_d" bl="editor_cube">
+  <map wb="spr_invasion_bed_d" bl="bed_straw_f">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.334234" y="0.622926" z="7.36525" />
+    <scale x="1.78041" y="1.32597" z="1.76387" />
+    <origin enabled="false" x="-0.466662" y="0.0985879" z="-0.0304742" />
   </map>
-  <map wb="spr_invasion_castle_f_door_b_left" bl="editor_cube">
+  <map wb="spr_invasion_castle_f_door_b_left" bl="empire_grandbazaar_shop_door_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.0910138" y="-0.166073" z="88.7805" />
+    <scale x="1.9126" y="1.09671" z="1.036" />
+    <origin enabled="false" x="-0.17727" y="-1.6111" z="-0.116699" />
   </map>
-  <map wb="spr_invasion_castle_f_door_b_right" bl="editor_cube">
+  <map wb="spr_invasion_castle_f_door_b_right" bl="empire_grandbazaar_shop_door_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.0910138" y="-0.166073" z="88.7805" />
+    <scale x="1.9126" y="1.09671" z="1.036" />
+    <origin enabled="false" x="-0.17727" y="-1.6111" z="-0.116699" />
   </map>
   <map wb="spr_invasion_fog_box" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1284,29 +1284,29 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_invasion_wardrobe_a" bl="editor_cube">
+  <map wb="spr_invasion_wardrobe_a" bl="bd_wardrobe_khuzait_lord_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.546431" y="1.06737" z="-1.59797" />
+    <scale x="1.11267" y="0.663645" z="0.864063" />
+    <origin enabled="false" x="0.0181941" y="-0.0209043" z="-0.167839" />
   </map>
-  <map wb="spr_knife_eating" bl="editor_cube">
+  <map wb="spr_knife_eating" bl="throwing_knife2">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.66118" y="89.8706" z="88.6747" />
+    <scale x="0.685862" y="0.861239" z="0.617716" />
+    <origin enabled="false" x="-0.0104572" y="0.00383191" z="-0.0879437" />
   </map>
-  <map wb="spr_ladder" bl="editor_cube">
+  <map wb="spr_ladder" bl="bd_ladder_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-4.14776" y="-179.645" z="-1.77815" />
+    <scale x="0.815978" y="0.770644" z="0.728291" />
+    <origin enabled="false" x="0.0441167" y="0.284219" z="-2.53488" />
   </map>
-  <map wb="spr_ladle" bl="editor_cube">
+  <map wb="spr_ladle" bl="bd_soup_ladle">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="3.97532" y="-2.97812" z="89.1179" />
+    <scale x="0.524612" y="0.975422" z="0.651732" />
+    <origin enabled="false" x="-0.00480423" y="-0.193579" z="-0.0132767" />
   </map>
   <map wb="spr_light_red" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1320,29 +1320,29 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_marrow_a" bl="editor_cube">
+  <map wb="spr_marrow_a" bl="foods_pumpkin_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.9902" y="3.6572" z="-82.9981" />
+    <scale x="0.74585" y="0.746279" z="0.759664" />
+    <origin enabled="false" x="0.000544961" y="-0.00642678" z="-0.162064" />
   </map>
-  <map wb="spr_marrow_b" bl="editor_cube">
+  <map wb="spr_marrow_b" bl="foods_melon_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-16.0694" y="-92.6003" z="-100.313" />
+    <scale x="0.670547" y="0.747664" z="0.724188" />
+    <origin enabled="false" x="0.0035904" y="0.00670658" z="-0.160925" />
   </map>
-  <map wb="spr_mat_a" bl="editor_cube">
+  <map wb="spr_mat_a" bl="mat_carpet_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.0460927" y="-179.96" z="1.53355" />
+    <scale x="0.562311" y="0.534399" z="0.279705" />
+    <origin enabled="false" x="-0.188178" y="0.0251666" z="-0.0641547" />
   </map>
-  <map wb="spr_mat_b" bl="editor_cube">
+  <map wb="spr_mat_b" bl="mat_fur_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.222161" y="0.0891259" z="-74.8368" />
+    <scale x="0.740739" y="0.675009" z="0.631865" />
+    <origin enabled="false" x="0.261651" y="-0.322197" z="-0.00701075" />
   </map>
   <map wb="spr_mat_c" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1350,11 +1350,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_mill_flour_sack_desk_a" bl="editor_cube">
+  <map wb="spr_mill_flour_sack_desk_a" bl="mill_flour_sack_desk_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.248036" y="-0.561224" z="-0.398125" />
+    <scale x="0.9973" y="1.01932" z="1.0248" />
+    <origin enabled="false" x="0.00329033" y="0.00219785" z="-0.0198441" />
   </map>
   <map wb="spr_olive_plane" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1368,11 +1368,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_open_stable_b" bl="editor_cube">
+  <map wb="spr_open_stable_b" bl="bd_stand_b_dark">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.512122" y="-0.327498" z="-0.0406648" />
+    <scale x="1.03914" y="0.777926" z="1.01809" />
+    <origin enabled="false" x="0.00024291" y="0.203638" z="-0.939529" />
   </map>
   <map wb="spr_orc_cage" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1380,41 +1380,41 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_pillow_a" bl="editor_cube">
+  <map wb="spr_pillow_a" bl="bd_pillow_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.107001" y="-0.106162" z="-179.01" />
+    <scale x="1.26758" y="1.32084" z="1.29042" />
+    <origin enabled="false" x="-0.0164993" y="-0.0140594" z="0.0872309" />
   </map>
-  <map wb="spr_pillow_b" bl="editor_cube">
+  <map wb="spr_pillow_b" bl="bd_pillow_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.752245" y="179.648" z="0.580923" />
+    <scale x="1.33293" y="1.49494" z="1.38618" />
+    <origin enabled="false" x="7.2527E-05" y="0.011089" z="-0.2971" />
   </map>
-  <map wb="spr_plate_a" bl="editor_cube">
+  <map wb="spr_plate_a" bl="kitchen_plate_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.154346" y="0.0487654" z="-72.3609" />
+    <scale x="0.547431" y="0.543303" z="0.969193" />
+    <origin enabled="false" x="0.0108074" y="0.00171702" z="-0.00100492" />
   </map>
-  <map wb="spr_plate_b" bl="editor_cube">
+  <map wb="spr_plate_b" bl="kitchen_bowl_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.37163" y="-177.738" z="-174.552" />
+    <scale x="0.575426" y="0.601985" z="0.714502" />
+    <origin enabled="false" x="0.00730583" y="-0.012544" z="-0.0725874" />
   </map>
-  <map wb="spr_plate_c" bl="editor_cube">
+  <map wb="spr_plate_c" bl="bowl_wood">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-1.41266" y="1.94611" z="-123.468" />
+    <scale x="0.462398" y="0.450925" z="0.465059" />
+    <origin enabled="false" x="0.0123706" y="-0.0371376" z="0.0742372" />
   </map>
-  <map wb="spr_potlamp" bl="editor_cube">
+  <map wb="spr_potlamp" bl="bd_oil_lamp_for_table">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-2.52747" y="-177.911" z="87.3931" />
+    <scale x="0.495806" y="0.467618" z="0.555166" />
+    <origin enabled="false" x="-0.0396133" y="0.0951898" z="-0.10308" />
   </map>
   <map wb="spr_prop_wood_corner" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1446,11 +1446,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_rope_bridge_15m" bl="editor_cube">
+  <map wb="spr_rope_bridge_15m" bl="vlandia_arena_grandstand_barrier_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="89.0526" y="-79.44" z="79.106" />
+    <scale x="1.02102" y="0.730526" z="1.30044" />
+    <origin enabled="false" x="-0.220236" y="-0.631691" z="0.0940171" />
   </map>
   <map wb="spr_salt_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1464,17 +1464,17 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_sofa_a" bl="editor_cube">
+  <map wb="spr_sofa_a" bl="bd_chair_sofa_a_unsittable">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="2.03947" y="0.0282291" z="40.7507" />
+    <scale x="1.06688" y="1.02548" z="0.843568" />
+    <origin enabled="false" x="0.186669" y="-0.255238" z="0.0567125" />
   </map>
-  <map wb="spr_sofa_b" bl="editor_cube">
+  <map wb="spr_sofa_b" bl="bd_chair_sofa_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-7.83271" y="1.19476" z="1.38747" />
+    <scale x="1.08396" y="0.844416" z="0.79555" />
+    <origin enabled="false" x="-0.00229888" y="-0.178401" z="0.134334" />
   </map>
   <map wb="spr_spike_a" bl="siege_barricade_d">
     <pos x="0" y="0" z="0" />
@@ -1482,17 +1482,17 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_spike_group_a" bl="editor_cube">
+  <map wb="spr_spike_group_a" bl="siege_barricade_e">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.17389" y="3.78118" z="-16.1735" />
+    <scale x="0.848737" y="0.811584" z="0.819688" />
+    <origin enabled="false" x="0.0748341" y="-0.639338" z="0.123447" />
   </map>
-  <map wb="spr_spoon" bl="editor_cube">
+  <map wb="spr_spoon" bl="kitchen_spoon">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.675975" y="1.25142" z="-0.324407" />
+    <scale x="0.524559" y="0.414855" z="0.889469" />
+    <origin enabled="false" x="-0.105372" y="0.00139743" z="0.00408334" />
   </map>
   <map wb="spr_suspension_bridge_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1506,71 +1506,71 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_table_trestle_long" bl="editor_cube">
+  <map wb="spr_table_trestle_long" bl="vlandia_bench_a_unsittable">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-3.07062" y="-0.0863345" z="175.372" />
+    <scale x="1.72385" y="1.91158" z="1.70799" />
+    <origin enabled="false" x="-24.4481" y="-60.3002" z="0.0174328" />
   </map>
-  <map wb="spr_table_trestle_small" bl="editor_cube">
+  <map wb="spr_table_trestle_small" bl="bd_chair_d">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.657263" y="-0.574765" z="-0.306688" />
+    <scale x="1.00675" y="1.45588" z="1.73056" />
+    <origin enabled="false" x="-0.0253076" y="0.0282303" z="0.0206841" />
   </map>
-  <map wb="spr_table_trunk_a" bl="editor_cube">
+  <map wb="spr_table_trunk_a" bl="bd_table_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.575143" y="0.328341" z="179.374" />
+    <scale x="1.03232" y="1.06871" z="1.48428" />
+    <origin enabled="false" x="-0.0377534" y="-0.0365017" z="-0.207173" />
   </map>
-  <map wb="spr_tavern_barrel_b" bl="editor_cube">
+  <map wb="spr_tavern_barrel_b" bl="bd_barrel_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.172363" y="2.96605" z="-176.886" />
+    <scale x="0.378334" y="0.480348" z="0.564135" />
+    <origin enabled="false" x="-0.0715785" y="-0.0406519" z="-0.739294" />
   </map>
-  <map wb="spr_tavern_door_b" bl="editor_cube">
+  <map wb="spr_tavern_door_b" bl="vlandia_keep_door_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.0224532" y="-178.872" z="179.918" />
+    <scale x="0.963426" y="1.00449" z="0.903378" />
+    <origin enabled="false" x="0.0206878" y="-0.0478481" z="-1.3762" />
   </map>
-  <map wb="spr_tbfc_simple_beam" bl="editor_cube">
+  <map wb="spr_tbfc_simple_beam" bl="european_castle_wall_fence_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.0578285" y="-89.7484" z="-164.303" />
+    <scale x="3.26002" y="3.49789" z="3.27344" />
+    <origin enabled="false" x="0.024911" y="0.00220735" z="-0.0274759" />
   </map>
-  <map wb="spr_tbfc_simple_beam2" bl="editor_cube">
+  <map wb="spr_tbfc_simple_beam2" bl="empire_garden_wall_top_c_end">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.148579" y="89.981" z="174.582" />
+    <scale x="3.48237" y="3.74014" z="3.73011" />
+    <origin enabled="false" x="-0.00198747" y="-0.00609391" z="-0.470097" />
   </map>
-  <map wb="spr_tbfc_simple_plank" bl="editor_cube">
+  <map wb="spr_tbfc_simple_plank" bl="wooden_platform_2_plank_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.609205" y="0.0820085" z="179.664" />
+    <scale x="1.12482" y="1.57703" z="0.554886" />
+    <origin enabled="false" x="-0.023787" y="-0.00633777" z="-0.0433066" />
   </map>
-  <map wb="spr_tbfc_simple_plank2" bl="editor_cube">
+  <map wb="spr_tbfc_simple_plank2" bl="wooden_platform_plank_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.197152" y="0.00814737" z="179.807" />
+    <scale x="1.10721" y="1.51849" z="0.561375" />
+    <origin enabled="false" x="-0.0323856" y="-0.00123678" z="-0.0474559" />
   </map>
-  <map wb="spr_torch_night" bl="editor_cube">
+  <map wb="spr_torch_night" bl="torch_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.0221021" y="0.126314" z="-0.13879" />
+    <scale x="1.02949" y="0.985035" z="0.98631" />
+    <origin enabled="false" x="-0.000765961" y="-0.00185174" z="7.77062E-06" />
   </map>
-  <map wb="spr_torture_tool_a" bl="editor_cube">
+  <map wb="spr_torture_tool_a" bl="mangonel_b_destroyed_part3">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-14.9422" y="-90.151" z="-179.87" />
+    <scale x="2.76986" y="3.61303" z="3.17593" />
+    <origin enabled="false" x="0.378276" y="0.00716637" z="0.0108587" />
   </map>
   <map wb="spr_tree_shelter_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1614,23 +1614,23 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_village_house_e" bl="editor_cube">
+  <map wb="spr_village_house_e" bl="sturgia_town_house_f_shed">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-8.55398" y="-3.81342" z="-2.27024" />
+    <scale x="0.501517" y="0.475787" z="0.452169" />
+    <origin enabled="false" x="4.15368" y="1.25131" z="-2.09083" />
   </map>
-  <map wb="spr_village_house_f" bl="editor_cube">
+  <map wb="spr_village_house_f" bl="ww_house_f">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.662764" y="7.32512" z="-98.8085" />
+    <scale x="0.65681" y="0.716884" z="0.760588" />
+    <origin enabled="false" x="-523.131" y="-198.98" z="0.595813" />
   </map>
-  <map wb="spr_village_oven" bl="editor_cube">
+  <map wb="spr_village_oven" bl="village_oven">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.14922" y="0.833728" z="6.69338" />
+    <scale x="1.02599" y="0.97657" z="0.976074" />
+    <origin enabled="false" x="0.021523" y="-0.00926983" z="0.0172151" />
   </map>
   <map wb="spr_village_stable_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1644,13 +1644,13 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_wood_heap_b_E" bl="editor_cube">
+  <map wb="spr_wood_heap_b_E" bl="bd_wood_heap_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-12" y="-4.84242" z="172.756" />
+    <scale x="0.824868" y="1.09343" z="1.43257" />
+    <origin enabled="false" x="0.0317616" y="-0.174373" z="-0.000677328" />
   </map>
-  <map wb="bush_new_2" bl="flora_desert_bush_stealth_b">
+  <map wb="bush_new_2" bl="flora_shrub_summer_3">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
@@ -1710,11 +1710,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="itm_book_engineering" bl="editor_cube">
+  <map wb="itm_book_engineering" bl="lib_book_open_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.98876" y="-0.431745" z="-179.885" />
+    <scale x="0.868235" y="1.09138" z="1.22542" />
+    <origin enabled="false" x="-0.0343608" y="-0.0135245" z="0.00735188" />
   </map>
   <map wb="itm_hammer" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1722,16 +1722,16 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="itm_sword_medieval_c_small" bl="editor_cube">
+  <map wb="itm_sword_medieval_c_small" bl="viking_sword_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="89.8694" y="172.136" z="152.86" />
+    <scale x="1.13812" y="1.1543" z="0.955758" />
+    <origin enabled="false" x="-0.000627506" y="-0.000178862" z="0.00343032" />
   </map>
-  <map wb="small_rock" bl="editor_cube">
+  <map wb="small_rock" bl="rock_new_green_d">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
+    <scale x="1.6" y="1.8" z="2.2" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
   <map wb="spiky_plant" bl="editor_cube">
@@ -1758,11 +1758,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_bench_tavern_b" bl="editor_cube">
+  <map wb="spr_bench_tavern_b" bl="bd_table_d">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-2.64925" y="0.0258786" z="-179.911" />
+    <scale x="0.607946" y="0.403214" z="1.01627" />
+    <origin enabled="false" x="-0.0409212" y="-0.0672735" z="-0.548737" />
   </map>
   <map wb="spr_brazier_with_fire" bl="nord_fire_stand">
     <pos x="0" y="0" z="0" />
@@ -1794,11 +1794,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_castle_f_gatehouse_a" bl="editor_cube">
+  <map wb="spr_castle_f_gatehouse_a" bl="castle_wall_9_gatehouse_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="65.6643" y="-172.405" z="-6.89036" />
+    <scale x="0.892744" y="0.876709" z="0.714458" />
+    <origin enabled="false" x="-0.107051" y="5.74871" z="-21.4843" />
   </map>
   <map wb="spr_castle_f_keep_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1812,23 +1812,23 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_castle_stairs_a" bl="editor_cube">
+  <map wb="spr_castle_stairs_a" bl="empire_castle_stairs_a_l1">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.743216" y="0.388461" z="-0.437157" />
+    <scale x="1.95958" y="1.33386" z="2.00415" />
+    <origin enabled="false" x="-5.35723" y="-0.451202" z="-2.01581" />
   </map>
-  <map wb="spr_castle_tower_a" bl="editor_cube">
+  <map wb="spr_castle_tower_a" bl="vlandia_arena_tower">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-3.35559" y="0.245088" z="168.093" />
+    <scale x="1.3905" y="1.26372" z="0.868395" />
+    <origin enabled="false" x="-0.379402" y="-1.23154" z="3.75607" />
   </map>
-  <map wb="spr_chair_castle_a" bl="editor_cube">
+  <map wb="spr_chair_castle_a" bl="bd_sturgian_chair_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-1.58236" y="-10.1444" z="-173.005" />
+    <scale x="1.36462" y="0.91088" z="1.21231" />
+    <origin enabled="false" x="0.0315294" y="-0.0115612" z="-0.406302" />
   </map>
   <map wb="spr_chair_trunk_c" bl="bd_chair_b_unsittable">
     <pos x="0" y="0" z="0" />
@@ -1836,11 +1836,11 @@
     <scale x="0.94" y="0.9" z="1.04" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_chest_c" bl="editor_cube">
+  <map wb="spr_chest_c" bl="bd_chest_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-4.45109" y="0.375436" z="2.85877" />
+    <scale x="0.848035" y="1.06864" z="0.914221" />
+    <origin enabled="false" x="-0.0191683" y="0.0552803" z="-0.0277422" />
   </map>
   <map wb="spr_church_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1872,11 +1872,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_cloth_a" bl="editor_cube">
+  <map wb="spr_cloth_a" bl="bd_cloth_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="17.7271" y="-175.188" z="175.681" />
+    <scale x="0.332204" y="0.337687" z="0.4859" />
+    <origin enabled="false" x="-0.105076" y="0.209647" z="0.868541" />
   </map>
   <map wb="spr_cloth_b" bl="bd_cloth_a">
     <pos x="0" y="0" z="0" />
@@ -1914,11 +1914,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_destroy_heap" bl="editor_cube">
+  <map wb="spr_destroy_heap" bl="ruinous_empire_castle_stone_heap_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.61136" y="-4.21147" z="174.736" />
+    <scale x="0.514555" y="0.617762" z="0.972363" />
+    <origin enabled="false" x="-755.415" y="-772.502" z="-40.7961" />
   </map>
   <map wb="spr_dungeon_door_cell_b" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1956,11 +1956,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_lamp_b" bl="editor_cube">
+  <map wb="spr_lamp_b" bl="torch_wall_c">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.128688" y="-35.6765" z="-89.7338" />
+    <scale x="0.70165" y="0.745968" z="0.883485" />
+    <origin enabled="false" x="0.00434727" y="-0.0504341" z="0.304114" />
   </map>
   <map wb="spr_merchant_sign" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -1968,11 +1968,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_mill_flour_sack_desk_b" bl="editor_cube">
+  <map wb="spr_mill_flour_sack_desk_b" bl="mill_flour_sack_desk_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.20583" y="0.203816" z="-179.736" />
+    <scale x="0.966472" y="1.01167" z="1.01733" />
+    <origin enabled="false" x="-0.00693941" y="0.00361794" z="-0.00853869" />
   </map>
   <map wb="spr_panel_door_b" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2016,11 +2016,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_small_wall_f" bl="editor_cube">
+  <map wb="spr_small_wall_f" bl="arabian_small_wall_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.102138" y="0.16257" z="-0.0142747" />
+    <scale x="1.06717" y="1.07859" z="1.08523" />
+    <origin enabled="false" x="-0.243752" y="-0.0155898" z="-0.0243466" />
   </map>
   <map wb="spr_stand_cloth" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2034,17 +2034,17 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_table_small" bl="editor_cube">
+  <map wb="spr_table_small" bl="bd_table_small_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.73058" y="0.713643" z="-0.396002" />
+    <scale x="0.947099" y="0.596576" z="1.35382" />
+    <origin enabled="false" x="0.0787235" y="-0.242782" z="-0.373631" />
   </map>
   <map wb="spr_tavern_barrel" bl="bd_barrel_a">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="0.9" />
-    <origin enabled="true" x="0" y="0" z="-0.5" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="true" x="0" y="0" z="0.55" />
   </map>
   <map wb="spr_timber_frame_house_b" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2118,11 +2118,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_town_house_y" bl="editor_cube">
+  <map wb="spr_town_house_y" bl="empire_village_house_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-3.31233" y="-2.3205" z="12.3494" />
+    <scale x="0.822556" y="0.769936" z="0.861767" />
+    <origin enabled="false" x="-0.165747" y="0.885634" z="1.20281" />
   </map>
   <map wb="spr_town_house_za" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2148,11 +2148,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_washtub_a" bl="editor_cube">
+  <map wb="spr_washtub_a" bl="bd_washtub_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="1.83057" y="1.9244" z="153.371" />
+    <scale x="1.01767" y="0.910031" z="0.921023" />
+    <origin enabled="false" x="-0.00488133" y="0.0340138" z="0.201448" />
   </map>
   <map wb="spr_water_well_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2160,11 +2160,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_winery_wine_cart_empty" bl="editor_cube">
+  <map wb="spr_winery_wine_cart_empty" bl="winery_wine_cart_empty">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.405134" y="0.0475061" z="-0.739292" />
+    <scale x="0.992668" y="1.00758" z="0.959511" />
+    <origin enabled="false" x="0.00788681" y="0.0616372" z="0.0119031" />
   </map>
   <map wb="tree_15" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2178,7 +2178,7 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="big_bush" bl="editor_cube">
+  <map wb="big_bush" bl="shrub_d">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
@@ -2214,15 +2214,15 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_castle_f_stairs_a" bl="editor_cube">
+  <map wb="spr_castle_f_stairs_a" bl="european_castle_stairs_a_l2">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-0.100036" y="-5.68856" z="-179.703" />
+    <scale x="1.04909" y="0.993803" z="1.06075" />
+    <origin enabled="false" x="-4.79939" y="-0.111514" z="-1.00017" />
   </map>
   <map wb="spr_chair_trunk_a" bl="log_bench_beech_c_unsittable">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="90" />
+    <rot x="0" y="0" z="0" />
     <scale x="0.6" y="0.97" z="1.2" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
@@ -2238,17 +2238,17 @@
     <scale x="1" y="1.3" z="1" />
     <origin enabled="true" x="-1.77" y="0" z="-4.15" />
   </map>
-  <map wb="spr_earth_tower_a" bl="editor_cube">
+  <map wb="spr_earth_tower_a" bl="earth_square_keep_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="-1.83985" y="-1.52858" z="5.64493" />
+    <scale x="1.00405" y="1.01734" z="0.844771" />
+    <origin enabled="false" x="-30.3075" y="-154.345" z="-0.333223" />
   </map>
-  <map wb="spr_earth_tower_small_a" bl="editor_cube">
+  <map wb="spr_earth_tower_small_a" bl="earth_square_keep_a">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.345905" y="-2.21958" z="-84.6186" />
+    <scale x="0.854471" y="0.811743" z="0.674621" />
+    <origin enabled="false" x="-27.215" y="-155.466" z="-0.382641" />
   </map>
   <map wb="spr_headquarters_flag_gray" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2292,7 +2292,7 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_viking_house_c" bl="viking_house_c">
+  <map wb="spr_viking_house_c" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
@@ -2316,11 +2316,11 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_wheel" bl="editor_cube">
+  <map wb="spr_wheel" bl="bd_cart_wheel_b">
     <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
+    <rot x="0.955564" y="-176.113" z="179.432" />
+    <scale x="0.856027" y="2.07376" z="0.841879" />
+    <origin enabled="false" x="-0.026896" y="0.00341265" z="-0.865613" />
   </map>
   <map wb="tall_tree" bl="editor_cube">
     <pos x="0" y="0" z="0" />
@@ -2352,187 +2352,163 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="aspen" bl="editor_cube">
+  <map wb="grass_bush_h" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="beech" bl="editor_cube">
+  <map wb="grass_bush_i" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="bushes02_a" bl="editor_cube">
+  <map wb="seedy_plant" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="bushes03_a" bl="editor_cube">
+  <map wb="spr_catapult_destructible" bl="mangonel_b_body">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.56419" y="0.673368" z="91.6784" />
+    <scale x="1.41943" y="1.34895" z="1.64861" />
+    <origin enabled="false" x="-0.0889712" y="0.358869" z="0.0862024" />
+  </map>
+  <map wb="spr_destroy_castle_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="itm_mule" bl="editor_cube">
+  <map wb="spr_destroy_castle_b" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="itm_swedish_adelsfanan_horse" bl="editor_cube">
+  <map wb="spr_destroy_castle_c" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_arabian_ground_a" bl="editor_cube">
+  <map wb="spr_destroy_castle_d" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_f_carriage01_t1" bl="editor_cube">
+  <map wb="spr_destroy_house_a" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_grave_a" bl="editor_cube">
+  <map wb="spr_destroy_house_b" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_harbour_a" bl="editor_cube">
+  <map wb="spr_destroy_house_c" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_siege_ladder_move_6m" bl="editor_cube">
+  <map wb="spr_obstacle_fallen_tree_a" bl="forest_ruinous_tree_beech__branch_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="-38.0137" y="1.25208" z="25.4798" />
+    <scale x="11.0549" y="11.8034" z="14.8512" />
+    <origin enabled="false" x="-0.207179" y="-0.0901294" z="0.00859332" />
+  </map>
+  <map wb="spr_obstacle_fallen_tree_b" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_small_wall_c" bl="editor_cube">
+  <map wb="spr_skeleton_cow" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_stairs_a" bl="editor_cube">
+  <map wb="spr_small_wall_c" bl="stonewall_2a1">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.231324" y="177.554" z="-179.665" />
+    <scale x="0.43611" y="0.492797" z="0.418857" />
+    <origin enabled="false" x="-0.186079" y="-0.0505303" z="-0.856777" />
+  </map>
+  <map wb="spr_small_wall_c_destroy" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_t_fence" bl="editor_cube">
+  <map wb="spr_squash_plant" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_t_finnishhouse01" bl="editor_cube">
+  <map wb="spr_stone_heap" bl="stone_pile_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-21.5008" y="1.70343" z="-31.0459" />
+    <scale x="0.55253" y="0.598523" z="1.03116" />
+    <origin enabled="false" x="0.0387266" y="-0.368523" z="0.327176" />
+  </map>
+  <map wb="spr_stone_step_b" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_t_finnishhouse04_b" bl="editor_cube">
+  <map wb="spr_stone_step_c" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_t_finnishhouse05" bl="editor_cube">
+  <map wb="spr_trebuchet_destructible" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_t_framehouse01" bl="editor_cube">
+  <map wb="spr_village_house_i" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_t_framehouse02" bl="editor_cube">
+  <map wb="spr_village_shed_b" bl="empire_village_barn_a2">
+    <pos x="0" y="0" z="0" />
+    <rot x="5.35185" y="0.832554" z="-1.37567" />
+    <scale x="0.762947" y="0.824964" z="0.735902" />
+    <origin enabled="false" x="0.0397181" y="-1.38658" z="0.162611" />
+  </map>
+  <map wb="spr_wood_a" bl="hardwood">
+    <pos x="0" y="0" z="0" />
+    <rot x="-51.6383" y="89.4601" z="70.6853" />
+    <scale x="3.15535" y="3.16165" z="3.21276" />
+    <origin enabled="false" x="0.0163904" y="0.0435788" z="-0.0112046" />
+  </map>
+  <map wb="spr_wood_b" bl="battania_castle_gate_outer_l3_debris_5">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.991826" y="-90.3791" z="1.83768" />
+    <scale x="0.450943" y="0.54185" z="0.485856" />
+    <origin enabled="false" x="-0.0307223" y="0.00335613" z="-0.405949" />
+  </map>
+  <map wb="tree_10" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="spr_t_framehouse03" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_t_framehouse04" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_t_framehouse05" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_t_framehouse06" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_t_house06_t1" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_t_manor2_main" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_t_manor2_tower" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_t_townchurch" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_wheelbarrow" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="spr_winery_wine_cart_small_empty" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="tree_16" bl="editor_cube">
-    <pos x="0" y="0" z="0" />
-    <rot x="0" y="0" z="0" />
-    <scale x="1" y="1" z="1" />
-    <origin enabled="false" x="0" y="0" z="0" />
-  </map>
-  <map wb="tree_3" bl="editor_cube">
+  <map wb="tree_14" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
@@ -2562,16 +2538,2356 @@
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
+  <map wb="tree_8" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
   <map wb="tree_9" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
   </map>
-  <map wb="wheat" bl="editor_cube">
+  <map wb="yellow_flower" bl="editor_cube">
     <pos x="0" y="0" z="0" />
     <rot x="0" y="0" z="0" />
     <scale x="1" y="1" z="1" />
     <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="bush_new_1" bl="shrub_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="bush_new_4" bl="flora_shrub_spring">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="itm_arnor_greaves" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="itm_ashley_oreo" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="itm_sword_medieval_c" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="osiris_bare_oak" bl="bare_oak">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="2" y="2" z="2" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="osiris_bushes" bl="flora_shrub_summer_4">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="osiris_bushes_oak" bl="flora_tree_high_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="0.5" y="0.5" z="0.5" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="osiris_oak" bl="tree_olive_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1.5" y="1.5" z="2" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="rock" bl="rock_new_green_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_archery_butt_a" bl="archery_butt">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="-90" />
+    <scale x="0.31" y="0.2" z="0.52" />
+    <origin enabled="true" x="0" y="0" z="-1.03" />
+  </map>
+  <map wb="spr_arrow_basket" bl="fi3_arrow_barrel">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.87464" y="-1.72421" z="6.53329" />
+    <scale x="0.694375" y="0.972158" z="0.82323" />
+    <origin enabled="false" x="-0.013754" y="0.0121129" z="-0.0137834" />
+  </map>
+  <map wb="spr_boat_destroy" bl="ship_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.06011" y="-6.69966" z="-0.489464" />
+    <scale x="1.10164" y="0.588276" z="0.841777" />
+    <origin enabled="false" x="-0.0794845" y="0.106811" z="0.0236377" />
+  </map>
+  <map wb="spr_bridge_wooden" bl="port_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="90" />
+    <scale x="0.53" y="0.75" z="1" />
+    <origin enabled="true" x="0" y="0" z="-0.45" />
+  </map>
+  <map wb="spr_castle_battlement_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_battlement_a_destroyed" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_battlement_a_flat" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_battlement_b" bl="european_castle_wall_a_l3_old">
+    <pos x="0" y="0" z="0" />
+    <rot x="7.13685" y="-5.33438" z="-178.778" />
+    <scale x="0.748868" y="0.828816" z="0.817646" />
+    <origin enabled="false" x="2.14498" y="0.920027" z="-0.631588" />
+  </map>
+  <map wb="spr_castle_battlement_b_destroyed" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_battlement_c" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_battlement_corner_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_battlement_corner_b" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_battlement_stairs_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_battlement_stairs_b" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_courtyard_house_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_courtyard_house_c" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_cren_a_long" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_cren_a_short" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_castle_gate_house_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_cwe_acre_main_gate" bl="european_castle_gatehouse_a_l3">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.83421" y="-0.811622" z="-91.1447" />
+    <scale x="1.18744" y="1.24767" z="1.04648" />
+    <origin enabled="false" x="-0.363468" y="-0.871786" z="2.81014" />
+  </map>
+  <map wb="spr_cwe_acre_vorota_a" bl="empire_grandbazaar_gate_door_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.612837" y="0.00453838" z="89.8727" />
+    <scale x="2.91692" y="2.92767" z="3.08799" />
+    <origin enabled="false" x="-1.48073" y="2.89119" z="0.211509" />
+  </map>
+  <map wb="spr_cwe_acre_vorota_b" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_door_b" bl="sally_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.344755" y="-0.48232" z="0.448379" />
+    <scale x="1.54824" y="2.94207" z="1.49801" />
+    <origin enabled="false" x="-0.885519" y="-0.0363457" z="-1.38208" />
+  </map>
+  <map wb="spr_door_d" bl="sally_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.52804" y="2.86914" z="-0.226829" />
+    <scale x="1.58487" y="2.90117" z="1.53684" />
+    <origin enabled="false" x="-0.895844" y="-0.0368472" z="-1.34833" />
+  </map>
+  <map wb="spr_harbour_a" bl="harbour_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_house_extension_c" bl="european_city_part_j_balcony">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.36517" y="-179.115" z="1.93629" />
+    <scale x="0.750849" y="0.810054" z="0.68411" />
+    <origin enabled="false" x="-0.134708" y="0.269855" z="-3.7766" />
+  </map>
+  <map wb="spr_invasion_bed_a" bl="bed_tavern_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.343624" y="-4.50923" z="91.6843" />
+    <scale x="0.596283" y="0.717813" z="1.34141" />
+    <origin enabled="false" x="-0.362933" y="-0.0137169" z="0.0326148" />
+  </map>
+  <map wb="spr_invasion_bot_ranged_point" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_invasion_bot_waypoint_cav" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_invasion_chest_legendary" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_invasion_wardrobe_c" bl="bd_aserai_wardrobe">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.140702" y="178.883" z="89.8078" />
+    <scale x="0.938438" y="0.787388" z="0.690377" />
+    <origin enabled="false" x="0.230419" y="0.0224142" z="-2.97972" />
+  </map>
+  <map wb="spr_leatherwork_frame" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_siege_ladder_14m" bl="siege_ladder_move_14m">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.052992" y="0.0711037" z="0.440635" />
+    <scale x="0.997904" y="1.00337" z="1.0187" />
+    <origin enabled="false" x="-0.00633977" y="0.0160223" z="-7.00355" />
+  </map>
+  <map wb="spr_square_extension_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_stairs_a" bl="arabian_stairs_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.300402" y="-0.424944" z="-0.70185" />
+    <scale x="0.94371" y="0.937506" z="0.927276" />
+    <origin enabled="false" x="0.0650764" y="-0.061884" z="0.219339" />
+  </map>
+  <map wb="spr_tannery_hide_a" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_town_house_e" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_town_house_r" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_town_house_s" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_winery_wine_cart_loaded" bl="editor_cube">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+    <origin enabled="false" x="0" y="0" z="0" />
+  </map>
+  <map wb="spr_winery_wine_cart_small_loaded" bl="empire_keep_b_side_building_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.78312" y="176.166" z="89.0536" />
+    <scale x="0.164787" y="0.178758" z="0.149174" />
+    <origin enabled="false" x="0.289975" y="0.0197843" z="-9.95888" />
+  </map>
+  <map wb="spr_catapult" bl="mangonel_b_body">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.56419" y="0.673368" z="91.6784" />
+    <scale x="1.41943" y="1.34895" z="1.64861" />
+    <origin enabled="false" x="-0.0889712" y="0.358869" z="0.0862024" />
+  </map>
+  <map wb="spr_Dale_castle_small_round_tower_roof" bl="european_castle_tower_round_a_roof">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.667897" y="3.26141" z="-64.3771" />
+    <scale x="0.536604" y="0.536722" z="0.525271" />
+    <origin enabled="false" x="-0.166019" y="-0.077952" z="-5.99505" />
+  </map>
+  <map wb="itm_quest_ale" bl="bd_barrel_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0850081" y="-179.856" z="-103.323" />
+    <scale x="0.98268" y="0.948278" z="0.792263" />
+    <origin enabled="false" x="-0.00372187" y="-0.00406473" z="-0.573949" />
+  </map>
+  <map wb="itm_quest_wine" bl="amphora_slim">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0300682" y="0.232546" z="-173.824" />
+    <scale x="1.00671" y="1.01951" z="1.00613" />
+    <origin enabled="false" x="-0.00236216" y="0.00241467" z="0.00583593" />
+  </map>
+  <map wb="itm_wine" bl="amphora_slim">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0300682" y="0.232546" z="-173.824" />
+    <scale x="1.00671" y="1.01951" z="1.00613" />
+    <origin enabled="false" x="-0.00236216" y="0.00241467" z="0.00583593" />
+  </map>
+  <map wb="itm_legendary_victor" bl="axe_l">
+    <pos x="0" y="0" z="0" />
+    <rot x="86.4371" y="-92.5714" z="-88.9093" />
+    <scale x="1.18176" y="1.32996" z="1.03588" />
+    <origin enabled="false" x="0.0125933" y="0.000866802" z="0.0388562" />
+  </map>
+  <map wb="spr_apple_b" bl="apple">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.39941" y="-6.21852" z="78.4084" />
+    <scale x="1.39937" y="1.39957" z="1.448" />
+    <origin enabled="false" x="-0.00660616" y="0.0301799" z="-0.0231751" />
+  </map>
+  <map wb="spr_arabian_castle_battlement_b_destroyed" bl="arabian_battlement_b_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.55491" y="-2.85251" z="1.48457" />
+    <scale x="0.939779" y="1.12977" z="0.854188" />
+    <origin enabled="false" x="-0.944677" y="0.752624" z="0.627689" />
+  </map>
+  <map wb="spr_arabian_castle_battlement_c" bl="arabian_battlement_e_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.02374" y="-0.926423" z="-179.156" />
+    <scale x="0.976487" y="1.18509" z="0.852108" />
+    <origin enabled="false" x="0.30408" y="0.738955" z="0.616081" />
+  </map>
+  <map wb="spr_arabian_castle_house_a" bl="khuzait_castle_barn_a_l3">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.155012" y="-0.754029" z="179.623" />
+    <scale x="0.848904" y="0.808284" z="0.857088" />
+    <origin enabled="false" x="-0.912151" y="-3.01855" z="0.486016" />
+  </map>
+  <map wb="spr_arabian_castle_stairs" bl="aserai_castle_stairs_a_l2">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.48063" y="-1.10217" z="0.357432" />
+    <scale x="0.933682" y="1.04214" z="0.951051" />
+    <origin enabled="false" x="-1.58853" y="0.0927453" z="-0.699073" />
+  </map>
+  <map wb="spr_arabian_castle_stairs_c" bl="aserai_castle_stairs_a_l1">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.15816" y="82.6547" z="179.941" />
+    <scale x="0.932519" y="1.01182" z="1.02051" />
+    <origin enabled="false" x="-7.46661" y="-0.0752532" z="-1.88517" />
+  </map>
+  <map wb="spr_arabian_ground_a" bl="arabian_ground_new_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0413559" y="-1.45084" z="2.07523" />
+    <scale x="1.17045" y="1.15737" z="1.56824" />
+    <origin enabled="false" x="0.464116" y="0.064128" z="-0.458179" />
+  </map>
+  <map wb="spr_arabian_house_b" bl="arabian_village_house_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.83718" y="2.06386" z="-9.35823" />
+    <scale x="1.11592" y="0.968582" z="1.21096" />
+    <origin enabled="false" x="1.05187" y="1.18129" z="0.381691" />
+  </map>
+  <map wb="spr_arabian_house_c" bl="arabian_village_house_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-88.8914" y="89.2187" z="-0.0966699" />
+    <scale x="0.895274" y="1.21655" z="1.01292" />
+    <origin enabled="false" x="6.68694" y="0.97453" z="-4.3172" />
+  </map>
+  <map wb="spr_arabian_passage_house_a" bl="arabian_house_new_passage_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.50146" y="-179.817" z="-89.6214" />
+    <scale x="0.507705" y="0.744023" z="0.869713" />
+    <origin enabled="false" x="0.355728" y="0.026906" z="-11.8437" />
+  </map>
+  <map wb="spr_arabian_ramp_a" bl="port_ramp_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.288541" y="-179.653" z="177.46" />
+    <scale x="1.98447" y="0.580102" z="0.704212" />
+    <origin enabled="false" x="0.0102885" y="-0.0293645" z="0.013017" />
+  </map>
+  <map wb="spr_arabian_ramp_b" bl="port_ramp_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.483492" y="-179.487" z="178.997" />
+    <scale x="0.837496" y="0.588275" z="0.71593" />
+    <origin enabled="false" x="-0.0722985" y="-0.0124181" z="0.00605882" />
+  </map>
+  <map wb="itm_arabian_sword_a2" bl="sword_arabian_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9413" y="-79.8427" z="-99.8539" />
+    <scale x="1.28902" y="1.30117" z="0.98624" />
+    <origin enabled="false" x="-0.00865582" y="-0.000210777" z="-0.0172998" />
+  </map>
+  <map wb="itm_sarranid_cavalry_sword" bl="sword_arabian_b_still">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.8374" y="-86.7375" z="-93.8735" />
+    <scale x="1.18025" y="0.779724" z="1.02105" />
+    <origin enabled="false" x="-0.00833467" y="-0.000342589" z="-0.0114089" />
+  </map>
+  <map wb="spr_arabian_tent" bl="tents_aserai_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.07173" y="13.9403" z="-90.8595" />
+    <scale x="0.875625" y="0.826736" z="0.793921" />
+    <origin enabled="false" x="-0.57754" y="-0.693447" z="0.607588" />
+  </map>
+  <map wb="spr_arabian_village_house_a" bl="arabian_village_house_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.574948" y="-1.45452" z="-1.34819" />
+    <scale x="0.984174" y="1.00613" z="1.01171" />
+    <origin enabled="false" x="-0.0328857" y="-0.0895212" z="-0.0193824" />
+  </map>
+  <map wb="spr_arabian_village_house_b" bl="arabian_village_house_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.233718" y="-11.8522" z="128.938" />
+    <scale x="0.961437" y="0.952367" z="0.919306" />
+    <origin enabled="false" x="3.03891" y="0.107578" z="-0.831761" />
+  </map>
+  <map wb="spr_arabian_village_house_c" bl="arabian_village_house_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.953795" y="0.294408" z="1.30533" />
+    <scale x="0.98945" y="0.995231" z="1.01304" />
+    <origin enabled="false" x="-0.267476" y="-0.0457343" z="0.0950334" />
+  </map>
+  <map wb="spr_arabian_village_house_d" bl="arabian_village_house_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="3.86276" y="-2.835" z="10.0154" />
+    <scale x="0.966958" y="0.98657" z="1.01659" />
+    <origin enabled="false" x="0.760151" y="0.890772" z="-0.181594" />
+  </map>
+  <map wb="spr_arabian_village_stable" bl="arabian_village_stable">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.690671" y="2.03597" z="2.7542" />
+    <scale x="0.988397" y="1.00574" z="0.968156" />
+    <origin enabled="false" x="-0.528299" y="-0.0197384" z="0.0856418" />
+  </map>
+  <map wb="spr_arabian_village_stairs" bl="aserai_castle_stairs_a_l1">
+    <pos x="0" y="0" z="0" />
+    <rot x="-10.2454" y="0.10043" z="-90.0234" />
+    <scale x="1.14237" y="1.14407" z="1.2178" />
+    <origin enabled="false" x="-5.23953" y="-0.211812" z="-1.22556" />
+  </map>
+  <map wb="spr_arena_archery_target_a" bl="archery_target">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.56534" y="3.61655" z="-0.458564" />
+    <scale x="1.05882" y="0.774272" z="0.875578" />
+    <origin enabled="false" x="-26.6509" y="-28.1869" z="-1.35221" />
+  </map>
+  <map wb="itm_arena_axe" bl="axe_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.6037" y="-60.9858" z="-118.833" />
+    <scale x="1.32863" y="0.810662" z="1.35658" />
+    <origin enabled="false" x="0.0016901" y="-0.0052882" z="0.103899" />
+  </map>
+  <map wb="spr_arena_barrier_b" bl="khuzait_arena_fence_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.612747" y="-4.90623" z="-1.78089" />
+    <scale x="3.01473" y="1.26394" z="3.1385" />
+    <origin enabled="false" x="-1.82256" y="0.304517" z="-0.288429" />
+  </map>
+  <map wb="spr_arena_block_j_awning" bl="awning_arbor_big_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-5.97598" y="-5.09231" z="179.188" />
+    <scale x="2.46219" y="2.43493" z="1.68" />
+    <origin enabled="false" x="0.468167" y="0.188811" z="0.666003" />
+  </map>
+  <map wb="itm_arena_shield_blue" bl="sturgia_infantry_shield_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.643321" y="-1.01064" z="-135.092" />
+    <scale x="0.786857" y="0.624826" z="1.48014" />
+    <origin enabled="false" x="0.0260621" y="-0.110844" z="-0.0760252" />
+  </map>
+  <map wb="itm_arena_shield_green" bl="kite_shield_h">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.437748" y="-2.41743" z="-135.816" />
+    <scale x="0.809235" y="0.80186" z="1.06469" />
+    <origin enabled="false" x="0.0357147" y="-0.205993" z="-0.0687901" />
+  </map>
+  <map wb="itm_arena_shield_red" bl="heater_shield_i">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.56031" y="4.59724" z="-134.403" />
+    <scale x="0.755856" y="0.76111" z="1.24991" />
+    <origin enabled="false" x="0.0282555" y="-0.128612" z="-0.0358163" />
+  </map>
+  <map wb="itm_arena_shield_yellow" bl="heater_shield_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0730002" y="3.41674" z="-135.83" />
+    <scale x="0.979818" y="0.948662" z="1.09708" />
+    <origin enabled="false" x="-0.00438713" y="-0.0527827" z="-0.0418496" />
+  </map>
+  <map wb="itm_arena_sword" bl="viking_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9512" y="-114.709" z="-99.4323" />
+    <scale x="1.23501" y="1.33533" z="1.14635" />
+    <origin enabled="false" x="-0.000590859" y="0.000358754" z="-0.00656539" />
+  </map>
+  <map wb="spr_arena_tower_a" bl="sturgia_arena_tower_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.452252" y="1.19892" z="114.575" />
+    <scale x="1.34827" y="1.39388" z="0.898389" />
+    <origin enabled="false" x="-215.731" y="-167.427" z="5.56632" />
+  </map>
+  <map wb="spr_arena_wall_a" bl="empire_hippodrome_enterance_wall_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.340429" y="-0.304517" z="179.947" />
+    <scale x="3.82678" y="4.83991" z="3.62675" />
+    <origin enabled="false" x="-0.161371" y="-0.000389745" z="0.963159" />
+  </map>
+  <map wb="spr_arena_wall_b" bl="empire_hippodrome_enterance_wall_a2">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.224261" y="-179.29" z="-0.0433721" />
+    <scale x="3.78658" y="4.84919" z="3.65977" />
+    <origin enabled="false" x="-0.179792" y="0.0388053" z="-2.49928" />
+  </map>
+  <map wb="itm_armor_archer_saracin_4" bl="aserai_archer_armor">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.424909" y="-0.575023" z="2.73349" />
+    <scale x="1.07094" y="0.862552" z="1.06634" />
+    <origin enabled="false" x="-0.0141604" y="-0.0407835" z="-0.0296588" />
+  </map>
+  <map wb="itm_arrows" bl="arrow">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.00202334" y="120.076" z="-0.0151465" />
+    <scale x="1.08363" y="0.986024" z="1.0558" />
+    <origin enabled="false" x="-0.00100097" y="-0.00563244" z="-0.00101121" />
+  </map>
+  <map wb="itm_tutorial_arrows" bl="arrow">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.00202334" y="120.076" z="-0.0151465" />
+    <scale x="1.08363" y="0.986024" z="1.0558" />
+    <origin enabled="false" x="-0.00100097" y="-0.00563244" z="-0.00101121" />
+  </map>
+  <map wb="itm_box_arrow_tyrk_a" bl="arrow">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0516385" y="-0.0717462" z="0.0294824" />
+    <scale x="1.11216" y="1.01684" z="1.07351" />
+    <origin enabled="false" x="-0.00125854" y="0.00620206" z="-0.00798592" />
+  </map>
+  <map wb="spr_awning_b" bl="arab_awning_a1">
+    <pos x="0" y="0" z="0" />
+    <rot x="-17.7785" y="0.907029" z="-1.84828" />
+    <scale x="0.915492" y="0.805958" z="0.998371" />
+    <origin enabled="false" x="-0.168056" y="0.20634" z="-0.193753" />
+  </map>
+  <map wb="itm_box_sword_of_war" bl="vlandia_twohanded_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9764" y="66.8923" z="113.233" />
+    <scale x="1.52085" y="0.973818" z="1.23012" />
+    <origin enabled="false" x="-0.000958342" y="-0.00068007" z="-0.0157282" />
+  </map>
+  <map wb="itm_great_sword" bl="vlandia_twohanded_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9764" y="66.8923" z="113.233" />
+    <scale x="1.52085" y="0.973818" z="1.23012" />
+    <origin enabled="false" x="-0.000958342" y="-0.00068007" z="-0.0157282" />
+  </map>
+  <map wb="itm_sword_of_war" bl="vlandia_twohanded_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9764" y="66.8923" z="113.233" />
+    <scale x="1.52085" y="0.973818" z="1.23012" />
+    <origin enabled="false" x="-0.000958342" y="-0.00068007" z="-0.0157282" />
+  </map>
+  <map wb="itm_bandits_horse_a" bl="horse_brown002">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.81457" y="0.144207" z="0.107358" />
+    <scale x="0.805155" y="1.00801" z="1.01661" />
+    <origin enabled="false" x="-0.00350418" y="-0.257094" z="0.00122179" />
+  </map>
+  <map wb="itm_bandits_horse_b" bl="horse_brown002">
+    <pos x="0" y="0" z="0" />
+    <rot x="-4.18913" y="0.298116" z="0.296052" />
+    <scale x="0.805741" y="1.00262" z="0.981948" />
+    <origin enabled="false" x="-0.00134717" y="-0.274456" z="0.034563" />
+  </map>
+  <map wb="spr_banner_pole" bl="generic_flag_pole">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.000878642" y="179.95" z="-85.429" />
+    <scale x="1.32695" y="1.31418" z="0.936315" />
+    <origin enabled="false" x="0.037738" y="0.00293996" z="-3.32501" />
+  </map>
+  <map wb="spr_exit_16m" bl="_barrier_16x04m">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.308635" y="-1.05562" z="178.343" />
+    <scale x="1.02174" y="0.05" z="1.43615" />
+    <origin enabled="false" x="0.197373" y="-0.00169109" z="-1.82882" />
+  </map>
+  <map wb="spr_barrier_sphere" bl="barrier_sphere">
+    <pos x="0" y="0" z="0" />
+    <rot x="42.5669" y="-86.0698" z="91.9316" />
+    <scale x="1.02957" y="1.04271" z="0.930945" />
+    <origin enabled="false" x="-0.00210643" y="0.000692926" z="0.00179704" />
+  </map>
+  <map wb="spr_basket_big_green" bl="_to_carry_bd_basket_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.5209" y="17.1846" z="106.672" />
+    <scale x="0.590103" y="0.591372" z="0.441828" />
+    <origin enabled="false" x="-0.350766" y="0.602628" z="0.315596" />
+  </map>
+  <map wb="spr_basket_big" bl="_to_carry_bd_basket_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="11.0064" y="12.5986" z="138.278" />
+    <scale x="0.613591" y="0.621704" z="0.480829" />
+    <origin enabled="false" x="-0.340032" y="0.621172" z="0.342349" />
+  </map>
+  <map wb="spr_basket" bl="kitchen_basket_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.817177" y="-1.10001" z="76.7206" />
+    <scale x="1.17562" y="0.922811" z="1.55014" />
+    <origin enabled="false" x="0.000855832" y="0.0093486" z="0.000237756" />
+  </map>
+  <map wb="itm_bastard_sword_a" bl="vlandia_twohanded_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9491" y="-83.1279" z="-97.0269" />
+    <scale x="0.925284" y="0.703214" z="1.02354" />
+    <origin enabled="false" x="-0.00142794" y="-0.000740042" z="-0.016918" />
+  </map>
+  <map wb="itm_tutorial_battle_axe" bl="lumberjack_axe">
+    <pos x="0" y="0" z="0" />
+    <rot x="88.784" y="-92.4698" z="-87.6167" />
+    <scale x="1.32955" y="0.842684" z="1.35129" />
+    <origin enabled="false" x="-0.0377774" y="0.0219628" z="0.00327845" />
+  </map>
+  <map wb="itm_bb_smith_hammer" bl="carry_hammer">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.50595" y="179.595" z="90.1193" />
+    <scale x="0.830358" y="0.590163" z="0.529398" />
+    <origin enabled="false" x="-0.485722" y="0.00231907" z="-0.590662" />
+  </map>
+  <map wb="spr_bed_a" bl="bed_tavern_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.2852" y="-2.1419" z="91.2208" />
+    <scale x="0.608576" y="0.726652" z="1.26919" />
+    <origin enabled="false" x="-0.318277" y="-0.0203609" z="0.052154" />
+  </map>
+  <map wb="spr_bed_b" bl="bed_ground_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.950508" y="0.886144" z="-2.52831" />
+    <scale x="0.659712" y="0.580377" z="0.344949" />
+    <origin enabled="false" x="-0.147644" y="0.405526" z="0.0608311" />
+  </map>
+  <map wb="spr_bed_c" bl="bed_tavern_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.781709" y="-1.10872" z="-179.1" />
+    <scale x="0.60268" y="0.551398" z="1.00135" />
+    <origin enabled="false" x="-0.163548" y="-0.0515978" z="0.0343878" />
+  </map>
+  <map wb="spr_bed_d" bl="bed_convolute_i">
+    <pos x="0" y="0" z="0" />
+    <rot x="70.7045" y="92.0323" z="88.3807" />
+    <scale x="1.10033" y="1.02116" z="1.10018" />
+    <origin enabled="false" x="-0.0386922" y="0.527658" z="-0.135381" />
+  </map>
+  <map wb="spr_bed_e" bl="bed_lord_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.07571" y="-6.13854" z="-1.04875" />
+    <scale x="0.765664" y="0.713944" z="0.770615" />
+    <origin enabled="false" x="-0.212542" y="-0.0878475" z="0.109828" />
+  </map>
+  <map wb="spr_bed_f" bl="bed_straw_f">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.334234" y="0.622926" z="7.36525" />
+    <scale x="1.78041" y="1.32597" z="1.76387" />
+    <origin enabled="false" x="-0.466662" y="0.0985879" z="-0.0304742" />
+  </map>
+  <map wb="spr_belfry_wheel" bl="siege_tower_5m_wheel">
+    <pos x="0" y="0" z="0" />
+    <rot x="37.6503" y="-179.685" z="179.58" />
+    <scale x="1.58148" y="1.4033" z="1.51078" />
+    <origin enabled="false" x="-0.0220675" y="0.00594735" z="0.0028882" />
+  </map>
+  <map wb="spr_belfry_wheel_old" bl="siege_tower_5m_wheel">
+    <pos x="0" y="0" z="0" />
+    <rot x="37.6503" y="-179.685" z="179.58" />
+    <scale x="1.58148" y="1.4033" z="1.51078" />
+    <origin enabled="false" x="-0.0220675" y="0.00594735" z="0.0028882" />
+  </map>
+  <map wb="itm_tutorial_bolts" bl="bolt">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0171572" y="-0.108739" z="0.0337417" />
+    <scale x="0.943942" y="1.00492" z="1.11038" />
+    <origin enabled="false" x="-0.000751278" y="-0.0030944" z="-0.000286622" />
+  </map>
+  <map wb="itm_book_tactics" bl="lib_book_closed_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.171361" y="0.262936" z="0.426516" />
+    <scale x="1.66807" y="1.62232" z="1.76429" />
+    <origin enabled="false" x="0.00586926" y="-0.00801577" z="-0.00306794" />
+  </map>
+  <map wb="itm_book_surgery_reference" bl="lib_book_closed_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.205287" y="0.337725" z="-179.739" />
+    <scale x="1.27476" y="1.41882" z="1.12999" />
+    <origin enabled="false" x="0.000579659" y="0.0102374" z="-0.00656402" />
+  </map>
+  <map wb="itm_book_wound_treatment_reference" bl="lib_book_closed_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.205287" y="0.337725" z="-179.739" />
+    <scale x="1.27476" y="1.41882" z="1.12999" />
+    <origin enabled="false" x="0.000579659" y="0.0102374" z="-0.00656402" />
+  </map>
+  <map wb="itm_book_leadership" bl="carry_book">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.300493" y="-179.892" z="1.79269" />
+    <scale x="1.58757" y="1.63587" z="1.88169" />
+    <origin enabled="false" x="-0.0633871" y="0.0539681" z="-0.0761827" />
+  </map>
+  <map wb="itm_book_weapon_mastery" bl="carry_book">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.300493" y="-179.892" z="1.79269" />
+    <scale x="1.58757" y="1.63587" z="1.88169" />
+    <origin enabled="false" x="-0.0633871" y="0.0539681" z="-0.0761827" />
+  </map>
+  <map wb="itm_book_intelligence" bl="carry_book">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.366872" y="0.069922" z="-177.002" />
+    <scale x="1.5252" y="1.44598" z="2.06986" />
+    <origin enabled="false" x="-0.0688217" y="0.069212" z="-0.0333755" />
+  </map>
+  <map wb="itm_book_trade" bl="carry_book_left">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.752381" y="1.97094" z="-178.636" />
+    <scale x="1.42605" y="1.2047" z="6.11379" />
+    <origin enabled="false" x="-0.123463" y="-0.0119582" z="-0.00101301" />
+  </map>
+  <map wb="itm_book_training_reference" bl="lib_book_open_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.98876" y="-0.431745" z="-179.885" />
+    <scale x="0.868235" y="1.09138" z="1.22542" />
+    <origin enabled="false" x="-0.0343608" y="-0.0135245" z="0.00735188" />
+  </map>
+  <map wb="itm_boot13" bl="boot_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="6.67844" y="-1.34485" z="0.741466" />
+    <scale x="0.729426" y="1.07954" z="1.22001" />
+    <origin enabled="false" x="0.00533957" y="-0.0272786" z="-0.00560138" />
+  </map>
+  <map wb="itm_boot_average_crusader_d" bl="sturgia_boots_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="9.34683" y="0.460797" z="3.01088" />
+    <scale x="0.751941" y="1.05649" z="1.14657" />
+    <origin enabled="false" x="-0.00578887" y="-0.0346627" z="0.0265618" />
+  </map>
+  <map wb="spr_bowl_a" bl="empire_lord_pot_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.34786" y="-0.891433" z="138.292" />
+    <scale x="1.31496" y="1.28595" z="1.0487" />
+    <origin enabled="false" x="0.00616707" y="-0.00183194" z="0.0346024" />
+  </map>
+  <map wb="spr_bowl_small" bl="bowl_wood">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.309304" y="1.06426" z="-159.392" />
+    <scale x="0.736886" y="0.745102" z="0.911356" />
+    <origin enabled="false" x="0.00230586" y="-0.0235006" z="0.0892317" />
+  </map>
+  <map wb="itm_bread" bl="kitchen_food_bread_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.701579" y="-0.00111675" z="-121.694" />
+    <scale x="0.582848" y="0.586508" z="0.52227" />
+    <origin enabled="false" x="-0.00506649" y="0.0125486" z="-0.0160567" />
+  </map>
+  <map wb="spr_bridge_b" bl="emp_bridge_g">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.27663" y="-10.0757" z="-4.05955" />
+    <scale x="0.746228" y="0.252892" z="0.395265" />
+    <origin enabled="false" x="0.105427" y="0.645904" z="1.72344" />
+  </map>
+  <map wb="spr_bridge_modular_a" bl="empire_bridge_a_part_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.205687" y="0.282189" z="179.571" />
+    <scale x="0.97852" y="0.669646" z="0.595109" />
+    <origin enabled="false" x="-0.178564" y="-0.173042" z="-2.88694" />
+  </map>
+  <map wb="spr_bucket_a" bl="bd_bucket_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.429873" y="-5.98015" z="78.3507" />
+    <scale x="0.372266" y="0.376723" z="0.399007" />
+    <origin enabled="false" x="0.077076" y="-0.257683" z="2.03353" />
+  </map>
+  <map wb="itm_butter" bl="butter_pot">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.05851" y="2.83522" z="178.057" />
+    <scale x="0.990062" y="1.00097" z="0.970951" />
+    <origin enabled="false" x="-0.00656593" y="0.000204552" z="0.0154546" />
+  </map>
+  <map wb="itm_cabbages" bl="foods_cabbage_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.19987" y="176.519" z="-116.2" />
+    <scale x="0.809567" y="0.883953" z="0.720177" />
+    <origin enabled="false" x="0.0013729" y="0.00122706" z="-0.15283" />
+  </map>
+  <map wb="spr_candle_a" bl="torch_candle_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0637772" y="0.99218" z="-16.3751" />
+    <scale x="0.925176" y="0.866274" z="0.949144" />
+    <origin enabled="false" x="0.00142603" y="-0.00100991" z="0.0127673" />
+  </map>
+  <map wb="spr_candle_c" bl="torch_candle_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="4.13478" y="3.94963" z="65.5592" />
+    <scale x="0.285987" y="0.311506" z="0.637841" />
+    <origin enabled="false" x="0.00955028" y="-0.00190753" z="0.0115113" />
+  </map>
+  <map wb="spr_castle_f_door_b" bl="vlandia_keep_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0724704" y="0.880148" z="179.62" />
+    <scale x="1.03849" y="1.34001" z="0.991123" />
+    <origin enabled="false" x="1.43299" y="-0.092057" z="0.00670171" />
+  </map>
+  <map wb="spr_castle_e_stairs_a" bl="khuzait_castle_stairs_a_l2">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0242663" y="1.35009" z="-0.0869582" />
+    <scale x="1.44072" y="1.28581" z="1.55125" />
+    <origin enabled="false" x="-0.386909" y="0.232682" z="-3.94899" />
+  </map>
+  <map wb="spr_castle_f_door_a" bl="file_button_down">
+    <pos x="0" y="0" z="0" />
+    <rot x="-86.6632" y="-129.92" z="-39.3339" />
+    <scale x="7.49198" y="7.20553" z="10.5081" />
+    <origin enabled="false" x="-0.407647" y="-0.178573" z="-0.01906" />
+  </map>
+  <map wb="spr_invasion_castle_f_door_a_left" bl="file_button_down">
+    <pos x="0" y="0" z="0" />
+    <rot x="-86.6632" y="-129.92" z="-39.3339" />
+    <scale x="7.49198" y="7.20553" z="10.5081" />
+    <origin enabled="false" x="-0.407647" y="-0.178573" z="-0.01906" />
+  </map>
+  <map wb="spr_invasion_castle_f_door_a_right" bl="file_button_down">
+    <pos x="0" y="0" z="0" />
+    <rot x="-86.6632" y="-129.92" z="-39.3339" />
+    <scale x="7.49198" y="7.20553" z="10.5081" />
+    <origin enabled="false" x="-0.407647" y="-0.178573" z="-0.01906" />
+  </map>
+  <map wb="spr_castle_g_gate_house_door_b" bl="khuzait_towerdoor_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.280245" y="0.102272" z="0.542468" />
+    <scale x="0.854353" y="0.747187" z="0.851178" />
+    <origin enabled="false" x="-0.282699" y="-0.186595" z="-0.120365" />
+  </map>
+  <map wb="spr_castle_h_house_b" bl="empire_castle_barn_b_l2">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.933053" y="0.329401" z="0.173266" />
+    <scale x="0.844919" y="1.02661" z="1.12578" />
+    <origin enabled="false" x="-3.84939" y="-4.08284" z="-0.282548" />
+  </map>
+  <map wb="spr_castle_h_house_c" bl="european_castle_barn_a_l1">
+    <pos x="0" y="0" z="0" />
+    <rot x="3.94395" y="-0.888239" z="0.176461" />
+    <scale x="1.06935" y="1.21341" z="1.22988" />
+    <origin enabled="false" x="-1.27263" y="-3.12617" z="-0.304497" />
+  </map>
+  <map wb="spr_castle_i_gate_house_door_b" bl="arabian_towerdoor_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.181286" y="-0.220768" z="179.707" />
+    <scale x="0.859517" y="0.750572" z="0.84007" />
+    <origin enabled="false" x="-0.180814" y="-1.74467" z="-0.0482233" />
+  </map>
+  <map wb="spr_cauldron_a" bl="cauldron">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.79322" y="-0.485409" z="-166.939" />
+    <scale x="2.19113" y="2.15539" z="1.49853" />
+    <origin enabled="false" x="0.00254893" y="-0.00340063" z="0.119871" />
+  </map>
+  <map wb="spr_cave_entrance_1" bl="cave_entry_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-49.0965" y="-2.99361" z="-1.56486" />
+    <scale x="0.937781" y="0.577641" z="0.50604" />
+    <origin enabled="false" x="-0.897894" y="9.62462" z="5.71869" />
+  </map>
+  <map wb="spr_chain_2m" bl="bd_cloth_stick_5m">
+    <pos x="0" y="0" z="0" />
+    <rot x="-67.7635" y="-89.5669" z="0.866135" />
+    <scale x="0.397055" y="1.60028" z="1.53191" />
+    <origin enabled="false" x="-0.397267" y="-0.000738972" z="0.00459346" />
+  </map>
+  <map wb="spr_chandelier_table" bl="torch_chandelier_fire">
+    <pos x="0" y="0" z="0" />
+    <rot x="-86.9278" y="28.432" z="118.945" />
+    <scale x="0.441229" y="0.201406" z="0.459881" />
+    <origin enabled="false" x="0.293683" y="0.0106125" z="1.38513" />
+  </map>
+  <map wb="spr_chandelier_tavern" bl="torch_chandelier_fire">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.62513" y="6.0229" z="46.6773" />
+    <scale x="0.811969" y="0.788172" z="1.94602" />
+    <origin enabled="false" x="0.043838" y="-0.00591158" z="1.06456" />
+  </map>
+  <map wb="itm_cheese" bl="merchandise_cheese_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.82274" y="0.620991" z="8.55975" />
+    <scale x="0.966333" y="1.0632" z="1.18992" />
+    <origin enabled="false" x="-0.00467037" y="-0.0207244" z="0.00352959" />
+  </map>
+  <map wb="spr_chest_b" bl="bd_chest_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.6526" y="-0.126787" z="-0.00134533" />
+    <scale x="0.759816" y="0.712969" z="0.674804" />
+    <origin enabled="false" x="0.00415987" y="0.0348362" z="0.166466" />
+  </map>
+  <map wb="spr_container_chest_b" bl="bd_chest_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.6526" y="-0.126787" z="-0.00134533" />
+    <scale x="0.759816" y="0.712969" z="0.674804" />
+    <origin enabled="false" x="0.00415987" y="0.0348362" z="0.166466" />
+  </map>
+  <map wb="spr_container_chest_c" bl="bd_chest_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-4.45109" y="0.375436" z="2.85877" />
+    <scale x="0.848035" y="1.06864" z="0.914221" />
+    <origin enabled="false" x="-0.0191683" y="0.0552803" z="-0.0277422" />
+  </map>
+  <map wb="spr_chest_a" bl="chest_empire_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.118074" y="-179.325" z="-179.735" />
+    <scale x="0.993539" y="0.984966" z="0.957511" />
+    <origin enabled="false" x="0.00489996" y="-0.0400384" z="-0.556595" />
+  </map>
+  <map wb="spr_chest_gothic" bl="chest_empire_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.118074" y="-179.325" z="-179.735" />
+    <scale x="0.993539" y="0.984966" z="0.957511" />
+    <origin enabled="false" x="0.00489996" y="-0.0400384" z="-0.556595" />
+  </map>
+  <map wb="itm_chicken" bl="chicken_roast">
+    <pos x="0" y="0" z="0" />
+    <rot x="10.9418" y="175.668" z="1.15978" />
+    <scale x="0.500924" y="0.530941" z="0.578256" />
+    <origin enabled="false" x="0.0104677" y="0.0271222" z="-0.19154" />
+  </map>
+  <map wb="spr_chicken_roasted" bl="chicken_roast">
+    <pos x="0" y="0" z="0" />
+    <rot x="10.9418" y="175.668" z="1.15978" />
+    <scale x="0.500924" y="0.530941" z="0.578256" />
+    <origin enabled="false" x="0.0104677" y="0.0271222" z="-0.19154" />
+  </map>
+  <map wb="spr_rock_cliff_b" bl="rock_cliff_top_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.672835" y="117.796" z="-88.6869" />
+    <scale x="0.745896" y="0.186693" z="0.248377" />
+    <origin enabled="false" x="0.415241" y="-9.56242" z="2.15527" />
+  </map>
+  <map wb="spr_invasion_wardrobe_e" bl="bd_aserai_wardrobe">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.31413" y="177.431" z="-90.5931" />
+    <scale x="0.936541" y="0.790048" z="0.686101" />
+    <origin enabled="false" x="0.273762" y="-0.0192266" z="-2.95352" />
+  </map>
+  <map wb="spr_invasion_wardrobe_b" bl="bd_aserai_wardrobe">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.659381" y="-1.47206" z="90.0258" />
+    <scale x="0.948004" y="0.788468" z="0.699078" />
+    <origin enabled="false" x="0.218904" y="-0.00859444" z="-0.392996" />
+  </map>
+  <map wb="itm_club" bl="torch_g">
+    <pos x="0" y="0" z="0" />
+    <rot x="88.2704" y="-143.405" z="-103.306" />
+    <scale x="1.37434" y="1.38042" z="1.38825" />
+    <origin enabled="false" x="-0.000885067" y="-0.00348521" z="0.020722" />
+  </map>
+  <map wb="spr_colander" bl="shovel">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.369771" y="85.6464" z="-73.0972" />
+    <scale x="0.498359" y="0.946729" z="0.433423" />
+    <origin enabled="false" x="-0.057909" y="-0.216173" z="-0.518095" />
+  </map>
+  <map wb="spr_cooking_pole" bl="flagpole_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.686881" y="179.646" z="24.3771" />
+    <scale x="0.354361" y="0.469288" z="0.189537" />
+    <origin enabled="false" x="0.00482913" y="-0.00339316" z="-3.59761" />
+  </map>
+  <map wb="spr_counter_tavern" bl="bd_table_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.290181" y="-0.293837" z="179.923" />
+    <scale x="1.20851" y="1.27344" z="1.5422" />
+    <origin enabled="false" x="-0.00897708" y="-0.0346063" z="-0.458722" />
+  </map>
+  <map wb="itm_admin_cow" bl="cow">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.56499" y="-0.770235" z="0.288016" />
+    <scale x="1.1526" y="1.07953" z="0.974842" />
+    <origin enabled="false" x="-0.0137555" y="-0.32885" z="-0.0663056" />
+  </map>
+  <map wb="itm_sniper_crossbow" bl="crossbow_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.2707" y="-39.2112" z="-45.2243" />
+    <scale x="0.768678" y="1.30775" z="1.25324" />
+    <origin enabled="false" x="0.0445603" y="0.00514345" z="-0.067824" />
+  </map>
+  <map wb="itm_crusader_sword_b" bl="vlandia_twohanded_sword_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9471" y="105.347" z="74.552" />
+    <scale x="1.23398" y="1.03483" z="0.857151" />
+    <origin enabled="false" x="0.000720366" y="-0.000261296" z="-0.011743" />
+  </map>
+  <map wb="spr_cwe_jerusalem_stairs_medium_b" bl="arabian_stairs_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.543539" y="83.4119" z="-122.742" />
+    <scale x="0.878087" y="0.864954" z="0.85524" />
+    <origin enabled="false" x="-2.08756" y="-3.0744" z="-1.93191" />
+  </map>
+  <map wb="spr_dale_awning" bl="european_city_awning_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="7.56085" y="0.318716" z="-0.400356" />
+    <scale x="0.701771" y="0.898821" z="1.01614" />
+    <origin enabled="false" x="-0.0853426" y="-0.0844306" z="-0.953367" />
+  </map>
+  <map wb="spr_lktn_awning_a" bl="european_city_awning_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="7.56085" y="0.318716" z="-0.400356" />
+    <scale x="0.701771" y="0.898821" z="1.01614" />
+    <origin enabled="false" x="-0.0853426" y="-0.0844306" z="-0.953367" />
+  </map>
+  <map wb="spr_Dale_copula_1" bl="european_castle_tower_round_a_roof">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.473748" y="-1.99736" z="-104.165" />
+    <scale x="0.627896" y="0.62933" z="0.700556" />
+    <origin enabled="false" x="-0.331692" y="-0.562653" z="-9.4906" />
+  </map>
+  <map wb="spr_Dale_copula_3" bl="european_castle_keep_a_l3_roof">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.3382" y="-3.20029" z="-100.113" />
+    <scale x="0.30047" y="0.318285" z="0.375427" />
+    <origin enabled="false" x="-0.20094" y="-0.717408" z="-46.6077" />
+  </map>
+  <map wb="spr_Dale_copula_5" bl="gizmo_move_single_axis_cone">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.561078" y="0.231272" z="177.736" />
+    <scale x="29.9274" y="29.3187" z="28.2261" />
+    <origin enabled="false" x="-0.000303895" y="-0.000559526" z="-1.57405" />
+  </map>
+  <map wb="spr_Dale_copula_6" bl="european_castle_tower_round_a_roof">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.694191" y="0.74111" z="131.101" />
+    <scale x="0.617047" y="0.617075" z="0.749165" />
+    <origin enabled="false" x="-0.17879" y="-0.321957" z="-9.05428" />
+  </map>
+  <map wb="spr_lktn_extension_f" bl="european_castle_keep_a_l3_brattice">
+    <pos x="0" y="0" z="0" />
+    <rot x="-4.04165" y="179.655" z="0.945689" />
+    <scale x="0.656243" y="0.663927" z="0.465408" />
+    <origin enabled="false" x="0.0282563" y="-0.0623003" z="-9.63882" />
+  </map>
+  <map wb="spr_lktn_extension_c" bl="european_city_part_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="7.52547" y="-178.549" z="-0.531876" />
+    <scale x="0.707788" y="0.829141" z="0.757464" />
+    <origin enabled="false" x="-0.0845608" y="0.432883" z="-3.27545" />
+  </map>
+  <map wb="spr_dale_laketown_door_a" bl="european_city_part_h_door">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.61275" y="-0.689342" z="1.48343" />
+    <scale x="0.759478" y="0.651975" z="0.856634" />
+    <origin enabled="false" x="0.0722282" y="-3.15182" z="1.22399" />
+  </map>
+  <map wb="spr_lktn_door_a" bl="european_city_part_h_door">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.61275" y="-0.689342" z="1.48343" />
+    <scale x="0.759478" y="0.651975" z="0.856634" />
+    <origin enabled="false" x="0.0722282" y="-3.15182" z="1.22399" />
+  </map>
+  <map wb="spr_dale_laketown_door_b" bl="european_city_part_h_door">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.680331" y="178.394" z="1.44529" />
+    <scale x="0.755086" y="0.644011" z="0.842953" />
+    <origin enabled="false" x="0.165041" y="-3.32114" z="-3.70137" />
+  </map>
+  <map wb="spr_lktn_door_b" bl="european_city_part_h_door">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.680331" y="178.394" z="1.44529" />
+    <scale x="0.755086" y="0.644011" z="0.842953" />
+    <origin enabled="false" x="0.165041" y="-3.32114" z="-3.70137" />
+  </map>
+  <map wb="spr_dale_laketown_door_c" bl="european_city_part_h_door">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.819481" y="178.585" z="1.03257" />
+    <scale x="0.759985" y="0.642535" z="0.847883" />
+    <origin enabled="false" x="0.116086" y="-3.33208" z="-3.65831" />
+  </map>
+  <map wb="spr_lktn_door_c" bl="european_city_part_h_door">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.819481" y="178.585" z="1.03257" />
+    <scale x="0.759985" y="0.642535" z="0.847883" />
+    <origin enabled="false" x="0.116086" y="-3.33208" z="-3.65831" />
+  </map>
+  <map wb="itm_box_dale_sword_b" bl="viking_sword_h">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.8933" y="-103.868" z="-75.8309" />
+    <scale x="1.04338" y="0.561571" z="0.985235" />
+    <origin enabled="false" x="0.00074496" y="0.000108791" z="0.0226948" />
+  </map>
+  <map wb="itm_dale_sword_b" bl="viking_sword_h">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.8933" y="-103.868" z="-75.8309" />
+    <scale x="1.04338" y="0.561571" z="0.985235" />
+    <origin enabled="false" x="0.00074496" y="0.000108791" z="0.0226948" />
+  </map>
+  <map wb="spr_Dale_tower_top_a" bl="pottery_d2">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.745844" y="-178.997" z="-143.722" />
+    <scale x="8.42201" y="8.39772" z="7.70913" />
+    <origin enabled="false" x="-0.00975677" y="-0.00909184" z="-0.327834" />
+  </map>
+  <map wb="spr_Dale_tower_top_b" bl="european_castle_keep_a_l3_roof">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.462351" y="-0.213354" z="156.777" />
+    <scale x="1.06611" y="0.981513" z="0.894683" />
+    <origin enabled="false" x="0.0321653" y="-0.23415" z="-45.236" />
+  </map>
+  <map wb="spr_Dale_tower_top_c" bl="empire_house_bridge_e_roof">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.378883" y="1.11662" z="113.18" />
+    <scale x="4.37062" y="4.0378" z="4.11477" />
+    <origin enabled="false" x="-0.0203669" y="0.00502324" z="-0.927211" />
+  </map>
+  <map wb="spr_destroy_tree_a" bl="forest_ruinous_tree_beech__branch_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="-38.0137" y="1.25208" z="25.4798" />
+    <scale x="11.0549" y="11.8034" z="14.8512" />
+    <origin enabled="false" x="-0.207179" y="-0.0901294" z="0.00859332" />
+  </map>
+  <map wb="spr_door_a" bl="sally_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.563914" y="-0.731179" z="0.069338" />
+    <scale x="1.56291" y="3.02125" z="1.52883" />
+    <origin enabled="false" x="-0.870962" y="-0.03569" z="-1.39911" />
+  </map>
+  <map wb="spr_door_c" bl="sally_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.464337" y="2.40901" z="179.546" />
+    <scale x="1.5441" y="2.91986" z="1.49343" />
+    <origin enabled="false" x="-0.876896" y="-0.0952267" z="-1.34697" />
+  </map>
+  <map wb="spr_door_e_left" bl="european_castle_gatehouse_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0609803" y="-0.453915" z="179.912" />
+    <scale x="0.637698" y="0.891819" z="0.635895" />
+    <origin enabled="false" x="-1.12752" y="-1.04743" z="-3.53713" />
+  </map>
+  <map wb="spr_door_e_right" bl="european_castle_gatehouse_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.192914" y="0.171459" z="-0.187723" />
+    <scale x="0.632878" y="0.894684" z="0.623971" />
+    <origin enabled="false" x="-1.15339" y="-0.852395" z="-3.58954" />
+  </map>
+  <map wb="spr_door_f_left" bl="european_castle_gatehouse_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.138221" y="-0.412873" z="179.874" />
+    <scale x="0.644463" y="0.886142" z="0.625678" />
+    <origin enabled="false" x="-1.16083" y="-0.94389" z="-3.5033" />
+  </map>
+  <map wb="spr_door_h_left" bl="european_castle_gatehouse_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0150082" y="0.014884" z="-179.926" />
+    <scale x="0.627461" y="0.896296" z="0.619744" />
+    <origin enabled="false" x="-1.1581" y="-1.04789" z="-3.46487" />
+  </map>
+  <map wb="spr_door_h_right" bl="european_castle_gatehouse_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.00137896" y="-0.31566" z="-0.342013" />
+    <scale x="0.63136" y="0.892289" z="0.63004" />
+    <origin enabled="false" x="-1.15013" y="-0.847571" z="-3.48797" />
+  </map>
+  <map wb="spr_door_screen" bl="clo_bd_cloth_1">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.868081" y="-7.93752" z="-169.852" />
+    <scale x="1.01806" y="0.439495" z="0.579599" />
+    <origin enabled="false" x="-0.0101136" y="0.0126096" z="-0.348526" />
+  </map>
+  <map wb="spr_draw_bridge_a" bl="siege_tower_l3_door_ghost">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.163613" y="178.721" z="0.12482" />
+    <scale x="1.55429" y="1.80561" z="1.63912" />
+    <origin enabled="false" x="0.053063" y="-0.136717" z="-3.99454" />
+  </map>
+  <map wb="spr_dungeon_corridor_a" bl="vlandia_dungeon_corridor_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.73017" y="7.93362" z="-89.6356" />
+    <scale x="1.35545" y="1.89427" z="1.38592" />
+    <origin enabled="false" x="-0.0507856" y="-0.197775" z="-1.97565" />
+  </map>
+  <map wb="spr_dungeon_corridor_b" bl="empire_dungeon_corridor_st01">
+    <pos x="0" y="0" z="0" />
+    <rot x="-4.41706" y="-0.576521" z="92.1083" />
+    <scale x="0.748884" y="1.10794" z="0.935406" />
+    <origin enabled="false" x="0.106597" y="8.63242" z="-2.10518" />
+  </map>
+  <map wb="spr_dungeon_corridor_d" bl="empire_dungeon_corridor_st01">
+    <pos x="0" y="0" z="0" />
+    <rot x="-5.5339" y="-0.29324" z="91.829" />
+    <scale x="0.746635" y="1.09886" z="0.932886" />
+    <origin enabled="false" x="0.215474" y="8.65138" z="-2.18877" />
+  </map>
+  <map wb="spr_dungeon_door_cell_a" bl="vlandia_dungeon_cells_a_bars_door">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.134079" y="178.943" z="-0.290171" />
+    <scale x="1.20795" y="0.965221" z="1.15095" />
+    <origin enabled="false" x="-1.29955" y="-0.0410173" z="-1.34489" />
+  </map>
+  <map wb="spr_dungeon_door_direction_a" bl="sturgia_castle_gate_inner_l3_state1">
+    <pos x="0" y="0" z="0" />
+    <rot x="3.21642" y="0.0557073" z="89.7562" />
+    <scale x="1.02517" y="1.70557" z="0.919526" />
+    <origin enabled="false" x="0.0135019" y="-0.0100603" z="-2.4906" />
+  </map>
+  <map wb="spr_dungeon_door_direction_b" bl="european_castle_gatehouse_door_closed">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.890144" y="-0.0783871" z="89.46" />
+    <scale x="0.796728" y="0.693316" z="0.738386" />
+    <origin enabled="false" x="-0.0784652" y="-0.0439047" z="-3.19145" />
+  </map>
+  <map wb="spr_invasion_dungeon_door_entry_b_left" bl="vlandia_keep_door_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.277553" y="1.34336" z="-179.556" />
+    <scale x="0.844721" y="1.34418" z="0.993809" />
+    <origin enabled="false" x="2.04194" y="0.00119509" z="-1.51653" />
+  </map>
+  <map wb="spr_dungeon_door_stairs_a" bl="european_castle_gatehouse_door_closed">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.973382" y="0.256921" z="-90.5392" />
+    <scale x="0.551315" y="0.587456" z="0.620077" />
+    <origin enabled="false" x="0.0880603" y="0.131017" z="-2.6062" />
+  </map>
+  <map wb="spr_dungeon_room_a" bl="sturgia_dungeon_room_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-11.7599" y="172.323" z="91.2365" />
+    <scale x="0.781901" y="0.929473" z="0.952985" />
+    <origin enabled="false" x="0.72187" y="-6.40329" z="-5.81861" />
+  </map>
+  <map wb="spr_dungeon_stairs_a" bl="vlandia_dungeon_stair_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.809535" y="4.3" z="-89.8622" />
+    <scale x="1.77176" y="1.72358" z="1.76277" />
+    <origin enabled="false" x="0.0264069" y="0.0350722" z="-0.622965" />
+  </map>
+  <map wb="spr_dungeon_stairs_b" bl="empire_dungeon_stair_wall_a1">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.02915" y="-174.9" z="-87.9002" />
+    <scale x="1.54582" y="1.37709" z="1.39034" />
+    <origin enabled="false" x="0.0170359" y="6.64028" z="2.36944" />
+  </map>
+  <map wb="spr_earth_sally_gate_right" bl="empire_castle_barn_b_l2_door">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.384923" y="-178.074" z="1.28898" />
+    <scale x="2.52817" y="2.17621" z="2.29871" />
+    <origin enabled="false" x="1.11779" y="-0.0311276" z="-2.58748" />
+  </map>
+  <map wb="spr_earth_tower_small_b" bl="earth_square_keep_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.967281" y="-1.76204" z="-118.831" />
+    <scale x="0.834887" y="0.983581" z="0.688079" />
+    <origin enabled="false" x="-30.4391" y="-155.99" z="-0.349645" />
+  </map>
+  <map wb="spr_feeding_trough_a" bl="bd_trough_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-4.08097" y="0.0244191" z="179.375" />
+    <scale x="0.83454" y="0.729813" z="0.664778" />
+    <origin enabled="false" x="0.0279781" y="-0.0842048" z="0.022944" />
+  </map>
+  <map wb="itm_felt_hat" bl="khuzait_helmet_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="32.2809" y="172.389" z="175.869" />
+    <scale x="1.15512" y="1.00766" z="1.15269" />
+    <origin enabled="false" x="-0.0134387" y="-0.170902" z="-1.64396" />
+  </map>
+  <map wb="spr_obstacle_fence_1" bl="fence_e_long">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.39063" y="-0.241326" z="0.978659" />
+    <scale x="1.01236" y="1.31393" z="1.36683" />
+    <origin enabled="false" x="0.424168" y="-0.0138795" z="-0.354847" />
+  </map>
+  <map wb="spr_fountain" bl="empire_street_fountain_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.37141" y="-0.590097" z="-0.0563195" />
+    <scale x="1.20656" y="1.18128" z="1.16772" />
+    <origin enabled="false" x="-0.0459322" y="0.454777" z="0.507244" />
+  </map>
+  <map wb="spr_garlic_b" bl="kitchen_garlic_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.18972" y="-0.221357" z="149.693" />
+    <scale x="2.00086" y="1.38583" z="2.32779" />
+    <origin enabled="false" x="0.00589796" y="0.0612597" z="-0.0180191" />
+  </map>
+  <map wb="spr_gatehouse_door_left" bl="empire_grandbazaar_gate_door_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0144891" y="-1.25599" z="0.152289" />
+    <scale x="1.45292" y="1.62293" z="1.53588" />
+    <origin enabled="false" x="-0.0811044" y="0.0683058" z="-1.09708" />
+  </map>
+  <map wb="spr_gatehouse_door_right" bl="empire_grandbazaar_gate_door_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0927384" y="2.53871" z="-179.919" />
+    <scale x="1.47054" y="1.62399" z="1.50304" />
+    <origin enabled="false" x="-0.103833" y="0.176534" z="-1.04678" />
+  </map>
+  <map wb="spr_gon_castle_h_house_b_E" bl="empire_village_barn_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.920542" y="-0.433581" z="-0.694128" />
+    <scale x="0.956786" y="0.888793" z="0.963899" />
+    <origin enabled="false" x="0.00622561" y="-1.00073" z="-0.563815" />
+  </map>
+  <map wb="spr_gon_castle_h_house_c" bl="european_castle_barn_a_l1">
+    <pos x="0" y="0" z="0" />
+    <rot x="4.51234" y="-0.732794" z="1.3647" />
+    <scale x="1.08008" y="1.18146" z="1.1946" />
+    <origin enabled="false" x="-1.19138" y="-3.1458" z="-0.100567" />
+  </map>
+  <map wb="spr_gon_castle_h_house_c_E" bl="european_castle_barn_a_l1">
+    <pos x="0" y="0" z="0" />
+    <rot x="4.51234" y="-0.732794" z="1.3647" />
+    <scale x="1.08008" y="1.18146" z="1.1946" />
+    <origin enabled="false" x="-1.19138" y="-3.1458" z="-0.100567" />
+  </map>
+  <map wb="spr_gondor_mt_bridge_modular_a_E" bl="empire_bridge_a_part_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.219529" y="-1.32428" z="-0.111207" />
+    <scale x="0.970352" y="0.673463" z="0.608873" />
+    <origin enabled="false" x="0.563701" y="0.17021" z="-2.6441" />
+  </map>
+  <map wb="spr_gondor_mt_house_extension_c" bl="european_city_part_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.81025" y="-176.686" z="3.43744" />
+    <scale x="0.652856" y="0.835419" z="0.772161" />
+    <origin enabled="false" x="-0.0998661" y="0.225423" z="-3.52858" />
+  </map>
+  <map wb="itm_dunedain_ranger_hood" bl="assassin_hood">
+    <pos x="0" y="0" z="0" />
+    <rot x="76.9244" y="158.108" z="11.9844" />
+    <scale x="0.946425" y="0.918487" z="1.15516" />
+    <origin enabled="false" x="-0.00411015" y="-0.0355156" z="-1.58825" />
+  </map>
+  <map wb="spr_gondor_man_statue" bl="bd_battania_statue_boudica">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.73428" y="3.10239" z="128.072" />
+    <scale x="1.19046" y="1.22095" z="0.92357" />
+    <origin enabled="false" x="-0.00321464" y="-0.0657343" z="-1.86918" />
+  </map>
+  <map wb="spr_gothic_chair" bl="bd_chair_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.60052" y="2.81962" z="2.02328" />
+    <scale x="0.81659" y="0.920507" z="0.893488" />
+    <origin enabled="false" x="-0.0413654" y="0.00292229" z="-0.944634" />
+  </map>
+  <map wb="spr_gothic_stool" bl="bd_chair_empire_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.476001" y="-179.622" z="-0.0751862" />
+    <scale x="0.575609" y="0.593417" z="0.872066" />
+    <origin enabled="false" x="-0.00510034" y="0.0347394" z="-0.662059" />
+  </map>
+  <map wb="spr_gourd" bl="gourd">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.59187" y="-0.0363829" z="-53.5026" />
+    <scale x="1.00145" y="1.00238" z="0.99734" />
+    <origin enabled="false" x="0.000409616" y="5.84856E-06" z="0.00365382" />
+  </map>
+  <map wb="spr_gourd_spike" bl="gourd_spike">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.00303647" y="0.0238331" z="78.5895" />
+    <scale x="1.00485" y="1.01215" z="0.967733" />
+    <origin enabled="false" x="0.000173939" y="-0.00159194" z="0.031756" />
+  </map>
+  <map wb="spr_grape_a" bl="grape">
+    <pos x="0" y="0" z="0" />
+    <rot x="86.2027" y="162.127" z="-165.581" />
+    <scale x="0.397913" y="1.70474" z="0.643776" />
+    <origin enabled="false" x="-0.0120281" y="0.0307927" z="0.219744" />
+  </map>
+  <map wb="spr_grape_b" bl="grape_branch">
+    <pos x="0" y="0" z="0" />
+    <rot x="-85.7989" y="-89.2931" z="93.1608" />
+    <scale x="0.15415" y="0.300088" z="0.142549" />
+    <origin enabled="false" x="-0.0637948" y="0.144944" z="-1.43984" />
+  </map>
+  <map wb="spr_hanger" bl="empire_keep_d_interior_flag_hanger">
+    <pos x="0" y="0" z="0" />
+    <rot x="-25.1838" y="179.903" z="-0.899175" />
+    <scale x="0.207995" y="0.440713" z="0.458744" />
+    <origin enabled="false" x="-0.149873" y="0.195846" z="-0.00734143" />
+  </map>
+  <map wb="itm_hand_axe" bl="lumberyard_axe">
+    <pos x="0" y="0" z="0" />
+    <rot x="85.4696" y="93.8943" z="86.6215" />
+    <scale x="0.816939" y="0.708372" z="1.09415" />
+    <origin enabled="false" x="0.000205411" y="0.00291218" z="0.0861477" />
+  </map>
+  <map wb="itm_hatchet" bl="lumberyard_axe">
+    <pos x="0" y="0" z="0" />
+    <rot x="85.4696" y="93.8943" z="86.6215" />
+    <scale x="0.816939" y="0.708372" z="1.09415" />
+    <origin enabled="false" x="0.000205411" y="0.00291218" z="0.0861477" />
+  </map>
+  <map wb="itm_honey" bl="honey_pot">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.330531" y="-0.364335" z="0.268417" />
+    <scale x="0.973762" y="1.04484" z="0.973997" />
+    <origin enabled="false" x="-0.00675555" y="-0.00508887" z="0.0168519" />
+  </map>
+  <map wb="spr_horse_mill" bl="bd_stone_mill">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.31186" y="5.29101" z="-55.5731" />
+    <scale x="1.65124" y="1.68091" z="2.03205" />
+    <origin enabled="false" x="-0.0315864" y="-0.0645762" z="-0.109787" />
+  </map>
+  <map wb="spr_house_extension_b" bl="arabian_house_new_detail_window_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-7.51857" y="-0.899005" z="0.863153" />
+    <scale x="0.854378" y="1.22297" z="0.759164" />
+    <origin enabled="false" x="-0.144653" y="0.406674" z="-0.00710171" />
+  </map>
+  <map wb="spr_house_extension_e" bl="european_castle_keep_a_l3_brattice_wood">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.88783" y="-0.183004" z="-0.00124186" />
+    <scale x="0.389558" y="0.462779" z="0.510706" />
+    <origin enabled="false" x="0.0879205" y="0.362127" z="-1.63109" />
+  </map>
+  <map wb="spr_house_extension_f" bl="european_castle_keep_a_l3_brattice_wood">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.81213" y="-176.931" z="0.614533" />
+    <scale x="0.790573" y="0.966148" z="0.754233" />
+    <origin enabled="false" x="-0.150651" y="0.569647" z="-7.06462" />
+  </map>
+  <map wb="spr_house_extension_f2" bl="arabian_house_new_detail_window_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.460687" y="177.261" z="-31.3924" />
+    <scale x="1.34121" y="1.43572" z="1.18929" />
+    <origin enabled="false" x="-0.202334" y="-0.209391" z="-3.56335" />
+  </map>
+  <map wb="itm_hunting_bow" bl="longbow_j">
+    <pos x="0" y="0" z="0" />
+    <rot x="-89.5986" y="85.5358" z="86.3378" />
+    <scale x="0.717684" y="1.35705" z="0.835709" />
+    <origin enabled="false" x="0.000227832" y="0.00115463" z="-0.0108416" />
+  </map>
+  <map wb="itm_hunter" bl="horse_brown002">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.51122" y="0.0514429" z="0.047653" />
+    <scale x="0.905807" y="0.960597" z="1.04471" />
+    <origin enabled="false" x="-0.00107239" y="-0.1856" z="-0.0317661" />
+  </map>
+  <map wb="itm_iron" bl="iron_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.177771" y="-179.092" z="0.851383" />
+    <scale x="5.42995" y="8.13144" z="7.04005" />
+    <origin enabled="false" x="-0.00499927" y="-0.00788742" z="-0.00627747" />
+  </map>
+  <map wb="itm_box_khergit_bow" bl="bow">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.6555" y="139.912" z="-140.259" />
+    <scale x="0.775535" y="1.22581" z="0.74748" />
+    <origin enabled="false" x="-0.00933103" y="0.00439469" z="-0.00971137" />
+  </map>
+  <map wb="itm_box_khergit_sword_two_handed_b" bl="aserai_blade_27">
+    <pos x="0" y="0" z="0" />
+    <rot x="87.26" y="89.9083" z="-90.1643" />
+    <scale x="1.51252" y="2.77028" z="1.47216" />
+    <origin enabled="false" x="0.00249103" y="-0.000456964" z="0.340158" />
+  </map>
+  <map wb="itm_butchering_knife" bl="blacksmith_sword">
+    <pos x="0" y="0" z="0" />
+    <rot x="88.648" y="88.8039" z="-88.0953" />
+    <scale x="1.04257" y="1.22601" z="0.950999" />
+    <origin enabled="false" x="0.00483059" y="-3.21421E-05" z="-0.031285" />
+  </map>
+  <map wb="spr_lamp_a" bl="torch_wall_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.655336" y="-15.7448" z="-89.3656" />
+    <scale x="0.467058" y="0.561184" z="0.609706" />
+    <origin enabled="false" x="0.00389023" y="-0.249233" z="0.336318" />
+  </map>
+  <map wb="itm_narf_leather_boots" bl="battania_leather_boots_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.25515" y="-0.192031" z="0.862614" />
+    <scale x="0.737079" y="1.01918" z="1.24689" />
+    <origin enabled="false" x="0.00832156" y="0.0270912" z="-0.0488045" />
+  </map>
+  <map wb="itm_leather_cap" bl="leather_cap_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="30.6676" y="176.424" z="176.315" />
+    <scale x="1.01412" y="1.09152" z="0.743711" />
+    <origin enabled="false" x="-0.00758887" y="-0.127783" z="-1.57301" />
+  </map>
+  <map wb="itm_long_axe_alt" bl="axe_l1">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.3103" y="-88.8552" z="-91.6522" />
+    <scale x="1.49066" y="1.06935" z="1.65013" />
+    <origin enabled="false" x="-0.00493242" y="-2.03313E-05" z="-0.0349994" />
+  </map>
+  <map wb="itm_long_axe_c" bl="two_handed_battle_axe_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0214083" y="-0.0988082" z="-2.82692" />
+    <scale x="0.958997" y="1.37826" z="1.00972" />
+    <origin enabled="false" x="-0.00182705" y="0.0272532" z="0.000571632" />
+  </map>
+  <map wb="itm_tutorial_sword" bl="vlandia_twohanded_sword_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9027" y="149.121" z="31.2882" />
+    <scale x="1.2948" y="0.841627" z="0.964941" />
+    <origin enabled="false" x="-0.000565379" y="2.89613E-05" z="-0.00956441" />
+  </map>
+  <map wb="itm_mail_and_plate" bl="sturgia_cavalry_armor">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.88006" y="-0.674469" z="-0.622267" />
+    <scale x="1.09491" y="0.84401" z="1.01315" />
+    <origin enabled="false" x="-0.00816002" y="-0.0516546" z="0.113592" />
+  </map>
+  <map wb="spr_mangonel" bl="mangonel_a_body">
+    <pos x="0" y="0" z="0" />
+    <rot x="71.0083" y="-152.522" z="-41.9179" />
+    <scale x="1.5358" y="1.36177" z="1.07861" />
+    <origin enabled="false" x="0.212375" y="1.31621" z="-1.16968" />
+  </map>
+  <map wb="itm_maroon_aegis_shield" bl="shield_battania_cavalary_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="6.81931" y="0.441289" z="-71.1169" />
+    <scale x="0.782645" y="0.784243" z="1.54023" />
+    <origin enabled="false" x="0.218753" y="0.061509" z="-0.0373283" />
+  </map>
+  <map wb="spr_mat_d" bl="mat_carpet_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.29022" y="-0.169307" z="-178.029" />
+    <scale x="0.966274" y="1.24157" z="0.156032" />
+    <origin enabled="false" x="-0.0530907" y="0.000531176" z="0.0545934" />
+  </map>
+  <map wb="itm_maul" bl="bd_wooden_maul">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.2314" y="-41.9837" z="40.7909" />
+    <scale x="0.535951" y="0.623119" z="0.844293" />
+    <origin enabled="false" x="-0.00189176" y="0.00951049" z="0.208722" />
+  </map>
+  <map wb="spr_meat_hook" bl="kitchen_hook">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.57519" y="90.111" z="119.128" />
+    <scale x="0.185112" y="0.203431" z="0.627465" />
+    <origin enabled="false" x="-0.0358194" y="0.0586712" z="0.287131" />
+  </map>
+  <map wb="spr_mill_flour_sack" bl="mill_flour_sack">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0665696" y="-0.110268" z="1.5056" />
+    <scale x="1.00412" y="1.01408" z="0.992486" />
+    <origin enabled="false" x="-9.91995E-05" y="-0.00983408" z="-0.00109253" />
+  </map>
+  <map wb="spr_mt_horse_statue" bl="empire_statue_horse">
+    <pos x="0" y="0" z="0" />
+    <rot x="52.649" y="175.878" z="-171.663" />
+    <scale x="2.43848" y="1.25797" z="1.30315" />
+    <origin enabled="false" x="0.0339386" y="-1.4186" z="-1.92469" />
+  </map>
+  <map wb="itm_box_nomad_bow" bl="strong_bow">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0670132" y="179.3" z="-179.674" />
+    <scale x="0.776038" y="0.876719" z="0.92744" />
+    <origin enabled="false" x="0.0062379" y="-0.00516872" z="0.014219" />
+  </map>
+  <map wb="itm_norman_helmet" bl="nasal_helmet_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="77.8187" y="-173.592" z="3.02907" />
+    <scale x="1.15445" y="1.11923" z="1.17287" />
+    <origin enabled="false" x="0.000350803" y="-0.039309" z="-1.59118" />
+  </map>
+  <map wb="spr_ZT_mb_oak" bl="mangonel_pot_pile">
+    <pos x="0" y="0" z="0" />
+    <rot x="-76.4923" y="-143.862" z="126.436" />
+    <scale x="6.2772" y="6.20599" z="6.35882" />
+    <origin enabled="false" x="1.18897" y="0.0553386" z="-0.433753" />
+  </map>
+  <map wb="spr_osgiliath_bridge" bl="stone_bridge">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.87005" y="-4.54989" z="-179.351" />
+    <scale x="1.66027" y="1.28917" z="0.840859" />
+    <origin enabled="false" x="0.77225" y="0.117938" z="10.0411" />
+  </map>
+  <map wb="spr_container_small_chest" bl="bd_chest_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.39611" y="-0.382492" z="0.28309" />
+    <scale x="0.513339" y="0.583828" z="0.593156" />
+    <origin enabled="false" x="-0.0262712" y="-0.0242819" z="-0.0458902" />
+  </map>
+  <map wb="spr_pel_bridge" bl="gate_bridge">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0947575" y="-0.072206" z="-0.142673" />
+    <scale x="4.72054" y="4.365" z="3.45036" />
+    <origin enabled="false" x="0.235969" y="0.987242" z="2.70636" />
+  </map>
+  <map wb="spr_pillow_c" bl="bd_pillow_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-77.556" y="0.171742" z="178.029" />
+    <scale x="0.937249" y="0.537032" z="0.722523" />
+    <origin enabled="false" x="-0.00300511" y="-0.0601883" z="-0.134504" />
+  </map>
+  <map wb="spr_locked_player_chest" bl="bd_chest_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-84.0881" y="-175.935" z="4.96496" />
+    <scale x="1.05823" y="1.1713" z="1.03402" />
+    <origin enabled="false" x="-0.0063719" y="-0.44954" z="-0.481811" />
+  </map>
+  <map wb="spr_player_chest" bl="bd_chest_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="-84.0881" y="-175.935" z="4.96496" />
+    <scale x="1.05823" y="1.1713" z="1.03402" />
+    <origin enabled="false" x="-0.0063719" y="-0.44954" z="-0.481811" />
+  </map>
+  <map wb="spr_pointer_arrow" bl="pointer_arrow">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0187409" y="-0.262357" z="-0.0564796" />
+    <scale x="1.01902" y="0.983821" z="1.02231" />
+    <origin enabled="false" x="-0.00162334" y="0.00328955" z="0.00500237" />
+  </map>
+  <map wb="spr_portcullis_E" bl="european_castle_gatehouse_portcullis_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0135472" y="-4.37193" z="-179.734" />
+    <scale x="0.627574" y="0.618104" z="0.535777" />
+    <origin enabled="false" x="0.114637" y="-0.0170381" z="-4.62783" />
+  </map>
+  <map wb="itm_tutorial_dagger" bl="celtic_dagger_a_new">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.6172" y="-98.7774" z="99.8557" />
+    <scale x="1.26961" y="2.07208" z="0.807664" />
+    <origin enabled="false" x="-0.000843184" y="-0.000344591" z="-0.0206511" />
+  </map>
+  <map wb="spr_prop_cage_rusty" bl="hawk_cage_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.369664" y="0.971813" z="83.8288" />
+    <scale x="2.86894" y="2.87492" z="2.26808" />
+    <origin enabled="false" x="-0.00141425" y="0.00532043" z="0.0389144" />
+  </map>
+  <map wb="spr_prop_gondor_cylinder" bl="editor_cylinder">
+    <pos x="0" y="0" z="0" />
+    <rot x="4.72203" y="-177.015" z="-62.6374" />
+    <scale x="2.66753" y="2.61946" z="8.58508" />
+    <origin enabled="false" x="0.0267184" y="0.0526456" z="-1.07527" />
+  </map>
+  <map wb="spr_prop_rock_cylinder" bl="editor_cylinder">
+    <pos x="0" y="0" z="0" />
+    <rot x="-4.42455" y="177.688" z="138.832" />
+    <scale x="2.63089" y="2.66989" z="8.5615" />
+    <origin enabled="false" x="0.0181037" y="0.0336415" z="-1.07273" />
+  </map>
+  <map wb="spr_invalid_object" bl="question_mark">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0768867" y="-0.688864" z="-0.468346" />
+    <scale x="1.02174" y="0.991561" z="0.998803" />
+    <origin enabled="false" x="0.0107371" y="-0.00579918" z="0.00219072" />
+  </map>
+  <map wb="spr_flax_bundle" bl="merchandise_flax">
+    <pos x="0" y="0" z="0" />
+    <rot x="-15.9248" y="3.53875" z="-34.1766" />
+    <scale x="1.29163" y="1.54527" z="1.14203" />
+    <origin enabled="false" x="-0.00846598" y="-0.0367016" z="-0.00987279" />
+  </map>
+  <map wb="itm_horse_meat" bl="merchandise_meat">
+    <pos x="0" y="0" z="0" />
+    <rot x="3.63554" y="4.27533" z="-92.8294" />
+    <scale x="0.806452" y="1.04104" z="0.890556" />
+    <origin enabled="false" x="-0.0082363" y="-0.0184355" z="-0.116189" />
+  </map>
+  <map wb="itm_raw_silk" bl="merchandise_raw_silk">
+    <pos x="0" y="0" z="0" />
+    <rot x="-73.5367" y="-152.635" z="-123.968" />
+    <scale x="0.361101" y="0.276425" z="1.14308" />
+    <origin enabled="false" x="-0.121663" y="0.265232" z="-0.353395" />
+  </map>
+  <map wb="spr_ruined_debris_a" bl="ruinous_brick_heap_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.61524" y="-0.167757" z="-33.7149" />
+    <scale x="1.12605" y="1.71094" z="0.701935" />
+    <origin enabled="false" x="-434.165" y="-510.629" z="-29.5447" />
+  </map>
+  <map wb="spr_ruined_debris_c" bl="ruinous_castle_stone_heap_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-6.10079" y="-1.19727" z="-4.88404" />
+    <scale x="0.540999" y="0.598264" z="0.987935" />
+    <origin enabled="false" x="0.203987" y="0.430061" z="-0.192916" />
+  </map>
+  <map wb="spr_gondor_ruined_horse_statue" bl="empire_statue_horse">
+    <pos x="0" y="0" z="0" />
+    <rot x="43.8166" y="177.351" z="-177.735" />
+    <scale x="2.49079" y="1.27376" z="1.27686" />
+    <origin enabled="false" x="-0.0216183" y="-1.34929" z="-2.03358" />
+  </map>
+  <map wb="spr_ruins_tower" bl="ruinous_castle_tower_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="87.9871" y="90.602" z="-95.8553" />
+    <scale x="0.528098" y="0.413468" z="0.396187" />
+    <origin enabled="false" x="-0.683122" y="-10.1163" z="-10.769" />
+  </map>
+  <map wb="itm_saddle_horse" bl="horse_brown002">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.22116" y="0.0354171" z="0.168745" />
+    <scale x="0.896989" y="0.958092" z="1.00011" />
+    <origin enabled="false" x="0.0038598" y="-0.220932" z="0.0269708" />
+  </map>
+  <map wb="itm_tutorial_saddle_horse" bl="horse_brown002">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.22116" y="0.0354171" z="0.168745" />
+    <scale x="0.896989" y="0.958092" z="1.00011" />
+    <origin enabled="false" x="0.0038598" y="-0.220932" z="0.0269708" />
+  </map>
+  <map wb="spr_sandy_ruined_debris_c" bl="ruinous_aserai_castle_stone_heap_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="3.11407" y="5.55795" z="147.356" />
+    <scale x="0.572413" y="0.578379" z="0.928418" />
+    <origin enabled="false" x="-1292.72" y="-707.994" z="-17.4091" />
+  </map>
+  <map wb="spr_sandy_ruined_stone" bl="ruinous_aserai_castle_stone_heap_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="53.111" y="168.952" z="5.85169" />
+    <scale x="0.362659" y="0.386749" z="0.561505" />
+    <origin enabled="false" x="-1294.35" y="-713.238" z="-17.5302" />
+  </map>
+  <map wb="spr_sandy_ruined_tower" bl="ruinous_aserai_castle_tower_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.1907" y="179.86" z="-159.164" />
+    <scale x="0.354536" y="0.45138" z="0.422825" />
+    <origin enabled="false" x="-1305.11" y="-726.525" z="-40.4527" />
+  </map>
+  <map wb="spr_sandy_ruins_tower" bl="ruinous_aserai_castle_tower_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="14.8701" y="-112.825" z="107.958" />
+    <scale x="0.53797" y="0.39586" z="0.373355" />
+    <origin enabled="false" x="-1303.27" y="-734.088" z="-37.7346" />
+  </map>
+  <map wb="spr_sandy_statue_female_ruined" bl="bd_battania_statue_female_tall">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.93502" y="-0.777005" z="17.7075" />
+    <scale x="2.22313" y="1.56861" z="1.98142" />
+    <origin enabled="false" x="0.0120532" y="-0.157401" z="-0.177273" />
+  </map>
+  <map wb="itm_sarranid_leather_armor" bl="khuzait_suede_leather">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.167127" y="-1.14671" z="0.767841" />
+    <scale x="1.0927" y="1.18779" z="1.13993" />
+    <origin enabled="false" x="-0.015967" y="-0.000368364" z="-0.0675178" />
+  </map>
+  <map wb="itm_sausages" bl="sausages">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0724074" y="-0.0914273" z="-2.4521" />
+    <scale x="1.00468" y="0.984468" z="0.99123" />
+    <origin enabled="false" x="-0.000324388" y="0.00554737" z="-0.000131892" />
+  </map>
+  <map wb="itm_scimitar" bl="sword_arabian_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="80.386" y="88.7978" z="92.112" />
+    <scale x="2.27382" y="1.47686" z="1.15328" />
+    <origin enabled="false" x="-0.0220316" y="-0.00148152" z="-0.0133685" />
+  </map>
+  <map wb="itm_box_scimitar_b" bl="sword_arabian_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="87.6423" y="90.7535" z="88.8976" />
+    <scale x="1.26837" y="1.55191" z="1.13442" />
+    <origin enabled="false" x="-0.0192929" y="0.000660304" z="-0.0103963" />
+  </map>
+  <map wb="spr_shadow_circle_1" bl="shadow_circle_1">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="-15.8054" />
+    <scale x="0.986285" y="0.989644" z="0.05" />
+    <origin enabled="false" x="0.00592565" y="0.00546435" z="0" />
+  </map>
+  <map wb="spr_shadow_square_1" bl="shadow_square_1">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="102.273" />
+    <scale x="1.01835" y="1.007" z="0.05" />
+    <origin enabled="false" x="-0.0144219" y="-0.00376883" z="0" />
+  </map>
+  <map wb="spr_shadow_square_2" bl="shadow_square_2">
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="-180" z="-164.892" />
+    <scale x="0.993021" y="1.00543" z="0.05" />
+    <origin enabled="false" x="0.0206835" y="-0.00283715" z="0" />
+  </map>
+  <map wb="itm_box_steel_shield" bl="shield_khuzait_cavalary_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="5.02104" y="0.707908" z="-31.144" />
+    <scale x="0.859733" y="0.847388" z="1.02847" />
+    <origin enabled="false" x="0.0330321" y="0.179621" z="-0.0283385" />
+  </map>
+  <map wb="itm_steel_shield" bl="shield_khuzait_cavalary_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="5.02104" y="0.707908" z="-31.144" />
+    <scale x="0.859733" y="0.847388" z="1.02847" />
+    <origin enabled="false" x="0.0330321" y="0.179621" z="-0.0283385" />
+  </map>
+  <map wb="itm_shield_heavy_big_empire_infantry_b2_01" bl="heater_shield_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="7.80134" y="-6.46012" z="-141.183" />
+    <scale x="0.959758" y="0.765094" z="0.932079" />
+    <origin enabled="false" x="0.033591" y="-0.238767" z="0.0388517" />
+  </map>
+  <map wb="itm_tutorial_shield" bl="heater_shield_k">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.16761" y="0.121921" z="-134.296" />
+    <scale x="0.875588" y="0.769224" z="0.952924" />
+    <origin enabled="false" x="0.011754" y="-0.0370775" z="-0.0356938" />
+  </map>
+  <map wb="itm_fur_covered_shield" bl="steel_druzhinnik_kite_shield">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.72019" y="2.10428" z="-135.804" />
+    <scale x="0.807831" y="1.1436" z="2.5885" />
+    <origin enabled="false" x="0.0719262" y="0.0312267" z="-0.0350513" />
+  </map>
+  <map wb="itm_wooden_shield" bl="sturgia_old_shield_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="5.8399" y="0.380274" z="30.5081" />
+    <scale x="0.664524" y="0.71174" z="1.48838" />
+    <origin enabled="false" x="-0.179112" y="0.293761" z="0.0306743" />
+  </map>
+  <map wb="itm_box_nordic_shield" bl="shield_sturgia_infantary_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="5.9094" y="-0.799052" z="-67.2091" />
+    <scale x="0.764881" y="0.769249" z="1.38179" />
+    <origin enabled="false" x="0.298228" y="0.10899" z="0.0297159" />
+  </map>
+  <map wb="itm_nordic_shield" bl="shield_sturgia_infantary_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="5.9094" y="-0.799052" z="-67.2091" />
+    <scale x="0.764881" y="0.769249" z="1.38179" />
+    <origin enabled="false" x="0.298228" y="0.10899" z="0.0297159" />
+  </map>
+  <map wb="spr_ship" bl="boat_sail_on">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.84899" y="1.93576" z="90.1177" />
+    <scale x="4.60211" y="4.93624" z="4.73163" />
+    <origin enabled="false" x="-0.00320416" y="0.157684" z="0.123112" />
+  </map>
+  <map wb="spr_ship_c" bl="ship_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.341664" y="-4.17875" z="-90.9638" />
+    <scale x="2.31796" y="2.60614" z="2.147" />
+    <origin enabled="false" x="-0.110145" y="0.850551" z="1.76734" />
+  </map>
+  <map wb="spr_ship_d" bl="ship_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.70885" y="-89.0071" z="99.6224" />
+    <scale x="1.13296" y="1.47272" z="1.70488" />
+    <origin enabled="false" x="-0.981164" y="-3.805" z="-1.76986" />
+  </map>
+  <map wb="spr_ship_sail_off" bl="boat_sail_off">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.478406" y="-0.420362" z="90.3273" />
+    <scale x="4.70655" y="5.25701" z="3.79561" />
+    <origin enabled="false" x="-0.0455179" y="0.00571119" z="0.142933" />
+  </map>
+  <map wb="spr_ship_sail_off_b" bl="boat_sail_off">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0232762" y="-0.525476" z="90.5121" />
+    <scale x="4.78123" y="5.38401" z="3.93506" />
+    <origin enabled="false" x="-0.0276277" y="0.00365371" z="0.123537" />
+  </map>
+  <map wb="itm_short_bow" bl="longbow_j">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9836" y="-129.319" z="128.596" />
+    <scale x="0.617163" y="1.03901" z="0.696806" />
+    <origin enabled="false" x="0.0131663" y="0.00803338" z="0.0134601" />
+  </map>
+  <map wb="itm_tutorial_short_bow" bl="longbow_j">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9836" y="-129.319" z="128.596" />
+    <scale x="0.617163" y="1.03901" z="0.696806" />
+    <origin enabled="false" x="0.0131663" y="0.00803338" z="0.0134601" />
+  </map>
+  <map wb="itm_sickle" bl="peasent_sickle">
+    <pos x="0" y="0" z="0" />
+    <rot x="67.0947" y="90.0524" z="90.0412" />
+    <scale x="0.784885" y="0.930552" z="1.01728" />
+    <origin enabled="false" x="-0.00843188" y="0.000884441" z="-0.0273246" />
+  </map>
+  <map wb="spr_siege_ladder_12m" bl="siege_ladder_12m">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.012789" y="0.306101" z="-0.582556" />
+    <scale x="1.00955" y="1.06908" z="0.98965" />
+    <origin enabled="false" x="0.0318616" y="0.00385302" z="0.0121204" />
+  </map>
+  <map wb="spr_siege_ladder_move_14m" bl="siege_ladder_move_14m">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0222628" y="-179.951" z="-1.56951" />
+    <scale x="0.984254" y="0.959034" z="1.00353" />
+    <origin enabled="false" x="-0.0244672" y="0.00405851" z="-13.8095" />
+  </map>
+  <map wb="spr_skeleton_bone" bl="ballista_mounted_stand_destroyed_part3">
+    <pos x="0" y="0" z="0" />
+    <rot x="-45.6839" y="40.6114" z="77.1579" />
+    <scale x="0.758275" y="0.768441" z="0.743228" />
+    <origin enabled="false" x="-0.0489701" y="0.0283416" z="-0.0282145" />
+  </map>
+  <map wb="spr_skewer" bl="flagpole_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0129297" y="-89.9909" z="94.2796" />
+    <scale x="0.0984467" y="0.0914943" z="0.122323" />
+    <origin enabled="false" x="-0.00102047" y="-0.00504327" z="-1.16334" />
+  </map>
+  <map wb="spr_skull_b" bl="bd_skull_antilope_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-11.172" y="0.0854673" z="0.165337" />
+    <scale x="0.962161" y="0.662486" z="0.959219" />
+    <origin enabled="false" x="0.0205287" y="0.159792" z="0.149775" />
+  </map>
+  <map wb="spr_skull_c" bl="bd_skull_antilope_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-13.1828" y="1.64879" z="1.73405" />
+    <scale x="1.61463" y="0.786669" z="1.06732" />
+    <origin enabled="false" x="0.0156085" y="0.124847" z="0.171295" />
+  </map>
+  <map wb="spr_skull_d" bl="bd_skull_antilope_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-23.6162" y="1.78569" z="-1.25862" />
+    <scale x="1.01901" y="1.07693" z="0.926125" />
+    <origin enabled="false" x="0.0132781" y="0.228985" z="-0.0207388" />
+  </map>
+  <map wb="spr_small_round_tower_roof_a" bl="european_castle_tower_round_a_roof">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.986791" y="-2.83115" z="9.38479" />
+    <scale x="0.538159" y="0.53818" z="0.534404" />
+    <origin enabled="false" x="-1.48267" y="0.160561" z="23.2425" />
+  </map>
+  <map wb="spr_smithy_anvil" bl="smithy_anvil">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.140281" y="-0.752288" z="6.42369" />
+    <scale x="0.976829" y="0.982025" z="0.998844" />
+    <origin enabled="false" x="-0.00720883" y="0.00171534" z="0.009357" />
+  </map>
+  <map wb="itm_smoked_fish" bl="kitchen_food_fish">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.029343" y="91.9735" z="-175.668" />
+    <scale x="3.31272" y="2.29906" z="5.13238" />
+    <origin enabled="false" x="0.014799" y="-0.0172635" z="-0.000659498" />
+  </map>
+  <map wb="spr_snowy_barrel_a" bl="bd_barrel_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.70419" y="179.421" z="-135.609" />
+    <scale x="0.838517" y="0.830673" z="0.812979" />
+    <origin enabled="false" x="-0.00845966" y="0.0215054" z="-1.30884" />
+  </map>
+  <map wb="spr_snowy_castle_f_wall_stairs_a" bl="wall_stairs">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.5653" y="-6.65743" z="-91.9218" />
+    <scale x="0.999909" y="0.651056" z="0.693983" />
+    <origin enabled="false" x="0.125778" y="0.17828" z="-0.00689005" />
+  </map>
+  <map wb="spr_snowy_fence" bl="fence_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="3.40994" y="1.22035" z="-33.0299" />
+    <scale x="1.21374" y="1.0782" z="1.38561" />
+    <origin enabled="false" x="-0.151541" y="0.0606879" z="-0.23914" />
+  </map>
+  <map wb="spr_snowy_trunks_a" bl="log_beech_group_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="20.3771" y="-2.53116" z="89.9182" />
+    <scale x="1.15309" y="1.10571" z="1.47303" />
+    <origin enabled="false" x="0.368488" y="-0.0586805" z="0.0329547" />
+  </map>
+  <map wb="spr_snowy_wood_heap" bl="bd_wood_heap_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-70.7819" y="7.0907" z="-174.219" />
+    <scale x="2.20096" y="1.71219" z="1.71492" />
+    <origin enabled="false" x="0.0911767" y="-0.373158" z="-0.233124" />
+  </map>
+  <map wb="itm_lance" bl="flagpole_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-89.9006" y="4.69079" z="-18.5762" />
+    <scale x="0.942382" y="0.803907" z="1.2654" />
+    <origin enabled="false" x="-0.00147171" y="0.000366544" z="-1.2349" />
+  </map>
+  <map wb="itm_spice" bl="spice_sack">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.777392" y="-0.204778" z="-0.251192" />
+    <scale x="1.00868" y="0.987936" z="0.994769" />
+    <origin enabled="false" x="0.000896699" y="0.00112778" z="-0.00280659" />
+  </map>
+  <map wb="spr_square_tower_roof_a" bl="european_castle_tower_roof">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.546945" y="-0.415359" z="-21.6967" />
+    <scale x="1.00309" y="0.993896" z="1.09081" />
+    <origin enabled="false" x="-0.0412055" y="-0.0710356" z="11.7335" />
+  </map>
+  <map wb="spr_gon_statue_fem" bl="bd_battania_statue_female_tall">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.70338" y="-0.569749" z="19.5534" />
+    <scale x="2.21902" y="1.58712" z="1.97299" />
+    <origin enabled="false" x="0.0168538" y="-0.147977" z="-0.165612" />
+  </map>
+  <map wb="spr_gon_statue_fem_E" bl="bd_battania_statue_female_tall">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.70338" y="-0.569749" z="19.5534" />
+    <scale x="2.21902" y="1.58712" z="1.97299" />
+    <origin enabled="false" x="0.0168538" y="-0.147977" z="-0.165612" />
+  </map>
+  <map wb="spr_gon_statue_fem_ruined" bl="bd_battania_statue_female_tall">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.66277" y="0.087138" z="21.4767" />
+    <scale x="2.16351" y="1.61669" z="2.00071" />
+    <origin enabled="false" x="0.0297757" y="-0.149229" z="-0.175202" />
+  </map>
+  <map wb="spr_stone_ball" bl="mangonel_ammo_carry">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.803386" y="109.099" z="-72.1023" />
+    <scale x="1.64572" y="1.74303" z="1.67094" />
+    <origin enabled="false" x="-0.0702965" y="0.140782" z="0.0168659" />
+  </map>
+  <map wb="itm_box_strong_bow" bl="strong_bow">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0101909" y="0.0903076" z="-0.384635" />
+    <scale x="0.998889" y="0.984375" z="1.01239" />
+    <origin enabled="false" x="0.00091452" y="-0.0114335" z="-7.09834E-05" />
+  </map>
+  <map wb="itm_sumpter_horse" bl="horse_brown002">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.01912" y="0.262491" z="0.0727978" />
+    <scale x="0.914728" y="0.953175" z="1.00734" />
+    <origin enabled="false" x="0.00768709" y="-0.218101" z="0.0183271" />
+  </map>
+  <map wb="itm_sword_medieval_a" bl="vlandia_onehanded_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9774" y="-123.281" z="124.633" />
+    <scale x="0.818685" y="0.854534" z="1.15009" />
+    <origin enabled="false" x="0.00148556" y="-0.000172891" z="0.0333274" />
+  </map>
+  <map wb="itm_sword_medieval_b" bl="viking_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9114" y="-114.989" z="-98.5712" />
+    <scale x="1.22361" y="1.26652" z="1.12139" />
+    <origin enabled="false" x="-0.000446962" y="0.000536672" z="-0.00553639" />
+  </map>
+  <map wb="itm_sword_two_handed_a" bl="vlandia_twohanded_sword_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.6538" y="90.4706" z="-124.355" />
+    <scale x="0.842533" y="0.888272" z="1.13914" />
+    <origin enabled="false" x="0.00220235" y="-0.00178407" z="0.0305619" />
+  </map>
+  <map wb="itm_sword_viking_3b_small" bl="viking_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9827" y="19.6207" z="128.596" />
+    <scale x="1.21394" y="1.31044" z="0.997949" />
+    <origin enabled="false" x="-0.00114186" y="0.000413799" z="-0.0206959" />
+  </map>
+  <map wb="itm_sword_viking_2" bl="viking_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.8889" y="89.181" z="57.0848" />
+    <scale x="1.13488" y="1.29436" z="1.16797" />
+    <origin enabled="false" x="-0.00146613" y="0.000852972" z="-0.016342" />
+  </map>
+  <map wb="itm_sword_viking_2b" bl="viking_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.8889" y="89.181" z="57.0848" />
+    <scale x="1.13488" y="1.29436" z="1.16797" />
+    <origin enabled="false" x="-0.00146613" y="0.000852972" z="-0.016342" />
+  </map>
+  <map wb="itm_sword_viking_2b_small" bl="viking_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9143" y="-150.649" z="-66.2255" />
+    <scale x="1.17389" y="1.30211" z="1.00072" />
+    <origin enabled="false" x="-0.000355365" y="0.0006343" z="-0.0202113" />
+  </map>
+  <map wb="itm_sword_viking_1b" bl="viking_sword_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.9511" y="58.7366" z="-92.3176" />
+    <scale x="1.1978" y="1.27658" z="1.18568" />
+    <origin enabled="false" x="0.000416576" y="-8.43941E-06" z="0.00127975" />
+  </map>
+  <map wb="spr_table_round_a" bl="bd_table_f">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.24533" y="0.260401" z="175.174" />
+    <scale x="1.6547" y="1.57736" z="3.68547" />
+    <origin enabled="false" x="0.0265263" y="0.047751" z="0.113006" />
+  </map>
+  <map wb="spr_table_round_b" bl="table_empire_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="2.81826" y="-2.52852" z="-96.5585" />
+    <scale x="1.94382" y="1.89666" z="0.976302" />
+    <origin enabled="false" x="-0.00197808" y="0.0428429" z="-0.124743" />
+  </map>
+  <map wb="spr_table_small_b" bl="bd_table_small_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-77.1919" y="3.70805" z="-175.536" />
+    <scale x="1.41188" y="1.37437" z="1.43155" />
+    <origin enabled="false" x="0.126834" y="-0.245335" z="-0.383635" />
+  </map>
+  <map wb="spr_table_tavern" bl="bd_table_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.348974" y="1.4231" z="146.964" />
+    <scale x="0.909476" y="0.880646" z="1.39932" />
+    <origin enabled="false" x="-0.0182652" y="-0.0134876" z="-0.497414" />
+  </map>
+  <map wb="itm_tab_shield_heater_a" bl="heater_shield_k">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.53706" y="-0.313819" z="-135.258" />
+    <scale x="0.819272" y="0.780967" z="0.847568" />
+    <origin enabled="false" x="0.0278361" y="0.022514" z="-0.0241139" />
+  </map>
+  <map wb="itm_tab_shield_heater_c" bl="heater_shield_k">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.53706" y="-0.313819" z="-135.258" />
+    <scale x="0.819272" y="0.780967" z="0.847568" />
+    <origin enabled="false" x="0.0278361" y="0.022514" z="-0.0241139" />
+  </map>
+  <map wb="itm_tab_shield_round_c" bl="tableau_shield_small_round_2">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.01506" y="-5.32964" z="-31.0628" />
+    <scale x="1.17086" y="1.14607" z="0.56128" />
+    <origin enabled="false" x="0.111627" y="-0.074682" z="0.0490663" />
+  </map>
+  <map wb="itm_tab_shield_round_a" bl="aserai_shields_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="7.37637" y="2.68339" z="-33.719" />
+    <scale x="1.08009" y="0.971274" z="0.801811" />
+    <origin enabled="false" x="0.039989" y="0.114184" z="-0.0409" />
+  </map>
+  <map wb="spr_tavern_door_a" bl="hut_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-1.12222" y="-179.283" z="179.169" />
+    <scale x="1.0145" y="0.946885" z="0.821247" />
+    <origin enabled="false" x="0.072016" y="-0.0131265" z="-1.64555" />
+  </map>
+  <map wb="itm_throwing_axes_melee" bl="fish_axe">
+    <pos x="0" y="0" z="0" />
+    <rot x="89.8838" y="122.777" z="-122.406" />
+    <scale x="1.12816" y="1.17748" z="1.12103" />
+    <origin enabled="false" x="5.33194E-06" y="-0.00174461" z="0.0328331" />
+  </map>
+  <map wb="spr_timber_frame_extension_b" bl="european_castle_keep_a_l3_brattice">
+    <pos x="0" y="0" z="0" />
+    <rot x="-6.99076" y="177.288" z="-0.352065" />
+    <scale x="0.655356" y="0.637458" z="0.459216" />
+    <origin enabled="false" x="0.121352" y="-0.378146" z="-9.79818" />
+  </map>
+  <map wb="spr_invasion_gondor_tirith_gate_left" bl="european_castle_gatehouse_door_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.173372" y="-1.29861" z="179.678" />
+    <scale x="1.24055" y="1.95678" z="1.06453" />
+    <origin enabled="false" x="-1.11296" y="-0.746075" z="-0.206509" />
+  </map>
+  <map wb="spr_invasion_gondor_tirith_gate_right" bl="aserai_grandbazaar_gate_door_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-2.0675" y="-2.00858" z="178.827" />
+    <scale x="2.15541" y="4.01025" z="2.15542" />
+    <origin enabled="false" x="-0.0880801" y="0.169678" z="-0.190555" />
+  </map>
+  <map wb="spr_tent_b" bl="tents_aserai_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-3.2633" y="0.103283" z="-14.021" />
+    <scale x="0.356956" y="0.447952" z="0.566494" />
+    <origin enabled="false" x="-0.174186" y="1.25919" z="-2.34072" />
+  </map>
+  <map wb="spr_tent_c" bl="tents_aserai_c">
+    <pos x="0" y="0" z="0" />
+    <rot x="21.1569" y="3.83107" z="-140.87" />
+    <scale x="0.464128" y="0.555122" z="0.693012" />
+    <origin enabled="false" x="1.97285" y="-2.87936" z="-1.39086" />
+  </map>
+  <map wb="spr_town_house_steppe_f" bl="khuzait_house_f2">
+    <pos x="0" y="0" z="0" />
+    <rot x="-45.5621" y="3.65997" z="51.6914" />
+    <scale x="0.772887" y="0.766183" z="1.00919" />
+    <origin enabled="false" x="-6.19069" y="0.333309" z="-0.228748" />
+  </map>
+  <map wb="spr_trebuchet_new" bl="trebuchet_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-14.8328" y="106.159" z="95.9989" />
+    <scale x="0.757838" y="0.834726" z="0.94972" />
+    <origin enabled="false" x="0.0504948" y="1.28896" z="-2.6035" />
+  </map>
+  <map wb="spr_tree_a01" bl="tree_test_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.060196" y="0.676276" z="-1.08579" />
+    <scale x="1.02353" y="1.00157" z="0.933152" />
+    <origin enabled="false" x="0.352078" y="0.207231" z="1.06413" />
+  </map>
+  <map wb="spr_tree_house_guard_a" bl="forest_ruinous_tree_palm_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-5.12161" y="-89.6901" z="1.09847" />
+    <scale x="0.339888" y="0.318851" z="0.329384" />
+    <origin enabled="false" x="-0.0883303" y="-0.0527746" z="-0.19816" />
+  </map>
+  <map wb="itm_tribal_warrior_outfit" bl="fur_vaegir_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.761796" y="0.430249" z="-0.432461" />
+    <scale x="1.27044" y="1.00327" z="1.27855" />
+    <origin enabled="false" x="-0.00700453" y="-0.0208762" z="-0.183108" />
+  </map>
+  <map wb="spr_tripod_cauldron_a" bl="kitchen_cauldron">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.528439" y="4.88849" z="-56.2652" />
+    <scale x="0.350265" y="0.332122" z="0.775301" />
+    <origin enabled="false" x="-0.000914818" y="0.0149233" z="-0.632442" />
+  </map>
+  <map wb="spr_tripod_cauldron_b" bl="kitchen_cauldron">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.06726" y="0.770462" z="-30.3466" />
+    <scale x="0.696248" y="0.668527" z="0.924519" />
+    <origin enabled="false" x="0.00281018" y="-0.12579" z="0.0624604" />
+  </map>
+  <map wb="spr_tunnel_support" bl="battania_keep_door_case_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.564889" y="4.60719" z="179.916" />
+    <scale x="1.41622" y="1.81873" z="1.34043" />
+    <origin enabled="false" x="0.00334905" y="0.10288" z="-1.17786" />
+  </map>
+  <map wb="itm_great_axe" bl="two_handed_battle_axe_e">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0437846" y="0.202661" z="4.53779E-05" />
+    <scale x="1.01927" y="1.00882" z="0.993574" />
+    <origin enabled="false" x="0.00104505" y="-0.00286715" z="0.000505058" />
+  </map>
+  <map wb="spr_umbar_shipwrecked" bl="boat_sail_off">
+    <pos x="0" y="0" z="0" />
+    <rot x="-12.088" y="13.3433" z="151.343" />
+    <scale x="10.4909" y="7.65183" z="10.3628" />
+    <origin enabled="false" x="0.43948" y="-0.0144485" z="0.109648" />
+  </map>
+  <map wb="itm_vaegir_lamellar_helmet" bl="aserai_helmet_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="71.9739" y="-4.50002" z="7.62613" />
+    <scale x="1.08598" y="0.948056" z="0.798329" />
+    <origin enabled="false" x="-0.00280874" y="-0.00667959" z="-1.57207" />
+  </map>
+  <map wb="spr_viking_keep_destroy_door" bl="aserai_grandbazaar_gate_door_b">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.130678" y="-2.67349" z="179.91" />
+    <scale x="1.27579" y="1.47521" z="1.34665" />
+    <origin enabled="false" x="-0.132266" y="0.11898" z="-0.084366" />
+  </map>
+  <map wb="spr_village_steppe_f" bl="sturgia_castle_barn_b_l1">
+    <pos x="0" y="0" z="0" />
+    <rot x="-17.7669" y="8.13835" z="-166.118" />
+    <scale x="0.643463" y="0.861458" z="0.739498" />
+    <origin enabled="false" x="-3.18715" y="-5.26044" z="0.509105" />
+  </map>
+  <map wb="spr_village_wall_a" bl="empire_village_wall_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.57562" y="-3.5988" z="32.2753" />
+    <scale x="0.654985" y="0.481388" z="0.677088" />
+    <origin enabled="false" x="-705.164" y="-672.892" z="-177.813" />
+  </map>
+  <map wb="spr_washtub_b" bl="bd_washtub_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.6106" y="0.747031" z="61.3498" />
+    <scale x="0.695597" y="0.723676" z="0.641051" />
+    <origin enabled="false" x="0.0230548" y="-0.0126147" z="0.296636" />
+  </map>
+  <map wb="spr_weavery_dye_pool_b" bl="bd_washtub_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.16749" y="0.575494" z="27.7557" />
+    <scale x="1.65734" y="1.69136" z="1.74293" />
+    <origin enabled="false" x="0.0136322" y="-0.00768319" z="0.0679076" />
+  </map>
+  <map wb="spr_weavery_dye_pool_g" bl="brewery_big_bucket">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.48909" y="1.80233" z="3.49661" />
+    <scale x="0.98638" y="0.965398" z="1.03964" />
+    <origin enabled="false" x="0.0611244" y="0.0309701" z="0.0736547" />
+  </map>
+  <map wb="spr_weavery_dye_pool_r" bl="brewery_big_bucket">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.109419" y="0.219437" z="-19.533" />
+    <scale x="0.977963" y="0.961764" z="1.03871" />
+    <origin enabled="false" x="0.0235499" y="-0.0133141" z="0.0565403" />
+  </map>
+  <map wb="spr_weavery_loom_a" bl="weavery_loom_a">
+    <pos x="0" y="0" z="0" />
+    <rot x="3.40175" y="-0.027118" z="0.818972" />
+    <scale x="1.00285" y="1.02431" z="1.00713" />
+    <origin enabled="false" x="0.0129722" y="-0.0482504" z="-0.0286096" />
+  </map>
+  <map wb="spr_weavery_spinning_wheel" bl="weavery_spinning_wheel">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0857602" y="-0.115934" z="-0.859092" />
+    <scale x="0.977608" y="0.993819" z="0.989395" />
+    <origin enabled="false" x="0.0130242" y="-0.00454695" z="0.00557011" />
+  </map>
+  <map wb="itm_grain" bl="flour_sack">
+    <pos x="0" y="0" z="0" />
+    <rot x="3.06944" y="-0.494821" z="-76.2474" />
+    <scale x="2.7705" y="2.14797" z="2.50224" />
+    <origin enabled="false" x="0.00341251" y="-0.000342993" z="-0.181502" />
+  </map>
+  <map wb="spr_wheelbarrow" bl="wheelbarrow">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.393496" y="-0.42452" z="0.0859965" />
+    <scale x="1.03352" y="0.995445" z="1.00589" />
+    <origin enabled="false" x="-0.0202773" y="0.0207495" z="-0.00113034" />
+  </map>
+  <map wb="spr_windmill" bl="battania_windmill">
+    <pos x="0" y="0" z="0" />
+    <rot x="1.91251" y="4.41083" z="-18.0026" />
+    <scale x="1.02096" y="0.970421" z="0.702615" />
+    <origin enabled="false" x="-0.108383" y="0.0491911" z="0.375735" />
+  </map>
+  <map wb="spr_windmill_fan" bl="sturgia_windmill_fan_a_close">
+    <pos x="0" y="0" z="0" />
+    <rot x="-0.0882415" y="50.0034" z="179.972" />
+    <scale x="1.32357" y="0.482208" z="1.36907" />
+    <origin enabled="false" x="0.0152922" y="6.0608" z="0.0330284" />
+  </map>
+  <map wb="spr_windmill_fan_turning" bl="sturgia_windmill_fan_a_open">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.432392" y="148.485" z="-179.973" />
+    <scale x="1.19034" y="0.592436" z="1.17176" />
+    <origin enabled="false" x="-0.0180391" y="5.36094" z="0.142894" />
+  </map>
+  <map wb="spr_winery_wine_cart_small_empty" bl="winery_wine_cart_small_empty">
+    <pos x="0" y="0" z="0" />
+    <rot x="0.0116492" y="0.825414" z="0.650455" />
+    <scale x="1.02854" y="1.03511" z="1.03895" />
+    <origin enabled="false" x="0.0322193" y="0.0195806" z="0.00371836" />
+  </map>
+  <map wb="itm_woolen_cap" bl="sturgia_helmet_d">
+    <pos x="0" y="0" z="0" />
+    <rot x="83.649" y="156.395" z="29.6257" />
+    <scale x="1.07434" y="1.09273" z="1.08825" />
+    <origin enabled="false" x="0.00038286" y="-0.0308992" z="-1.59948" />
   </map>
 </mappings>

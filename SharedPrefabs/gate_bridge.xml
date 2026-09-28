@@ -1,0 +1,43 @@
+<prefabs>
+	<game_entity name="gate_bridge" old_prefab_name="">
+		<transform position="190.110, 128.720, 5.380" rotation_euler="0.000, 0.000, 2.404"/>
+		<children>
+			<game_entity name="empire_bridge_a_part_c" old_prefab_name="">
+				<transform position="-5.801, -0.938, -1.957" rotation_euler="0.000, 0.000, 3.135" scale="1.000, 0.480, 1.000"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_a_part_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_a_part_c" old_prefab_name="">
+				<transform position="5.837, -0.983, -1.887" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.480, 1.000"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_a_part_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="emp_bridge_g" old_prefab_name="">
+				<transform position="-0.068, -0.923, 3.100" rotation_euler="0.000, 0.000, -1.572" scale="0.454, 0.370, 0.460"/>
+				<physics shape="bo_emp_bridge_g" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="emp_bridge_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_a_part_b" old_prefab_name="">
+				<transform position="-0.051, -0.974, -1.991" rotation_euler="0.000, 0.000, 3.135" scale="1.020, 0.480, 1.000"/>
+				<physics shape="bo_empire_bridge_a_part_a"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_a_part_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="emp_bridge_g" old_prefab_name="">
+				<transform position="-0.068, -0.923, 4.098" rotation_euler="0.000, 0.000, -1.572" scale="0.480, 0.370, 0.460"/>
+				<physics shape="bo_emp_bridge_g" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="emp_bridge_g"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

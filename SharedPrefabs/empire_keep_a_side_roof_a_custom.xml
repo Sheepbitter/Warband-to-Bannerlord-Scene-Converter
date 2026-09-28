@@ -1,0 +1,82 @@
+<prefabs>
+	<game_entity name="empire_keep_a_side_roof_a_custom" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_side_roof_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.200, 0.500, 0.700"/>
+		<physics shape="bo_empire_keep_a_side_roof_a"/>
+		<components>
+			<meta_mesh_component name="empire_keep_a_side_roof_a"/>
+		</components>
+		<children>
+			<game_entity name="empire_keep_a_column_base_a" old_prefab_name="">
+				<transform position="3.041, -2.783, -0.079" rotation_euler="0.000, 0.000, 0.043" scale="0.417, 0.996, 1.000"/>
+				<physics shape="bo_empire_keep_a_column_base_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_column_base_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_column_base_a" old_prefab_name="">
+				<transform position="-0.883, -2.848, -0.079" rotation_euler="0.000, 0.000, -3.108" scale="0.417, 0.997, 1.000"/>
+				<physics shape="bo_empire_keep_a_column_base_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_column_base_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_column" old_prefab_name="">
+				<transform position="-0.876, -2.839, 0.274" rotation_euler="0.000, 0.000, 1.565" scale="1.000, 0.417, 1.000"/>
+				<physics shape="bo_empire_hippodrome_column_a"/>
+				<components>
+					<meta_mesh_component name="empire_hippodrome_column_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_column_base_a" old_prefab_name="">
+				<transform position="-2.956, -2.815, -0.079" rotation_euler="0.000, 0.000, 0.036" scale="0.417, 0.997, 1.000"/>
+				<physics shape="bo_empire_keep_a_column_base_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_column_base_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_column" old_prefab_name="">
+				<transform position="-2.949, -2.807, 0.284" rotation_euler="0.000, 0.000, -0.011" scale="0.417, 1.000, 1.000"/>
+				<physics shape="bo_empire_hippodrome_column_a"/>
+				<components>
+					<meta_mesh_component name="empire_hippodrome_column_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_column" old_prefab_name="">
+				<transform position="3.047, -2.775, 0.284" rotation_euler="0.000, 0.000, -3.137" scale="0.417, 1.000, 1.000"/>
+				<physics shape="bo_empire_hippodrome_column_a"/>
+				<components>
+					<meta_mesh_component name="empire_hippodrome_column_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_roof_part_b" old_prefab_name="">
+				<transform position="1.732, 3.657, 7.878" rotation_euler="0.018, 0.110, -1.598"/>
+				<physics shape="bo_empire_keep_a_roof_part_b"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_roof_part_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_roof_part_c" old_prefab_name="">
+				<transform position="-1.110, 3.676, 7.897" rotation_euler="0.018, 0.025, -1.583"/>
+				<physics shape="bo_empire_keep_a_roof_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_roof_part_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_column" old_prefab_name="">
+				<transform position="1.156, -2.747, 0.274" rotation_euler="0.000, 0.000, 1.565" scale="1.000, 0.417, 1.000"/>
+				<physics shape="bo_empire_hippodrome_column_a"/>
+				<components>
+					<meta_mesh_component name="empire_hippodrome_column_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_column_base_a" old_prefab_name="">
+				<transform position="1.149, -2.756, -0.079" rotation_euler="0.000, 0.000, -3.108" scale="0.417, 0.997, 1.000"/>
+				<physics shape="bo_empire_keep_a_column_base_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_column_base_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

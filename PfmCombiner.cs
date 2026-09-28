@@ -48,21 +48,16 @@ public static class PfmCombiner
                 for (int x = 0; x < lw; x++)
                     combined[(layerOffY + y) * outW + (layerOffX + x)] += layerData[y * lw + x];
 
-            int overlapW = Math.Min(bw, lw);
-            int overlapH = Math.Min(bh, lh);
-            int overlapOffX = Math.Max(baseOffX, layerOffX);
-            int overlapOffY = Math.Max(baseOffY, layerOffY);
+            // The PNG is normalized over the whole combined image, so ZScale/ZOffset must be
+            // sampled from the same data. Sampling only the overlap region would make
+            // Bannerlord reconstruct heights that are shifted upward in the lower range,
+            // burying props and forcing the water level to be raised.
             float min = float.MaxValue, max = float.MinValue;
-            for (int y = 0; y < overlapH; y++)
+            foreach (float v in combined)
             {
-                int row = (overlapOffY + y) * outW + overlapOffX;
-                for (int x = 0; x < overlapW; x++)
-                {
-                    float v = combined[row + x];
-                    if (float.IsNaN(v) || float.IsInfinity(v)) continue;
-                    if (v < min) min = v;
-                    if (v > max) max = v;
-                }
+                if (float.IsNaN(v) || float.IsInfinity(v)) continue;
+                if (v < min) min = v;
+                if (v > max) max = v;
             }
 
             log("Writing heightmap.pfm...");

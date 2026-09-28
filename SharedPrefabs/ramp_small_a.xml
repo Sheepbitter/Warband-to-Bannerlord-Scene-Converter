@@ -1,0 +1,17 @@
+<prefabs>
+	<game_entity name="ramp_small_a" old_prefab_name="">
+		<transform position="141.000, 94.956, 6.941" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="ramp_small_a" old_prefab_name="">
+				<transform position="0.000, -1.516, -0.011" rotation_euler="0.000, 0.000, 0.000" scale="0.220, 0.330, 0.440"/>
+				<physics shape="bo_module_european_floor_b"/>
+				<components>
+					<meta_mesh_component name="module_european_floor_b">
+						<mesh name="module_european_floor_b" material="planks_5"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,38 @@
+<prefabs>
+	<game_entity name="gon_keep_replacement" old_prefab_name="" occlusion_body_name="bo_occ_empire_aqueduct_end_reservoir">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 3.075"/>
+		<physics shape="bo_empire_aqueduct_end_reservoir" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="empire_aqueduct_end_reservoir">
+				<mesh name="empire_aqueduct_end_reservoir" material="empire_wall_a"/>
+				<mesh name="empire_aqueduct_end_reservoir.5" material="planks_6" argument="0.000, 0.000, 0.000, 0.000" argument2="0.000, 0.000, 0.000, 0.000"/>
+				<mesh name="empire_aqueduct_end_reservoir.7" material="planks_1"/>
+				<mesh name="empire_aqueduct_end_reservoir.lod3" material="empire_wall_a"/>
+				<mesh name="empire_aqueduct_end_reservoir.lod3.5" material="planks_6"/>
+				<mesh name="empire_aqueduct_end_reservoir.lod2" material="empire_wall_a"/>
+				<mesh name="empire_aqueduct_end_reservoir.lod2.5" material="planks_6"/>
+				<mesh name="empire_aqueduct_end_reservoir.lod5" material="empire_wall_a"/>
+				<mesh name="empire_aqueduct_end_reservoir.lod5.5" material="planks_6"/>
+				<mesh name="empire_aqueduct_end_reservoir.lod6" material="empire_wall_a"/>
+				<mesh name="empire_aqueduct_end_reservoir.lod6.5" material="planks_6"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="empire_tower_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_wall_tower_d_corner">
+				<transform position="-10.480, -2.129, 20.729" rotation_euler="0.000, 0.000, 1.411" scale="0.385, 0.385, 0.769"/>
+				<physics shape="bo_empire_tower_a"/>
+				<components>
+					<meta_mesh_component name="empire_tower_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_tower_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_wall_tower_d_corner">
+				<transform position="-10.480, -2.129, -5.351" rotation_euler="0.000, 0.000, -2.422" scale="0.538, 0.538, 0.769"/>
+				<physics shape="bo_empire_tower_a"/>
+				<components>
+					<meta_mesh_component name="empire_tower_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,1313 @@
+<prefabs>
+	<game_entity name="viking_house_c" old_prefab_name="">
+		<transform position="180.680, 155.340, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="module_european_house_end_attick_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_b">
+				<transform position="0.066, -7.421, 10.551" rotation_euler="0.000, 0.000, -3.142" scale="0.650, 2.000, 1.100"/>
+				<physics shape="bo_module_european_house_end_attick_a"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_b">
+						<mesh name="module_european_house_end_attick_b.0" material="trunks"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-3.672, -5.670, 3.070" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-3.672, -5.670, 0.571" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-3.672, -5.670, -1.679" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-3.672, -5.670, -3.677" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.784, -5.670, -1.679" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.784, -5.670, -3.677" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.784, -5.670, 0.571" rotation_euler="1.571, -3.142, -3.142" scale="4.700, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.784, -5.670, 3.070" rotation_euler="1.571, -3.142, -3.142" scale="4.700, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, -5.670, -1.218" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, -5.670, -3.418" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, -5.670, 3.194" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, -5.670, 0.998" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-2.882, -5.689, 2.586" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.312, -6.199, 3.264" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.188, -6.152, 1.914" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.330, -6.199, 1.914" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-2.599, -6.152, 1.914" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.436, -6.199, 3.264" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="2.866, -5.689, 2.586" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.561, -6.152, 1.914" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.418, -6.199, 1.914" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="3.149, -6.152, 1.914" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="2.866, -5.689, 5.584" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.561, -6.152, 4.911" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.436, -6.199, 6.261" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.418, -6.199, 4.911" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="3.149, -6.152, 4.911" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-0.374, -6.199, 4.911" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.075, -5.689, 5.584" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-0.231, -6.152, 4.911" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-0.355, -6.199, 6.261" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="0.357, -6.152, 4.911" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.170, -6.152, 4.911" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-2.865, -5.689, 5.584" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.295, -6.199, 6.261" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.313, -6.199, 4.911" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-2.582, -6.152, 4.911" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-3.672, 8.622, 3.070" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-3.672, 8.622, 0.571" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-3.672, 8.622, -1.679" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-3.672, 8.622, -3.677" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.673, 8.622, -3.677" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.673, 8.622, -1.679" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.673, 8.622, 0.571" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.673, 8.622, 3.070" rotation_euler="1.571, -3.142, -3.142" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, 8.625, 0.998" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, 8.625, -1.169" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, 8.625, -3.370" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, 8.625, 3.190" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, 6.033, 0.389" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, 6.033, -3.859" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, 6.033, 2.887" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, 6.033, -1.861" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, 1.130, 2.887" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, 1.130, 0.389" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, 1.130, -3.859" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, 1.130, -1.861" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, -3.714, -1.861" rotation_euler="1.571, 0.000, -1.571" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, -3.714, 0.389" rotation_euler="1.571, 0.000, -1.571" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, -3.714, -3.859" rotation_euler="1.571, 0.000, -1.571" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.657, -3.714, 2.887" rotation_euler="1.571, 0.000, -1.571" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, -3.714, -1.861" rotation_euler="1.571, 0.000, -1.571" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, 1.130, -3.859" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, 1.130, -1.861" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, 1.130, 0.389" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, -3.714, 2.887" rotation_euler="1.571, 0.000, -1.571" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, -3.714, 0.389" rotation_euler="1.571, 0.000, -1.571" scale="4.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, 1.130, 2.887" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, -3.714, -3.859" rotation_euler="1.571, 0.000, -1.571" scale="4.800, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, 6.033, -3.859" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, 6.033, -1.861" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, 6.033, 0.389" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="6.151, 6.033, 2.887" rotation_euler="1.571, 0.000, -1.571" scale="5.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-4.455, -6.258, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 2.100"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="4.480, -6.258, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 2.100"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-1.308, -6.258, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 2.100"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="1.474, -6.258, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 2.100"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-1.370, 8.622, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 1.650"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="4.480, 8.622, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 2.300"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="1.349, 8.622, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 1.650"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-4.455, 8.622, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 2.300"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-1.370, 8.622, 4.558" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 1.750"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="1.349, 8.622, 4.558" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.000, 1.750"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.600, 8.626, 1.914" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="3.188, 8.626, 1.914" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.436, 8.666, 3.264" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="2.866, 8.625, 2.586" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.418, 8.663, 1.914" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.319, 8.663, 1.914" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.137, 8.626, 1.914" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-2.549, 8.626, 1.914" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.301, 8.666, 3.264" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-2.871, 8.625, 2.586" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.137, 8.626, 5.376" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-2.871, 8.625, 6.048" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.319, 8.663, 5.376" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-2.549, 8.626, 5.376" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.301, 8.666, 6.726" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-0.210, 8.626, 5.376" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="0.379, 8.626, 5.376" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-0.373, 8.666, 6.726" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-0.391, 8.663, 5.376" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.057, 8.625, 6.048" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.604, 8.626, 5.376" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.422, 8.663, 5.376" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="2.441, 8.666, 6.726" rotation_euler="0.000, 1.571, 0.000" scale="0.600, 0.750, 0.180"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="3.193, 8.626, 5.376" rotation_euler="0.000, 0.000, 0.000" scale="0.570, 0.750, 0.270"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="2.871, 8.625, 6.048" rotation_euler="1.571, -3.142, -3.142" scale="0.620, 1.320, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a" factor="4278190080"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="2.912, 8.620, 5.650" rotation_euler="1.571, -3.142, -3.142" scale="3.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.070, 8.620, 5.650" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-2.932, 8.620, 5.650" rotation_euler="1.571, -3.142, -3.142" scale="3.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.070, 8.620, 8.144" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.070, 8.620, 10.644" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-5.709, -6.257, 4.342" rotation_euler="0.000, 1.571, 0.000" scale="1.300, 1.000, 2.300"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-4.237, -6.257, 6.742" rotation_euler="0.000, 1.571, 0.000" scale="1.300, 1.000, 1.700"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-5.709, 8.664, 4.342" rotation_euler="0.000, 1.571, 0.000" scale="1.300, 1.000, 2.300"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-3.564, 8.664, 8.724" rotation_euler="0.000, 1.571, 0.000" scale="1.300, 1.000, 1.400"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.115, 8.122, 1.939" rotation_euler="0.000, 1.571, -1.571" scale="1.000, 1.000, 2.800"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="6.108, 8.122, 1.939" rotation_euler="0.000, 1.571, -1.571" scale="1.000, 1.000, 2.800"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.140, -1.271, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.100, 1.600"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.140, 3.512, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.100, 1.600"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="6.166, 3.512, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.100, 1.600"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="6.166, -1.282, -4.118" rotation_euler="0.000, 0.000, 0.000" scale="0.900, 1.100, 1.600"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="">
+				<transform position="-6.053, -6.427, 0.012" rotation_euler="1.571, -2.989, 0.000" scale="1.150, 1.450, 1.150"/>
+				<physics shape="bo_log_pine_a"/>
+				<components>
+					<meta_mesh_component name="log_pine_a">
+						<mesh name="log_pine_a.3" factor="4284440415"/>
+						<mesh name="log_pine_a.7" material="trunks_d" factor="4284440415"/>
+						<mesh name="log_pine_a.lod3.3" factor="4284440415"/>
+						<mesh name="log_pine_a.lod3.7" material="trunks_d" factor="4284440415"/>
+						<mesh name="log_pine_a.lod5.3" factor="4284440415"/>
+						<mesh name="log_pine_a.lod5.7" material="trunks_d" factor="4284440415"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="">
+				<transform position="6.026, -6.427, 0.012" rotation_euler="1.571, -2.989, 0.000" scale="1.150, 1.450, 1.150"/>
+				<physics shape="bo_log_pine_a"/>
+				<components>
+					<meta_mesh_component name="log_pine_a">
+						<mesh name="log_pine_a.3" factor="4284440415"/>
+						<mesh name="log_pine_a.7" material="trunks_d" factor="4284440415"/>
+						<mesh name="log_pine_a.lod3.3" factor="4284440415"/>
+						<mesh name="log_pine_a.lod3.7" material="trunks_d" factor="4284440415"/>
+						<mesh name="log_pine_a.lod5.3" factor="4284440415"/>
+						<mesh name="log_pine_a.lod5.7" material="trunks_d" factor="4284440415"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="">
+				<transform position="6.026, 8.347, 0.012" rotation_euler="1.571, -2.989, 0.000" scale="1.150, 1.450, 1.150"/>
+				<physics shape="bo_log_pine_a"/>
+				<components>
+					<meta_mesh_component name="log_pine_a">
+						<mesh name="log_pine_a.3" factor="4284440415"/>
+						<mesh name="log_pine_a.7" material="trunks_d" factor="4284440415"/>
+						<mesh name="log_pine_a.lod3.3" factor="4284440415"/>
+						<mesh name="log_pine_a.lod3.7" material="trunks_d" factor="4284440415"/>
+						<mesh name="log_pine_a.lod5.3" factor="4284440415"/>
+						<mesh name="log_pine_a.lod5.7" material="trunks_d" factor="4284440415"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="">
+				<transform position="-6.055, 8.347, 0.012" rotation_euler="1.571, -2.989, 0.000" scale="1.150, 1.450, 1.150"/>
+				<physics shape="bo_log_pine_a"/>
+				<components>
+					<meta_mesh_component name="log_pine_a">
+						<mesh name="log_pine_a.3" factor="4284440415"/>
+						<mesh name="log_pine_a.7" material="trunks_d" factor="4284440415"/>
+						<mesh name="log_pine_a.lod3.3" factor="4284440415"/>
+						<mesh name="log_pine_a.lod3.7" material="trunks_d" factor="4284440415"/>
+						<mesh name="log_pine_a.lod5.3" factor="4284440415"/>
+						<mesh name="log_pine_a.lod5.7" material="trunks_d" factor="4284440415"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.073, -5.670, 5.518" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-2.900, -5.670, 5.518" rotation_euler="1.571, -3.142, -3.142" scale="3.000, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="3.064, -5.670, 5.518" rotation_euler="1.571, -3.142, -3.142" scale="3.000, 2.200, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="vlandia_keep_door_a_case" old_prefab_name="">
+				<transform position="0.101, -6.177, 0.193" rotation_euler="0.000, 0.000, 0.000" scale="1.520, 1.320, 1.220"/>
+				<physics shape="bo_vlandia_keep_door_a_case"/>
+				<components>
+					<meta_mesh_component name="vlandia_keep_door_a_case"/>
+				</components>
+				<children>
+					<game_entity name="vlandia_keep_door_a" old_prefab_name="">
+						<transform position="0.713, 0.000, 0.000"/>
+						<physics shape="bo_vlandia_keep_door_a"/>
+						<components>
+							<meta_mesh_component name="vlandia_keep_door_a"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="wooden_platform_plank_e" old_prefab_name="">
+				<transform position="0.104, -6.174, 0.007" rotation_euler="0.000, 0.000, 0.000" scale="0.674, 2.289, 0.800"/>
+				<physics shape="bo_wooden_platform_plank_e"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e">
+						<mesh name="wooden_platform_plank_e.0" material="planks_skinned" factor="4290569471"/>
+						<mesh name="wooden_platform_plank_e.1" material="planks_skinned" factor="4290569471"/>
+						<mesh name="wooden_platform_plank_e.lod3" material="planks_skinned" factor="4290569471"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_plank_e" old_prefab_name="">
+				<transform position="0.104, -6.174, 3.420" rotation_euler="0.000, 0.000, 0.000" scale="0.674, 2.289, 0.800"/>
+				<physics shape="bo_wooden_platform_plank_e"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e">
+						<mesh name="wooden_platform_plank_e.0" material="planks_skinned" factor="4290569471"/>
+						<mesh name="wooden_platform_plank_e.1" material="planks_skinned" factor="4290569471"/>
+						<mesh name="wooden_platform_plank_e.lod3" material="planks_skinned" factor="4290569471"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+				<transform position="1.815, -4.058, 12.745" rotation_euler="0.000, -0.919, 3.142" scale="0.900, 0.800, 0.700"/>
+				<physics shape="bo_module_european_village_rooftop_tangent_b"/>
+				<components>
+					<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+				<transform position="5.040, -4.060, 6.680" rotation_euler="0.000, -0.919, 3.142" scale="0.900, 0.800, 0.700"/>
+				<physics shape="bo_module_european_village_rooftop_tangent_b"/>
+				<components>
+					<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+				<transform position="1.815, 4.985, 12.745" rotation_euler="0.000, -0.919, 3.142" scale="0.900, 0.800, 0.700"/>
+				<physics shape="bo_module_european_village_rooftop_tangent_b"/>
+				<components>
+					<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+				<transform position="5.040, 4.983, 6.680" rotation_euler="0.000, -0.919, 3.142" scale="0.900, 0.800, 0.700"/>
+				<physics shape="bo_module_european_village_rooftop_tangent_b"/>
+				<components>
+					<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+				<transform position="-1.830, 5.247, 12.745" rotation_euler="0.000, -0.918, 0.000" scale="0.900, 0.800, 0.700"/>
+				<physics shape="bo_module_european_village_rooftop_tangent_b"/>
+				<components>
+					<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+				<transform position="-5.030, 5.250, 6.660" rotation_euler="0.000, -0.918, 0.000" scale="0.900, 0.800, 0.700"/>
+				<physics shape="bo_module_european_village_rooftop_tangent_b"/>
+				<components>
+					<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+				<transform position="-1.830, -3.911, 12.745" rotation_euler="0.000, -0.918, 0.000" scale="0.900, 0.800, 0.700"/>
+				<physics shape="bo_module_european_village_rooftop_tangent_b"/>
+				<components>
+					<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+				<transform position="-5.030, -3.908, 6.660" rotation_euler="0.000, -0.918, 0.000" scale="0.900, 0.800, 0.700"/>
+				<physics shape="bo_module_european_village_rooftop_tangent_b"/>
+				<components>
+					<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-2.932, 8.620, 7.890" rotation_euler="1.571, -3.142, -3.142" scale="3.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="2.940, 8.620, 7.890" rotation_euler="1.571, -3.142, -3.142" scale="3.000, 2.000, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_castle_keep_a_l3_interior_folding_screen_a" old_prefab_name="">
+				<transform position="6.165, -1.274, 2.021" rotation_euler="0.000, 1.571, -1.571" scale="0.560, 1.000, 0.800"/>
+				<physics shape="bo_empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				<components>
+					<meta_mesh_component name="empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_castle_keep_a_l3_interior_folding_screen_a" old_prefab_name="">
+				<transform position="6.165, 3.499, 2.021" rotation_euler="0.000, 1.571, -1.571" scale="0.560, 1.000, 0.780"/>
+				<physics shape="bo_empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				<components>
+					<meta_mesh_component name="empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_castle_keep_a_l3_interior_folding_screen_a" old_prefab_name="">
+				<transform position="6.165, 8.512, 2.021" rotation_euler="0.000, 1.571, -1.571" scale="0.560, 1.000, 0.820"/>
+				<physics shape="bo_empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				<components>
+					<meta_mesh_component name="empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_castle_keep_a_l3_interior_folding_screen_a" old_prefab_name="">
+				<transform position="-6.175, -1.274, 2.021" rotation_euler="0.000, 1.571, -1.571" scale="0.560, 1.000, 0.800"/>
+				<physics shape="bo_empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				<components>
+					<meta_mesh_component name="empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_castle_keep_a_l3_interior_folding_screen_a" old_prefab_name="">
+				<transform position="-6.175, 3.499, 2.021" rotation_euler="0.000, 1.571, -1.571" scale="0.560, 1.000, 0.780"/>
+				<physics shape="bo_empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				<components>
+					<meta_mesh_component name="empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_castle_keep_a_l3_interior_folding_screen_a" old_prefab_name="">
+				<transform position="-6.175, 8.512, 2.021" rotation_euler="0.000, 1.571, -1.571" scale="0.560, 1.000, 0.820"/>
+				<physics shape="bo_empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				<components>
+					<meta_mesh_component name="empire_castle_keep_a_l3_interior_folding_screen_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_house_end_attick_e" old_prefab_name="" occlusion_body_name="bo_module_european_house_end_attick_e">
+				<transform position="4.482, -6.031, 5.486" rotation_euler="0.000, 0.000, 0.000" scale="0.200, 0.250, 0.320"/>
+				<physics shape="bo_module_european_house_end_attick_e"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_e">
+						<mesh name="module_european_house_end_attick_e.0" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_house_end_attick_e" old_prefab_name="" occlusion_body_name="bo_module_european_house_end_attick_e">
+				<transform position="4.449, 8.396, 5.486" rotation_euler="0.000, 0.000, 3.141" scale="-0.202, 0.253, 0.316"/>
+				<physics shape="bo_module_european_house_end_attick_e"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_e">
+						<mesh name="module_european_house_end_attick_e.0" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_house_end_attick_e" old_prefab_name="" occlusion_body_name="bo_module_european_house_end_attick_e">
+				<transform position="1.296, 8.396, 10.470" rotation_euler="0.000, 0.000, 3.141" scale="-0.287, 0.253, 0.502"/>
+				<physics shape="bo_module_european_house_end_attick_e"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_e">
+						<mesh name="module_european_house_end_attick_e.0" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_house_end_attick_e" old_prefab_name="" occlusion_body_name="bo_module_european_house_end_attick_e">
+				<transform position="-1.334, 8.407, 10.470" rotation_euler="0.000, 0.000, -3.142" scale="0.287, 0.253, 0.502"/>
+				<physics shape="bo_module_european_house_end_attick_e"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_e">
+						<mesh name="module_european_house_end_attick_e.0" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_house_end_attick_e" old_prefab_name="" occlusion_body_name="bo_module_european_house_end_attick_e">
+				<transform position="-4.452, 8.396, 5.486" rotation_euler="0.000, 0.000, 3.141" scale="0.200, 0.250, 0.320"/>
+				<physics shape="bo_module_european_house_end_attick_e"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_e">
+						<mesh name="module_european_house_end_attick_e.0" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="module_european_house_end_attick_e" old_prefab_name="" occlusion_body_name="bo_module_european_house_end_attick_e">
+				<transform position="-4.472, -6.031, 5.560" rotation_euler="0.000, 0.000, 0.000" scale="-0.200, 0.250, 0.320"/>
+				<physics shape="bo_module_european_house_end_attick_e"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_e">
+						<mesh name="module_european_house_end_attick_e.0" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.070, 8.620, 13.139" rotation_euler="1.571, -3.142, -3.142" scale="2.800, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-0.058, 8.481, 14.918" rotation_euler="1.571, -3.142, -3.142" scale="1.657, 1.070, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

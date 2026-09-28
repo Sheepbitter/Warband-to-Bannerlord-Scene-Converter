@@ -8,4 +8,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <!-- BlMeshDump is a separate companion project with its own csproj. -->
+    <Compile Remove="BlMeshDump\**" />
+    <EmbeddedResource Remove="BlMeshDump\**" />
+    <None Remove="BlMeshDump\**" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,54 @@
+<prefabs>
+	<game_entity name="wooden_stand" old_prefab_name="">
+		<transform position="206.346, 164.324, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_hut_c" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="hut_c">
+				<mesh name="hut_c.0" material="planks_skinned"/>
+				<mesh name="hut_c.lod4.0" material="planks_skinned"/>
+				<mesh name="hut_c.lod6.0" material="planks_skinned"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.181, 1.850, 1.183" rotation_euler="0.000, 0.000, -1.571" scale="0.100, 5.207, 1.000"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="planks_skinned"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tavern_vlandia_table_a" old_prefab_name="">
+				<transform position="-1.154, -0.959, 1.180" rotation_euler="0.000, 0.000, 0.000" scale="1.099, 0.769, 0.880"/>
+				<physics shape="bo_tavern_vlandia_table_a"/>
+				<components>
+					<meta_mesh_component name="tavern_vlandia_table_a">
+						<mesh name="tavern_vlandia_table_a.38" material="planks_skinned"/>
+						<mesh name="tavern_vlandia_table_a.lod2.38" material="planks_skinned"/>
+						<mesh name="tavern_vlandia_table_a.lod3.38" material="planks_skinned"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="2.768, 0.232, 1.183" rotation_euler="0.000, -0.035, -0.118" scale="0.100, 2.882, 1.000"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="planks_skinned"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-2.510, 0.225, 1.183" rotation_euler="0.002, 0.055, 0.032" scale="0.100, 2.882, 1.000"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="planks_skinned"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,36 @@
+<prefabs>
+	<game_entity name="fence_empire_custom_a" old_prefab_name="">
+		<transform position="297.470, 323.466, 8.390" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="fence_empire_b" old_prefab_name="">
+				<transform position="-2.295, -0.008, -0.165" rotation_euler="0.000, 0.000, 0.000" scale="0.780, 0.780, 0.780"/>
+				<physics shape="bo_fence_empire_b" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="fence_empire_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="fence_empire_c" old_prefab_name="">
+				<transform position="-3.737, -0.032, -0.118" rotation_euler="0.000, 0.000, 0.000" scale="0.780, 0.780, 0.780"/>
+				<physics shape="bo_fence_empire_c" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="fence_empire_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="fence_empire_b" old_prefab_name="">
+				<transform position="-0.788, -0.008, -0.165" rotation_euler="0.000, 0.000, 0.000" scale="0.780, 0.780, 0.780"/>
+				<physics shape="bo_fence_empire_b" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="fence_empire_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="fence_empire_a" old_prefab_name="">
+				<transform position="3.660, 0.015, -0.118" rotation_euler="0.000, 0.000, 0.000" scale="0.780, 0.780, 0.780"/>
+				<physics shape="bo_fence_empire_a" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="fence_empire_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

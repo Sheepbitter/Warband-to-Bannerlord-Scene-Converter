@@ -1,9 +1,9 @@
 <prefabs>
 	<game_entity name="viking_house_a" old_prefab_name="">
-		<transform position="30.118, 26.985, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<transform position="119.960, 155.593, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
 		<children>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-4.737, -5.355, 3.920" rotation_euler="1.571, -3.142, -3.142" scale="6.400, 2.500, 0.500"/>
+				<transform position="-4.737, -5.355, 3.920" rotation_euler="1.571, 0.000, 0.000" scale="6.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -12,7 +12,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-4.737, -5.355, 1.420" rotation_euler="1.571, -3.142, -3.142" scale="6.400, 2.500, 0.500"/>
+				<transform position="-4.737, -5.355, 1.420" rotation_euler="1.571, 0.000, 0.000" scale="6.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -21,7 +21,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="5.026, -5.355, 1.420" rotation_euler="1.571, -3.142, -3.142" scale="6.400, 2.500, 0.500"/>
+				<transform position="5.026, -5.355, 1.420" rotation_euler="1.571, 0.000, 0.000" scale="6.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -30,7 +30,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="5.026, -5.355, 3.920" rotation_euler="1.571, -3.142, -3.142" scale="6.400, 2.500, 0.500"/>
+				<transform position="5.026, -5.355, 3.920" rotation_euler="1.571, 0.000, 0.000" scale="6.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -39,7 +39,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="5.454, 5.880, 1.420" rotation_euler="1.571, -3.142, -3.142" scale="5.400, 2.500, 0.500"/>
+				<transform position="5.454, 5.880, 1.420" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -48,7 +48,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-5.345, 5.880, 1.420" rotation_euler="1.571, -3.142, -3.142" scale="5.400, 2.500, 0.500"/>
+				<transform position="-5.345, 5.880, 1.420" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -57,7 +57,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-5.345, 5.880, 3.920" rotation_euler="1.571, -3.142, -3.142" scale="5.400, 2.500, 0.500"/>
+				<transform position="-5.345, 5.880, 3.920" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -66,7 +66,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="5.454, 5.880, 3.920" rotation_euler="1.571, -3.142, -3.142" scale="5.400, 2.500, 0.500"/>
+				<transform position="5.454, 5.880, 3.920" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -75,7 +75,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="0.053, 5.880, 1.420" rotation_euler="1.571, -3.142, -3.142" scale="5.400, 2.500, 0.500"/>
+				<transform position="0.053, 5.880, 1.420" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -84,19 +84,12 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="0.053, 5.880, 3.920" rotation_euler="1.571, -3.142, -3.142" scale="5.400, 2.500, 0.500"/>
+				<transform position="0.053, 5.880, 3.920" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
 						<mesh name="editor_cube" material="plank_floor_a"/>
 					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="empire_screen_a" old_prefab_name="">
-				<transform position="3.413, 8.415, -0.040" rotation_euler="0.000, 0.000, 1.615"/>
-				<physics shape="bo_empire_screen_a"/>
-				<components>
-					<meta_mesh_component name="empire_screen_a"/>
 				</components>
 			</game_entity>
 			<game_entity name="empire_castle_keep_a_l3_interior_folding_screen_a" old_prefab_name="">
@@ -142,7 +135,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-7.833, 2.856, 1.420" rotation_euler="1.571, -1.571, 0.000" scale="5.400, 2.500, 0.500"/>
+				<transform position="-7.833, 2.856, 1.420" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -151,7 +144,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-7.833, -2.885, 1.420" rotation_euler="1.571, -1.571, 0.000" scale="5.400, 2.500, 0.500"/>
+				<transform position="-7.833, -2.885, 1.420" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -160,7 +153,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="8.359, -2.885, 1.420" rotation_euler="1.571, -1.571, 0.000" scale="5.400, 2.500, 0.500"/>
+				<transform position="8.359, -2.885, 1.420" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -169,7 +162,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="8.359, 2.856, 1.420" rotation_euler="1.571, -1.571, 0.000" scale="5.400, 2.500, 0.500"/>
+				<transform position="8.359, 2.856, 1.420" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -178,7 +171,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-7.833, 2.856, 3.981" rotation_euler="1.571, -1.571, 0.000" scale="5.400, 2.500, 0.500"/>
+				<transform position="-7.833, 2.856, 3.981" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -187,7 +180,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-7.833, -2.885, 3.981" rotation_euler="1.571, -1.571, 0.000" scale="5.400, 2.500, 0.500"/>
+				<transform position="-7.833, -2.885, 3.981" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -196,7 +189,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="8.310, 2.856, 3.981" rotation_euler="1.571, -1.571, 0.000" scale="5.400, 2.500, 0.500"/>
+				<transform position="8.310, 2.856, 3.981" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -205,7 +198,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="8.310, -2.885, 3.981" rotation_euler="1.571, -1.571, 0.000" scale="5.400, 2.500, 0.500"/>
+				<transform position="8.310, -2.885, 3.981" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -348,7 +341,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-4.898, -5.362, 4.016" rotation_euler="1.571, -3.142, -3.142" scale="4.533, 1.252, 0.500"/>
+				<transform position="-4.898, -5.362, 4.016" rotation_euler="1.571, 0.000, 0.000" scale="4.533, 1.252, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -357,7 +350,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="5.044, -5.362, 4.016" rotation_euler="1.571, -3.142, -3.142" scale="4.567, 1.252, 0.500"/>
+				<transform position="5.044, -5.362, 4.016" rotation_euler="1.571, 0.000, 0.000" scale="4.567, 1.252, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -366,7 +359,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="-8.111, -5.426, -0.012" rotation_euler="1.571, -3.142, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="-8.111, -5.426, -0.012" rotation_euler="1.571, 0.000, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -380,7 +373,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="-1.706, -6.310, -0.012" rotation_euler="1.571, -0.911, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="-1.706, -6.310, -0.012" rotation_euler="1.571, 2.231, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -394,7 +387,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="1.392, -5.961, -0.012" rotation_euler="1.571, -1.802, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="1.392, -5.961, -0.012" rotation_euler="1.571, 1.340, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -408,7 +401,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="8.273, -6.119, -0.012" rotation_euler="1.571, 0.153, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="8.273, -6.119, -0.012" rotation_euler="1.571, -2.989, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -422,7 +415,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="8.440, 0.272, -0.012" rotation_euler="1.571, -3.142, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="8.440, 0.272, -0.012" rotation_euler="1.571, 0.000, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -436,7 +429,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="8.635, 5.879, -0.012" rotation_euler="1.571, 2.122, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="8.635, 5.879, -0.012" rotation_euler="1.571, -1.020, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -450,7 +443,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="-0.272, 5.870, -0.012" rotation_euler="1.571, -1.659, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="-0.272, 5.870, -0.012" rotation_euler="1.571, 1.483, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -464,7 +457,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="-8.113, 6.171, -0.012" rotation_euler="1.571, -3.142, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="-8.113, 6.171, -0.012" rotation_euler="1.571, 0.000, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -478,7 +471,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="-8.123, 0.342, -0.012" rotation_euler="1.571, -3.142, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="-8.123, 0.342, -0.012" rotation_euler="1.571, 0.000, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -502,7 +495,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="module_european_village_house_corner_90_rooftop_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_90_rooftop_b">
-				<transform position="0.975, -2.370, 2.109" rotation_euler="0.000, 0.000, 3.142" scale="0.600, 0.650, 0.770"/>
+				<transform position="0.975, -2.370, 2.109" rotation_euler="0.000, 0.000, -3.141" scale="0.600, 0.650, 0.770"/>
 				<physics shape="bo_module_european_village_house_corner_90_rooftop_b"/>
 				<occlusion_body_flags>
 					<occlusion_body_flag name="two_sided"/>
@@ -596,7 +589,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="module_european_village_house_corner_90_rooftop_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_90_rooftop_a">
-				<transform position="4.633, 0.730, 2.110" rotation_euler="0.000, 0.000, -3.142" scale="0.650, 0.550, 0.770"/>
+				<transform position="4.633, 0.730, 2.110" rotation_euler="0.000, 0.000, 3.141" scale="0.650, 0.550, 0.770"/>
 				<physics shape="bo_module_european_village_house_corner_90_rooftop_a"/>
 				<occlusion_body_flags>
 					<occlusion_body_flag name="two_sided"/>
@@ -606,7 +599,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="2.964, -3.464, 10.960" rotation_euler="1.571, -3.142, -3.142" scale="6.000, 2.500, 0.500"/>
+				<transform position="2.964, -3.464, 10.960" rotation_euler="1.571, 0.000, 0.000" scale="6.000, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -615,7 +608,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-3.031, -3.464, 10.960" rotation_euler="1.571, -3.142, -3.142" scale="6.000, 2.500, 0.500"/>
+				<transform position="-3.031, -3.464, 10.960" rotation_euler="1.571, 0.000, 0.000" scale="6.000, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -624,7 +617,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="2.964, 4.012, 10.960" rotation_euler="1.571, -3.142, -3.142" scale="6.000, 2.500, 0.500"/>
+				<transform position="2.964, 4.012, 10.960" rotation_euler="1.571, 0.000, 0.000" scale="6.000, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -633,7 +626,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-3.031, 4.012, 10.960" rotation_euler="1.571, -3.142, -3.142" scale="6.000, 2.500, 0.500"/>
+				<transform position="-3.031, 4.012, 10.960" rotation_euler="1.571, 0.000, 0.000" scale="6.000, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -642,7 +635,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="6.355, -0.011, 11.663" rotation_euler="1.571, -1.571, 0.000" scale="7.393, 3.605, 0.500"/>
+				<transform position="6.355, -0.011, 11.663" rotation_euler="1.571, 1.571, -3.142" scale="7.393, 3.605, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -651,7 +644,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-5.856, -0.011, 11.663" rotation_euler="1.571, -1.571, 0.000" scale="7.393, 3.605, 0.500"/>
+				<transform position="-5.856, -0.011, 11.663" rotation_euler="1.571, 1.571, -3.142" scale="7.393, 3.605, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -688,7 +681,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="6.129, -4.151, 8.672" rotation_euler="1.571, 0.153, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="6.129, -4.151, 8.672" rotation_euler="1.571, -2.989, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -702,7 +695,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="6.487, 3.864, 8.672" rotation_euler="1.571, 1.916, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="6.487, 3.864, 8.672" rotation_euler="1.571, -1.226, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -716,7 +709,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="-6.083, 4.148, 8.672" rotation_euler="1.571, -3.062, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="-6.083, 4.148, 8.672" rotation_euler="1.571, 0.080, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -730,7 +723,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="log_pine_a" old_prefab_name="">
-				<transform position="-6.510, -3.863, 8.672" rotation_euler="1.571, -1.252, -3.142" scale="1.684, 1.684, 1.684"/>
+				<transform position="-6.510, -3.863, 8.672" rotation_euler="1.571, 1.890, 0.000" scale="1.684, 1.684, 1.684"/>
 				<physics shape="bo_log_pine_a"/>
 				<components>
 					<meta_mesh_component name="log_pine_a">
@@ -856,7 +849,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-1.600, -3.468, 11.099" rotation_euler="1.571, -3.142, -3.142" scale="1.026, 1.313, 0.500"/>
+				<transform position="-1.600, -3.468, 11.099" rotation_euler="1.571, 0.000, 0.000" scale="1.026, 1.313, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -865,7 +858,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="1.656, -3.468, 11.099" rotation_euler="1.571, -3.142, -3.142" scale="1.026, 1.313, 0.500"/>
+				<transform position="1.656, -3.468, 11.099" rotation_euler="1.571, 0.000, 0.000" scale="1.026, 1.313, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -874,7 +867,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="1.656, 4.040, 11.099" rotation_euler="1.571, -3.142, -3.142" scale="1.026, 1.313, 0.500"/>
+				<transform position="1.656, 4.040, 11.099" rotation_euler="1.571, 0.000, 0.000" scale="1.026, 1.313, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -883,7 +876,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-1.600, 4.040, 11.099" rotation_euler="1.571, -3.142, -3.142" scale="1.026, 1.313, 0.500"/>
+				<transform position="-1.600, 4.040, 11.099" rotation_euler="1.571, 0.000, 0.000" scale="1.026, 1.313, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -990,7 +983,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="3.345, 0.025, 18.877" rotation_euler="1.571, -1.571, 0.000" scale="4.576, 3.605, 0.500"/>
+				<transform position="3.345, 0.025, 18.877" rotation_euler="1.571, 1.571, -3.142" scale="4.576, 3.605, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -999,7 +992,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="-2.844, 0.025, 18.877" rotation_euler="1.571, -1.571, 0.000" scale="4.576, 3.605, 0.500"/>
+				<transform position="-2.844, 0.025, 18.877" rotation_euler="1.571, 1.571, -3.142" scale="4.576, 3.605, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -1026,7 +1019,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="0.025, -1.860, 18.308" rotation_euler="1.571, -3.142, -3.142" scale="6.000, 2.500, 0.500"/>
+				<transform position="0.025, -1.860, 18.308" rotation_euler="1.571, 0.000, 0.000" scale="6.000, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">
@@ -1035,7 +1028,169 @@
 				</components>
 			</game_entity>
 			<game_entity name="editor_cube" old_prefab_name="">
-				<transform position="0.025, 2.379, 18.308" rotation_euler="1.571, -3.142, -3.142" scale="6.000, 2.500, 0.500"/>
+				<transform position="0.025, 2.379, 18.308" rotation_euler="1.571, 0.000, 0.000" scale="6.000, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-4.737, -5.355, -1.074" rotation_euler="1.571, 0.000, 0.000" scale="6.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-7.833, -2.885, -1.074" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-7.833, 2.856, -1.074" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.345, 5.880, -1.074" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.053, 5.880, -1.074" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="5.454, 5.880, -1.074" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="8.359, 2.856, -1.074" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="8.359, -2.885, -1.074" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="5.026, -5.355, -1.074" rotation_euler="1.571, 0.000, 0.000" scale="6.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-4.737, -5.355, -3.546" rotation_euler="1.571, 0.000, 0.000" scale="6.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-7.833, -2.885, -3.546" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-7.833, 2.856, -3.546" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="-5.345, 5.880, -3.546" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="0.053, 5.880, -3.546" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="5.454, 5.880, -3.546" rotation_euler="1.571, 0.000, 0.000" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="8.359, 2.856, -3.546" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="8.359, -2.885, -3.546" rotation_euler="1.571, 1.571, -3.142" scale="5.400, 2.500, 0.500"/>
+				<physics shape="bo_editor_cube"/>
+				<components>
+					<meta_mesh_component name="editor_cube">
+						<mesh name="editor_cube" material="plank_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="editor_cube" old_prefab_name="">
+				<transform position="5.026, -5.355, -3.546" rotation_euler="1.571, 0.000, 0.000" scale="6.400, 2.500, 0.500"/>
 				<physics shape="bo_editor_cube"/>
 				<components>
 					<meta_mesh_component name="editor_cube">

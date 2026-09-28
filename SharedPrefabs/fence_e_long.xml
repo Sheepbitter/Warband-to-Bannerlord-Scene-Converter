@@ -1,0 +1,26 @@
+<prefabs>
+	<game_entity name="fence_e_long" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_fence_e" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="fence_e"/>
+		</components>
+		<children>
+			<game_entity name="fence_f" old_prefab_name="">
+				<transform position="-4.536, 0.013, 0.003" rotation_euler="0.000, 0.000, -3.142"/>
+				<physics shape="bo_fence_f" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="fence_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="fence_f" old_prefab_name="">
+				<transform position="4.564, 0.093, 0.003"/>
+				<physics shape="bo_fence_f" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="fence_f"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

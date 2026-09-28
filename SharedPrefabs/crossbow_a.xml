@@ -1,0 +1,9 @@
+<prefabs>
+	<game_entity name="crossbow_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="crossbow_a"/>
+		</components>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,181 @@
+<prefabs>
+	<game_entity name="gondor_stable_replacement" old_prefab_name="">
+		<transform position="126.525, 250.498, 19.000" rotation_euler="0.000, 0.000, 1.323" scale="0.694, 0.694, 0.694"/>
+		<children>
+			<game_entity name="empire_grandbazaar_entry" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_entry">
+				<transform position="6.038, -0.007, 0.000" rotation_euler="0.000, 0.000, 1.563" scale="0.820, 0.520, 0.680"/>
+				<physics shape="bo_empire_grandbazaar_entry"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_entry"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_entry" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_entry">
+				<transform position="2.078, 0.025, 0.000" rotation_euler="0.000, 0.000, 1.563" scale="0.820, 0.520, 0.680"/>
+				<physics shape="bo_empire_grandbazaar_entry"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_entry"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_entry" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_entry">
+				<transform position="-5.927, 0.091, 0.000" rotation_euler="0.000, 0.000, -1.579" scale="0.820, 0.520, 0.680"/>
+				<physics shape="bo_empire_grandbazaar_entry"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_entry"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_entry" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_entry">
+				<transform position="-1.937, 0.058, 0.000" rotation_euler="0.000, 0.000, -1.579" scale="0.820, 0.520, 0.680"/>
+				<physics shape="bo_empire_grandbazaar_entry"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_entry"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
+				<transform position="7.829, 0.102, -1.378" rotation_euler="0.000, 0.000, 3.133"/>
+				<physics shape="bo_empire_grandbazaar_wall"/>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_wall"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
+				<transform position="7.829, 0.102, -1.378" rotation_euler="0.000, 0.000, 3.133"/>
+				<physics shape="bo_empire_grandbazaar_wall"/>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_wall"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
+				<transform position="-7.761, 0.230, -1.378" rotation_euler="0.000, 0.000, 3.133"/>
+				<physics shape="bo_empire_grandbazaar_wall"/>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_wall"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_wall_c1" old_prefab_name="" occlusion_body_name="bo_occ_empire_garden_wall_a1">
+				<transform position="4.005, -0.980, 0.497" rotation_euler="0.000, 0.000, 1.563" scale="0.840, 0.540, 0.840"/>
+				<physics shape="bo_empire_garden_wall_c1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_wall_c1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_wall_c1" old_prefab_name="" occlusion_body_name="bo_occ_empire_garden_wall_a1">
+				<transform position="0.018, -1.244, 0.497" rotation_euler="0.000, 0.000, 1.563" scale="0.975, 0.540, 0.840"/>
+				<physics shape="bo_empire_garden_wall_c1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_wall_c1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_wall_c1" old_prefab_name="" occlusion_body_name="bo_occ_empire_garden_wall_a1">
+				<transform position="-3.863, -1.071, 0.497" rotation_euler="0.000, 0.000, 1.563" scale="0.840, 0.540, 0.840"/>
+				<physics shape="bo_empire_garden_wall_c1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_wall_c1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_wall_c1" old_prefab_name="" occlusion_body_name="bo_occ_empire_garden_wall_a1">
+				<transform position="-1.946, -1.306, 0.497" rotation_euler="0.000, 0.000, 1.560" scale="0.931, 0.540, 0.840"/>
+				<physics shape="bo_empire_garden_wall_c1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_wall_c1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_wall_c1" old_prefab_name="" occlusion_body_name="bo_occ_empire_garden_wall_a1">
+				<transform position="2.021, -1.266, 0.497" rotation_euler="0.000, 0.000, 1.560" scale="0.930, 0.540, 0.840"/>
+				<physics shape="bo_empire_garden_wall_c1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_wall_c1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_wall_c1" old_prefab_name="" occlusion_body_name="bo_occ_empire_garden_wall_a1">
+				<transform position="6.047, -1.229, 0.497" rotation_euler="0.000, 0.000, 1.560" scale="0.930, 0.540, 0.840"/>
+				<physics shape="bo_empire_garden_wall_c1" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_garden_wall_c1"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_door_c_open" old_prefab_name="">
+				<transform position="6.856, 0.214, 0.105" rotation_euler="0.000, 0.000, -3.134" scale="0.430, 0.430, 1.000"/>
+				<physics shape="bo_empire_garden_door_c_open" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="empire_garden_door_c_open"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_door_c_open" old_prefab_name="">
+				<transform position="5.005, 0.199, 0.105" rotation_euler="0.000, 0.000, -3.134" scale="0.540, 0.540, 1.000"/>
+				<physics shape="bo_empire_garden_door_c_open" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="empire_garden_door_c_open"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_door_c_open" old_prefab_name="">
+				<transform position="2.997, 0.183, 0.105" rotation_euler="0.000, 0.000, -3.134" scale="0.500, 0.500, 1.000"/>
+				<physics shape="bo_empire_garden_door_c_open" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="empire_garden_door_c_open"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_door_c_open" old_prefab_name="">
+				<transform position="1.019, 0.168, 0.105" rotation_euler="0.000, 0.000, -3.134" scale="0.520, 0.520, 1.000"/>
+				<physics shape="bo_empire_garden_door_c_open" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="empire_garden_door_c_open"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_door_c_open" old_prefab_name="">
+				<transform position="-0.983, 0.152, 0.105" rotation_euler="0.000, 0.000, -3.134" scale="0.500, 0.500, 1.000"/>
+				<physics shape="bo_empire_garden_door_c_open" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="empire_garden_door_c_open"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_garden_door_c_open" old_prefab_name="">
+				<transform position="-2.936, 0.136, 0.105" rotation_euler="0.000, 0.000, -3.134" scale="0.500, 0.500, 1.000"/>
+				<physics shape="bo_empire_garden_door_c_open" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="empire_garden_door_c_open"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
+				<transform position="-5.961, -2.884, 0.140" rotation_euler="0.000, 0.000, -1.577" scale="0.591, 0.375, 0.490"/>
+				<physics shape="bo_empire_grandbazaar_wall"/>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_wall"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
+				<transform position="-1.973, -2.910, 0.140" rotation_euler="0.000, 0.000, -1.577" scale="0.591, 0.375, 0.490"/>
+				<physics shape="bo_empire_grandbazaar_wall"/>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_wall"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
+				<transform position="2.052, -2.937, 0.140" rotation_euler="0.000, 0.000, -1.577" scale="0.591, 0.375, 0.490"/>
+				<physics shape="bo_empire_grandbazaar_wall"/>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_wall"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
+				<transform position="6.042, -2.963, 0.140" rotation_euler="0.000, 0.000, -1.577" scale="0.591, 0.375, 0.490"/>
+				<physics shape="bo_empire_grandbazaar_wall"/>
+				<components>
+					<meta_mesh_component name="empire_grandbazaar_wall"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

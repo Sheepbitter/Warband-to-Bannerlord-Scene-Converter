@@ -1,0 +1,750 @@
+<prefabs>
+	<game_entity name="roman_house_custom_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="empire_castle_tower_roof" old_prefab_name="">
+				<transform position="5.753, 10.349, 10.160" rotation_euler="0.000, 0.000, -1.571" scale="0.750, 0.500, 0.200"/>
+				<children>
+					<game_entity name="merlon_1" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_1"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_1"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.017, 2.720, 2.972" rotation_euler="-0.132, -0.101, 3.119"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_2"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_2"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-2.286, 2.168, 3.306" rotation_euler="-0.215, 0.030, -2.297"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_3"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_3"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-2.635, -0.036, 3.140" rotation_euler="-0.271, -0.046, -1.637"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="empire_castle_tower_roof" old_prefab_name="">
+				<transform position="-5.468, -6.584, 10.160" rotation_euler="0.000, 0.000, 1.571" scale="0.750, 0.500, 0.200"/>
+				<children>
+					<game_entity name="merlon_1" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_1"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_1"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.017, 2.720, 2.972" rotation_euler="-0.132, -0.101, 3.119"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_2"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_2"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-2.286, 2.168, 3.306" rotation_euler="-0.215, 0.030, -2.297"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_3"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_3"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-2.635, -0.036, 3.140" rotation_euler="-0.271, -0.046, -1.637"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="empire_castle_tower_roof" old_prefab_name="">
+				<transform position="5.762, -6.521, 10.160" rotation_euler="0.000, 0.000, -3.142" scale="0.500, 0.750, 0.200"/>
+				<children>
+					<game_entity name="merlon_1" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_1"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_1"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.017, 2.720, 2.972" rotation_euler="-0.132, -0.101, 3.119"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_2"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_2"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-2.286, 2.168, 3.306" rotation_euler="-0.215, 0.030, -2.297"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_3"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_3"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-2.635, -0.036, 3.140" rotation_euler="-0.271, -0.046, -1.637"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="roman_houses_bridge_a" old_prefab_name="">
+				<transform position="0.160, -6.693, -1.819" rotation_euler="0.000, 0.000, 0.000" scale="1.100, 2.250, 1.300"/>
+				<physics shape="bo_roman_houses_bridge_a"/>
+				<components>
+					<meta_mesh_component name="roman_houses_bridge_a">
+						<mesh name="roman_houses_bridge_a.2" material="roman_aqueduct_bricks_b"/>
+						<mesh name="roman_houses_bridge_a.lod3.2" material="roman_aqueduct_bricks_b"/>
+						<mesh name="roman_houses_bridge_a.lod5.2" material="roman_aqueduct_bricks_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_hippodrome_door_b_close" old_prefab_name="">
+				<transform position="8.051, 6.191, 0.754" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_empire_hippodrome_door_b_close"/>
+				<components>
+					<meta_mesh_component name="empire_hippodrome_door_b_close"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_hippodrome_door_b_close" old_prefab_name="">
+				<transform position="-7.793, 6.265, 0.754" rotation_euler="0.000, 0.000, -1.571"/>
+				<physics shape="bo_empire_hippodrome_door_b_close"/>
+				<components>
+					<meta_mesh_component name="empire_hippodrome_door_b_close"/>
+				</components>
+			</game_entity>
+			<game_entity name="roman_houses_bridge_a" old_prefab_name="">
+				<transform position="5.846, 1.884, -1.824" rotation_euler="0.000, 0.000, 1.571" scale="1.650, 1.500, 1.300"/>
+				<physics shape="bo_roman_houses_bridge_a"/>
+				<components>
+					<meta_mesh_component name="roman_houses_bridge_a">
+						<mesh name="roman_houses_bridge_a.2" material="roman_aqueduct_bricks_b"/>
+						<mesh name="roman_houses_bridge_a.lod3.2" material="roman_aqueduct_bricks_b"/>
+						<mesh name="roman_houses_bridge_a.lod5.2" material="roman_aqueduct_bricks_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="roman_houses_bridge_a" old_prefab_name="">
+				<transform position="-5.604, 1.884, -1.824" rotation_euler="0.000, 0.000, 1.571" scale="1.650, 1.500, 1.300"/>
+				<physics shape="bo_roman_houses_bridge_a"/>
+				<components>
+					<meta_mesh_component name="roman_houses_bridge_a">
+						<mesh name="roman_houses_bridge_a.2" material="roman_aqueduct_bricks_b"/>
+						<mesh name="roman_houses_bridge_a.lod3.2" material="roman_aqueduct_bricks_b"/>
+						<mesh name="roman_houses_bridge_a.lod5.2" material="roman_aqueduct_bricks_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="5.798, 12.685, 0.385" rotation_euler="0.000, 0.000, -3.142" scale="0.950, 1.500, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="6.575, 11.622, 1.437" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.200"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="-6.357, 11.606, 1.437" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.200"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="6.560, -7.812, 6.990" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.900"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="6.575, 11.622, 6.990" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.900"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="0.051, 12.685, 0.385" rotation_euler="0.000, 0.000, 3.140" scale="0.950, 1.500, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="5.798, -8.922, 0.385" rotation_euler="0.000, 0.000, -3.142" scale="0.950, 1.500, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="6.560, -7.812, -3.425" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.200"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="6.575, 11.622, -3.425" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.200"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="-6.357, 11.606, -3.425" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.200"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="-6.335, -7.788, 6.990" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.900"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="0.051, -8.922, 0.385" rotation_euler="0.000, 0.000, -3.142" scale="0.950, 1.500, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="-6.335, -7.788, 1.437" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.200"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="-6.357, 11.606, 6.990" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.900"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="6.560, -7.812, 1.437" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.200"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_end_a" old_prefab_name="" occlusion_body_name="bo_occ_empire_keep_a_wall_end_a">
+				<transform position="-6.335, -7.788, -3.425" rotation_euler="0.000, 0.000, 0.000" scale="2.200, 3.300, 2.200"/>
+				<physics shape="bo_empire_keep_a_wall_end_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_end_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="7.734, 1.869, 3.511" rotation_euler="0.000, 0.000, 1.571" scale="0.700, 0.700, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="7.734, -4.559, 3.511" rotation_euler="0.000, 0.000, 1.571" scale="0.700, 0.700, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="-7.406, 1.869, 3.511" rotation_euler="0.000, 0.000, -1.571" scale="0.700, 0.700, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="7.734, -1.288, 3.511" rotation_euler="0.000, 0.000, 1.571" scale="0.700, 0.700, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="-7.406, -1.288, 3.511" rotation_euler="0.000, 0.000, -1.571" scale="0.700, 0.700, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="-7.406, -4.559, 3.511" rotation_euler="0.000, 0.000, -1.571" scale="0.700, 0.700, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="0.051, 12.732, 0.385" rotation_euler="0.000, 0.000, -3.142" scale="0.950, 1.500, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="-2.723, -9.417, 3.511" rotation_euler="0.000, 0.000, 0.000" scale="0.700, 1.050, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="-2.723, 13.235, 3.511" rotation_euler="0.000, 0.000, 3.140" scale="0.700, 1.500, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="3.075, 13.235, 3.511" rotation_euler="0.000, 0.000, 3.140" scale="0.700, 1.500, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="-7.069, -6.152, 0.385" rotation_euler="0.000, 0.000, 1.571" scale="1.425, 1.000, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_village_house_door_a" old_prefab_name="">
+				<transform position="3.075, -9.417, 3.511" rotation_euler="0.000, 0.000, 0.000" scale="0.700, 1.050, 0.700"/>
+				<physics shape="bo_empire_village_house_door_a"/>
+				<components>
+					<meta_mesh_component name="empire_village_house_door_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="roman_houses_bridge_a" old_prefab_name="">
+				<transform position="0.160, 10.502, -1.819" rotation_euler="0.000, 0.000, 0.000" scale="1.100, 2.250, 1.300"/>
+				<physics shape="bo_roman_houses_bridge_a"/>
+				<components>
+					<meta_mesh_component name="roman_houses_bridge_a">
+						<mesh name="roman_houses_bridge_a.2" material="roman_aqueduct_bricks_b"/>
+						<mesh name="roman_houses_bridge_a.lod3.2" material="roman_aqueduct_bricks_b"/>
+						<mesh name="roman_houses_bridge_a.lod5.2" material="roman_aqueduct_bricks_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_castle_tower_roof" old_prefab_name="">
+				<transform position="-5.525, 10.314, 10.160" rotation_euler="0.000, 0.000, 0.000" scale="0.500, 0.750, 0.200"/>
+				<children>
+					<game_entity name="merlon_1" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_1"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_1"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.017, 2.720, 2.972" rotation_euler="-0.132, -0.101, 3.119"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_2"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_2"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-2.286, 2.168, 3.306" rotation_euler="-0.215, 0.030, -2.297"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="" mobility="1">
+						<physics shape="bo_empire_castle_tower_roof_3"/>
+						<components>
+							<meta_mesh_component name="empire_castle_tower_roof_3"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="castle_wall_roof_empire"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-2.635, -0.036, 3.140" rotation_euler="-0.271, -0.046, -1.637"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="-7.069, 1.526, 0.385" rotation_euler="0.000, 0.000, 1.571" scale="1.425, 1.000, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="7.327, -6.459, 0.385" rotation_euler="0.000, 0.000, 1.571" scale="1.425, 1.000, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_dungeon_wall_a" old_prefab_name="">
+				<transform position="7.327, 1.655, 0.385" rotation_euler="0.000, 0.000, 1.571" scale="1.425, 1.000, 1.000"/>
+				<physics shape="bo_empire_dungeon_wall_a"/>
+				<components>
+					<meta_mesh_component name="empire_dungeon_wall_a">
+						<mesh name="empire_dungeon_wall_a" material="roman_wall_03"/>
+						<mesh name="empire_dungeon_wall_a.lod4" material="roman_wall_03"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

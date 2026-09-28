@@ -195,13 +195,3 @@ and replaced during injection.
 - Test whether generated `_cropped.png` files are still needed. - Seems like they are. The terrain gets screwed up if the terrain code gets overwritted. Likely need to make it adjustable.
 - Consider Bannerlord-to-Warband conversion support in the future.
 
-## Not Planned
-
-### Automated Entity Mapping
-
-Automated entity mapping may be technically possible, but it is outside the current scope of this
-project.
-
-A possible approach would be to compare names semantically, generate shortlists of likely mappings based on that,
-then mathematically compare exported meshes from OpenBRF and TPAC tooling. That would be a much larger project than
-this converter and would extend far beyond Warband-to-Bannerlord scene conversion.

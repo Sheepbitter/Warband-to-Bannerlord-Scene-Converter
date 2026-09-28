@@ -1,0 +1,14 @@
+<prefabs>
+	<game_entity name="barrier_cylinder" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.250, 0.250, 0.500"/>
+		<components>
+			<meta_mesh_component name="editor_cylinder">
+				<mesh name="editor_cylinder" material="barrier" factor="4294901760" argument="0.500, 1.000, 0.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+</prefabs>
+

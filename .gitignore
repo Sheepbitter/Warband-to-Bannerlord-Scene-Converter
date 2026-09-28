@@ -34,3 +34,13 @@ coverage/
 # OS files
 Thumbs.db
 Desktop.ini
+
+# Python
+__pycache__/
+
+# AutoMapper - local experimental matching/review tooling plus its generated
+# results (review CSVs, decision files, model dumps, venv, GloVe data).
+# BlMeshDump is its companion TPAC -> OBJ dumper.
+# Neither folder is part of the published converter.
+/AutoMapper/
+/BlMeshDump/
